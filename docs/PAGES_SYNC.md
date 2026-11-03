@@ -2,7 +2,7 @@
 
 ## Canonical direction
 
-- GitLab `chantinlongx/i-steam.github.io`, branch `main`, is the canonical website source.
+- GitLab `chantinlongxthrx/i-steam.github.io`, branch `main`, is the canonical website source.
 - GitHub `I-Steam/I-steam.github.io`, branch `main`, is the published mirror.
 - GitHub Actions performs the recurring GitLab-to-GitHub synchronization. GitLab CI runners are not required for this mirror.
 - The workflow is stored at `.github/workflows/main.yml` and runs on GitHub `main` pushes, manual dispatch, and every 15 minutes.
