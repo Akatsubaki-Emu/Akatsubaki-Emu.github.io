@@ -2,14 +2,28 @@
 
 ## Canonical direction
 
-- GitLab `chantinlongxthrx/i-steam.github.io`, branch `main`, is the canonical website source.
+- GitLab `chantinlongx/i-steam.github.io`, branch `main`, is the canonical website source.
 - GitHub `I-Steam/I-steam.github.io`, branch `main`, is the published mirror.
 - GitHub Actions performs the recurring GitLab-to-GitHub synchronization. GitLab CI runners are not required for this mirror.
-- The workflow is stored at `.github/workflows/main.yml`. It is copied to GitHub once, then runs on a five-minute schedule, manual dispatch, and GitHub main pushes.
+- The workflow is stored at `.github/workflows/main.yml` and runs on GitHub `main` pushes, manual dispatch, and every 15 minutes.
 
 ## Authentication
 
-The GitLab repository is publicly readable, so the mirror workflow does not need a GitLab token or GitLab write access. GitHub Actions uses its built-in `GITHUB_TOKEN` with repository `contents: write` permission to update the GitHub mirror.
+The GitLab repository is publicly readable, so the mirror workflow needs no GitLab token or GitLab write access.
+
+The built-in GitHub Actions `GITHUB_TOKEN` is not sufficient: GitHub explicitly rejected the mirror push because that token cannot update workflow files under `.github/workflows/` without the special `workflows` permission. The observed failure was:
+
+`refusing to allow a GitHub App to create or update workflow ... without workflows permission`
+
+The workflow therefore uses a dedicated fine-grained personal access token stored as the GitHub repository Actions secret `MIRROR_TOKEN`.
+
+Create a fine-grained token for **only** `I-Steam/I-steam.github.io` with:
+- **Contents:** Read and write
+- **Workflows:** Read and write
+
+The token owner must have write access to the repository. Add it under GitHub repository **Settings → Secrets and variables → Actions → New repository secret**, with the exact name `MIRROR_TOKEN`. Never put the token in this repository, workflow YAML, README, or message board.
+
+The workflow checks for the secret before checkout and reports a clear error if it is missing. The checkout action uses this token for the subsequent Git push.
 
 ## Reconciliation behavior
 
@@ -24,11 +38,12 @@ The workflow never pushes to GitLab, never force-pushes, and never requires GitL
 
 ## One-time activation
 
-The workflow must exist in the GitHub repository at `.github/workflows/main.yml` for GitHub Actions to execute it. Copy the canonical file from the GitLab repository to that exact path on GitHub once. Then open the GitHub Actions tab and manually run **GitLab to GitHub Pages Mirror**.
+The workflow must exist in the GitHub repository at `.github/workflows/main.yml` for GitHub Actions to execute it. Copy the canonical file from the GitLab repository to that exact path on GitHub once, then add the `MIRROR_TOKEN` repository secret. Open the GitHub Actions tab and manually run **GitLab to GitHub Pages Mirror**.
 
 ## Validation and limitations
 
-- The workflow source is committed in GitLab as the canonical copy.
-- GitHub Actions execution and successful mirror push must be verified in the GitHub Actions run history.
-- A public GitLab repository is assumed. If its visibility changes, provide a read-only GitLab credential through GitHub Actions secrets and adjust the fetch step.
+- The canonical workflow and this guide are committed in GitLab.
+- A previous run proved that checkout, public GitLab fetch, and divergent-history merge all succeed. The push failed specifically because the token lacked `workflows` permission.
+- A successful mirror push with `MIRROR_TOKEN` is not yet verified.
+- A public GitLab repository is assumed. If its visibility changes, provide a read-only GitLab credential and adjust the fetch step.
 - Conflicting files prefer GitLab; review future changes to this policy before adding GitHub-only website content.
