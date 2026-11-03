@@ -1,0 +1,53 @@
+name: Mirror GitLab main to GitHub
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Poll GitLab independently of its CI/CD quota.
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gitlab-to-github-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out GitHub Pages repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Fetch the latest GitLab main branch
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --single-branch --branch main \
+            https://gitlab.com/chantinlongxthrx/i-steam.github.io.git \
+            "$RUNNER_TEMP/gitlab-source"
+
+      - name: Synchronize files from GitLab
+        run: |
+          set -euo pipefail
+
+          # Keep this workflow on GitHub even if the source changes.
+          rsync -a --delete \
+            --exclude='/.git/' \
+            --exclude='/.github/workflows/mirror-from-gitlab.yml' \
+            "$RUNNER_TEMP/gitlab-source/" ./
+
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "GitHub already matches GitLab main."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "chore(mirror): sync from GitLab main"
+          git push origin HEAD:main
