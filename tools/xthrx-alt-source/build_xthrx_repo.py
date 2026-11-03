@@ -12,15 +12,28 @@ HEADERS = {"User-Agent": "Xthrx-AltSource-Merger/3.0", "Accept": "application/js
 TIMEOUT = (5, 15)
 
 def unpack(data):
+    """Accept common AltStore, PAL, and app-catalogue JSON layouts."""
+    def values(value):
+        if isinstance(value, list):
+            return value
+        if isinstance(value, dict):
+            return list(value.values())
+        return []
     if isinstance(data, list):
         return data
     if isinstance(data, dict):
-        if isinstance(data.get("apps"), list):
-            return data["apps"]
-        for key in ("source", "repo", "repository", "data", "result"):
+        for key in ("apps", "data", "applications"):
+            if key in data:
+                items = values(data[key])
+                if items:
+                    return items
+        for key in ("source", "repo", "repository", "result"):
             nested = data.get(key)
-            if isinstance(nested, dict) and isinstance(nested.get("apps"), list):
-                return nested["apps"]
+            if isinstance(nested, dict):
+                for app_key_name in ("apps", "data", "applications"):
+                    items = values(nested.get(app_key_name))
+                    if items:
+                        return items
     return []
 
 def app_key(app):
@@ -29,7 +42,7 @@ def app_key(app):
         return ("bundle", str(bundle).strip().casefold())
     name = app.get("name") or app.get("title")
     if name:
-        developer = app.get("developer") or ""
+        developer = app.get("developerName") or app.get("developer") or app.get("author") or ""
         return ("name", re.sub(r"\s+", " ", str(name)).strip().casefold(), str(developer).casefold())
     return None
 
@@ -78,7 +91,7 @@ def main():
         report.append({key: value for key, value in result.items() if key != "apps"})
 
     ok = sum(item["status"] == "ok" for item in results)
-    print(f"{ok}/{len(unique)} feeds accepted; {len(merged)} unique apps")
+    print(f"{ok}/{len(unique)} candidate feeds accepted; {len(merged)} unique apps")
     (OUT / "xthrx-source-report.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     if not merged:
