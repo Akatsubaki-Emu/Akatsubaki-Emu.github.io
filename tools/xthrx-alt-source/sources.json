@@ -1,6 +1,6 @@
 {
   "name": "Xthrx AltSource Merge Inputs",
-  "description": "Candidate public AltStore/SideStore feeds. Each endpoint is revalidated on every scheduled run; HTML, invalid JSON, and feeds without apps[] are skipped and reported.",
+  "description": "Expanded directory of AltStore, SideStore, PAL, Feather and developer/community app feeds. Every URL is a candidate until the scheduled validator confirms it returns compatible app metadata.",
   "sources": [
     {
       "name": "AppTesters",
@@ -193,6 +193,391 @@
     {
       "name": "AppyBois catalogue (candidate)",
       "url": "https://appybois.com/"
+    },
+    {
+      "name": "SalupovTeam",
+      "url": "https://adp.salupovteam.com/altrepo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "zxcvbn AltStore",
+      "url": "https://aio.zxcvbn.fyi/r/repo.altstore.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "zxcvbn eSign",
+      "url": "https://aio.zxcvbn.fyi/r/repo.esign.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "zxcvbn Feather",
+      "url": "https://aio.zxcvbn.fyi/r/repo.feather.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "HackerWeb",
+      "url": "https://alt.hackerwebapp.com/PALSource.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Stux community",
+      "url": "https://alt.stux.me/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Lao SB",
+      "url": "https://alts.lao.sb/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "TfourJ Apps",
+      "url": "https://altstore.tfourj.com",
+      "verification": "candidate"
+    },
+    {
+      "name": "Nuumi",
+      "url": "https://altstore.nuumi.io/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "FullCodes PAL",
+      "url": "https://altstorepal.fullcodes.thatfinn.dev/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "wxio PAL",
+      "url": "https://apk.wxio.site/PALSource02.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "AppTesters alternate",
+      "url": "https://apptesters.org/altstore/",
+      "verification": "candidate"
+    },
+    {
+      "name": "nnsnodnb PAL",
+      "url": "https://as.nnsnodnb.moe/source.pal.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "BlissQuake",
+      "url": "https://blissquake.net/AltStore/source",
+      "verification": "candidate"
+    },
+    {
+      "name": "SquadBlast marketplace",
+      "url": "https://cdn.squadblast.com/market/marketplace.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Epic Games Store",
+      "url": "https://content-download-egs.distro.on.epicgames.com/iOS/altstore/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "CourtPredict",
+      "url": "https://courtpredict-ios.web.app/PALSource.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "eSound",
+      "url": "https://esound.app/downloads/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Foxxoccino PAL",
+      "url": "https://foxxoccino.github.io/PALSource.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Cizzuk PAL",
+      "url": "https://i.cizzuk.net/altstore/source.pal.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "PeopleDrop",
+      "url": "https://peopledrop.app/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "PokeMMO",
+      "url": "https://pokemmo.com/altstore/",
+      "verification": "candidate"
+    },
+    {
+      "name": "Polymorph Distribution",
+      "url": "https://polymorph-distribution.netlify.app/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Apollo",
+      "url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Apollo Glass",
+      "url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps_glass.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "cbruegg AltStore",
+      "url": "https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "ChuteSpyro",
+      "url": "https://raw.githubusercontent.com/chutespyro/chutspyroaltsources/refs/heads/main/chutspyroaltsource",
+      "verification": "candidate"
+    },
+    {
+      "name": "ChuteSpyro mirror",
+      "url": "https://raw.githubusercontent.com/ChuteSpyro/ChutSpyroAltSources/refs/heads/main/ChutSpyroAltSource",
+      "verification": "candidate"
+    },
+    {
+      "name": "iphanpy",
+      "url": "https://raw.githubusercontent.com/matfantinel/iphanpy/refs/heads/main/altstore/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "qBitControl",
+      "url": "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "qBitConnect",
+      "url": "https://raw.githubusercontent.com/RajnishOne/qbitconnect-releases/main/altstore-pal.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "AltStoreRus",
+      "url": "https://raw.githubusercontent.com/vizunchik/AltStoreRus/master/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "VVP Apps",
+      "url": "https://vvpapps.b-cdn.net/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Weztling",
+      "url": "https://weztling.se/altstore.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Cranci PAL",
+      "url": "https://www.cranci.tech/PAL.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Yippee AIO",
+      "url": "https://aio.yippee.rip/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "ThuthuatJB",
+      "url": "https://ipa.thuthuatjb.com/repo",
+      "verification": "candidate"
+    },
+    {
+      "name": "SideStore official",
+      "url": "https://apps.sidestore.io/",
+      "verification": "candidate"
+    },
+    {
+      "name": "CSS EyZ",
+      "url": "https://css.eyz.ink/appstore",
+      "verification": "candidate"
+    },
+    {
+      "name": "dvntm0 eSign",
+      "url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/esign.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "dvntm0 Feather",
+      "url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/feather.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Feather official",
+      "url": "https://raw.githubusercontent.com/khcrysalis/Feather/main/app-repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "AntonP29",
+      "url": "https://raw.githubusercontent.com/AntonP29/AntonP29-Repo/refs/heads/main/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "YTLitePlus",
+      "url": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Gliddd4",
+      "url": "https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Chromium iOS",
+      "url": "https://raw.githubusercontent.com/TheNightmanCodeth/chromium-ios/master/altstore-source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "arichornlover apps2",
+      "url": "https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps2.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "arichornloverALT apps2",
+      "url": "https://raw.githubusercontent.com/arichornloverALT/arichornloveralt.github.io/main/apps2.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "arichornloveralt apps",
+      "url": "https://raw.githubusercontent.com/arichornloveralt/arichornloveralt.github.io/main/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "DriftyWinds eSign",
+      "url": "https://driftywinds.github.io/repos/esign.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Yattee",
+      "url": "https://repos.yattee.stream/alt/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Owo Network",
+      "url": "https://repo.owo.network/",
+      "verification": "candidate"
+    },
+    {
+      "name": "Aidoku",
+      "url": "https://raw.githubusercontent.com/Aidoku/Aidoku/altstore/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "FastSign full catalogue",
+      "url": "https://fastsign.dev/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "FastSign AltStore lite",
+      "url": "https://fastsign.dev/repo.lite.altstore.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "AltStore official apps",
+      "url": "https://apps.altstore.io/",
+      "verification": "candidate"
+    },
+    {
+      "name": "AppMarket",
+      "url": "https://appmarket.tech/altstore.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Artemis",
+      "url": "https://raw.githubusercontent.com/Auties00/Artemis/refs/heads/main/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Bunduuk",
+      "url": "https://bunduuk.github.io/altstore-source/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Burrito alternate host",
+      "url": "https://website.burrito.software/altstore/channels/burritosource.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "CelestialRepo",
+      "url": "https://raw.githubusercontent.com/RealBlackAstronaut/CelestialRepo/main/CelestialRepo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Dan1elTheMan1el iOS Repo",
+      "url": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Spotify AltStore mirror",
+      "url": "https://raw.githubusercontent.com/titouan336/Spotify-AltStoreRepo-mirror/refs/heads/main/source.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Flycast iOS",
+      "url": "https://raw.githubusercontent.com/chachillie/Flycast-iOS/main/flycast-ios.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Foxster AltSource",
+      "url": "https://therealfoxster.github.io/altsource/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "JohnnWi Homelab",
+      "url": "https://raw.githubusercontent.com/JohnnWi/homelab-project/main/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "ManicEmu",
+      "url": "https://apps.manicemu.site/altstore",
+      "verification": "candidate"
+    },
+    {
+      "name": "Navic",
+      "url": "https://raw.githubusercontent.com/paigely/Navic/refs/heads/master/app-repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "NeoFreeBird",
+      "url": "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "SideStore Connect",
+      "url": "https://connect.sidestore.io/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Stremio repo mirror",
+      "url": "https://gablilli.github.io/stremiorepo/index.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "MountainofPenguin",
+      "url": "https://raw.githubusercontent.com/MountainofPenguin/Altstore-Repository/main/apps.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "azu0609",
+      "url": "https://azu0609.github.io/repo/altstore_repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "DriftyWinds Nyx",
+      "url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/nyx.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "DriftyWinds Theta",
+      "url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/theta.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "ry0 Developer",
+      "url": "https://raw.githubusercontent.com/ry0-Developer/ry0_repo/main/repo.json",
+      "verification": "candidate"
+    },
+    {
+      "name": "Winston AltStore",
+      "url": "https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json",
+      "verification": "candidate"
     }
   ]
 }
