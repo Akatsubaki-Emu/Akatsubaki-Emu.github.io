@@ -1,0 +1,198 @@
+{
+  "name": "Xthrx AltSource Merge Inputs",
+  "description": "Candidate public AltStore/SideStore feeds. Each endpoint is revalidated on every scheduled run; HTML, invalid JSON, and feeds without apps[] are skipped and reported.",
+  "sources": [
+    {
+      "name": "AppTesters",
+      "url": "https://repository.apptesters.org"
+    },
+    {
+      "name": "CyPwn",
+      "url": "https://ipa.cypwn.xyz/cypwn.json"
+    },
+    {
+      "name": "Ittz_A7aa VIP",
+      "url": "https://ittza7aa.com/repo.json"
+    },
+    {
+      "name": "Quantum Source",
+      "url": "https://bit.ly/Quantumsource"
+    },
+    {
+      "name": "Quantum Source++",
+      "url": "https://bit.ly/Quantumsource-plus"
+    },
+    {
+      "name": "WuXu Library++",
+      "url": "https://bit.ly/wuxuslibraryplus"
+    },
+    {
+      "name": "AltStore Complete",
+      "url": "https://bit.ly/Altstore-complete"
+    },
+    {
+      "name": "Burrito Software",
+      "url": "https://burritosoftware.github.io/altstore/channels/burritosource.json"
+    },
+    {
+      "name": "FloridaMan",
+      "url": "https://floridaman7588.me/altjb/altsource.json"
+    },
+    {
+      "name": "RandomSource",
+      "url": "https://randomblock1.com/altstore/apps.json"
+    },
+    {
+      "name": "SideStore Community",
+      "url": "https://community-apps.sidestore.io/sidecommunity.json"
+    },
+    {
+      "name": "SpooferPro",
+      "url": "https://altstore.spooferpro.com"
+    },
+    {
+      "name": "SpotCompiled",
+      "url": "https://spotc-repo.yodaluca.dev/AltStore%20Repo.json"
+    },
+    {
+      "name": "StikDebug",
+      "url": "https://stikdebug.xyz/index.json"
+    },
+    {
+      "name": "AppDB endpoint (unverified)",
+      "url": "https://appdb.to/altstore.json"
+    },
+    {
+      "name": "Crystall1ne",
+      "url": "https://alt.crystall1ne.dev/"
+    },
+    {
+      "name": "App Fair",
+      "url": "https://appfair.net/altstore.json"
+    },
+    {
+      "name": "BringYour",
+      "url": "https://bringyour.com/altstore/source.json"
+    },
+    {
+      "name": "Quark Complete",
+      "url": "https://quarksources.github.io/altstore-complete.json"
+    },
+    {
+      "name": "DriftyWinds",
+      "url": "https://driftywinds.github.io/AltStore/apps.json"
+    },
+    {
+      "name": "Omni Development",
+      "url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json"
+    },
+    {
+      "name": "WuXu Standard",
+      "url": "https://wuxu1.github.io/wuxu-complete.json"
+    },
+    {
+      "name": "WuXu Plus direct",
+      "url": "https://wuxu1.github.io/wuxu-complete-plus.json"
+    },
+    {
+      "name": "9ani",
+      "url": "https://9ani.app/api/altstore"
+    },
+    {
+      "name": "UTM",
+      "url": "https://alt.getutm.app"
+    },
+    {
+      "name": "OatmealDome",
+      "url": "https://altstore.oatmealdome.me"
+    },
+    {
+      "name": "Provenance",
+      "url": "https://provenance-emu.com/apps.json"
+    },
+    {
+      "name": "Flycast",
+      "url": "https://flyinghead.github.io/flycast-builds/altstore.json"
+    },
+    {
+      "name": "LiveContainer",
+      "url": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json"
+    },
+    {
+      "name": "iSH",
+      "url": "https://ish.app/altstore.json"
+    },
+    {
+      "name": "Ignited",
+      "url": "https://altstore.ignitedemulator.com"
+    },
+    {
+      "name": "iTorrent",
+      "url": "https://xitrix.github.io/iTorrent/AltStoreEU.json"
+    },
+    {
+      "name": "Stremio iOS",
+      "url": "https://gorlev.github.io/stremio-altstore/stremio-ios.json"
+    },
+    {
+      "name": "Stremio tvOS",
+      "url": "https://gorlev.github.io/stremio-altstore/stremio-tvos.json"
+    },
+    {
+      "name": "Watusi",
+      "url": "https://raw.githubusercontent.com/FouadRaheb/Watusi-for-WhatsApp/master/altstore/source.json"
+    },
+    {
+      "name": "Enmity",
+      "url": "https://enmity-mod.github.io/repo/altstore.json"
+    },
+    {
+      "name": "Taurine",
+      "url": "https://taurine.app/altstore/taurinestore.json"
+    },
+    {
+      "name": "Odyssey",
+      "url": "https://theodyssey.dev/altstore/odysseysource.json"
+    },
+    {
+      "name": "AppTesters alternate",
+      "url": "https://apptesters.org/repo.json"
+    },
+    {
+      "name": "LiveContainer alternate",
+      "url": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/apps.json"
+    },
+    {
+      "name": "Omni Development alternate",
+      "url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/main/app-repo.json"
+    },
+    {
+      "name": "Quark Quantum Source",
+      "url": "https://quarksources.github.io/dist/quantumsource.min.json"
+    },
+    {
+      "name": "Quark Quantum Source++",
+      "url": "https://quarksources.github.io/dist/quantumsource%2B%2B.min.json"
+    },
+    {
+      "name": "Burrito channels index",
+      "url": "https://burritosoftware.github.io/altstore/channels/"
+    },
+    {
+      "name": "AltStore marketplace catalogue (candidate)",
+      "url": "https://marketplace.altstore.io/"
+    },
+    {
+      "name": "Starfiles public feed (candidate)",
+      "url": "https://repo.starfiles.co/public?gbox"
+    },
+    {
+      "name": "Decrypt Day catalogue (candidate)",
+      "url": "https://decrypt.day/library"
+    },
+    {
+      "name": "AppyBois catalogue (candidate)",
+      "url": "https://appybois.com/"
+    }
+  ]
+}
