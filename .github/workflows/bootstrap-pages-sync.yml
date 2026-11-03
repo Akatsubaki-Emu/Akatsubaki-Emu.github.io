@@ -1,0 +1,41 @@
+name: Bootstrap bidirectional Pages sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-sync-bootstrap
+  cancel-in-progress: false
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out GitHub Pages repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Install the GitLab-managed sync workflow
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch main https://gitlab.com/chantinlongxthrx/i-steam.github.io.git "$RUNNER_TEMP/pages-source"
+          mkdir -p .github/workflows
+          cp "$RUNNER_TEMP/pages-source/.github/workflows/mirror-from-gitlab.yml" .github/workflows/mirror-from-gitlab.yml
+
+          if git diff --quiet -- .github/workflows/mirror-from-gitlab.yml; then
+            echo "GitHub already has the current GitLab-managed sync workflow."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/workflows/mirror-from-gitlab.yml
+          git commit -m "ci: install bidirectional Pages sync workflow"
+          git push origin HEAD:main
