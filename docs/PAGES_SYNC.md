@@ -47,3 +47,32 @@ The workflow must exist in the GitHub repository at `.github/workflows/main.yml`
 - A successful mirror push with `MIRROR_TOKEN` is not yet verified.
 - A public GitLab repository is assumed. If its visibility changes, provide a read-only GitLab credential and adjust the fetch step.
 - Conflicting files prefer GitLab; review future changes to this policy before adding GitHub-only website content.
+
+
+## Revalidation — 2026-11-10
+
+The latest available GitHub Actions mirror run inspected during this review was:
+
+- Run: https://github.com/I-Steam/I-steam.github.io/actions/runs/42434495593
+- Run ID: `42434495593`
+- Job ID: `128590344406`
+- Commit on GitHub: `428a372743406a4e3f9c29ae5bb82ced4ac972fe`
+- Result: failed at **Push mirror update to GitHub**.
+- Checkout, GitLab fetch, and reconciliation/merge all succeeded.
+- The exact rejection remains: `refusing to allow a GitHub App to create or update workflow '.github/workflows/main.yml' without 'workflows' permission`.
+
+The GitHub branch still contains the old workflow (blob SHA `7f79c8b7be522b5bcd98de01becf4f102ec3f778`), not this canonical token-authenticated workflow. A direct GitHub file update attempt returned HTTP 403 `Resource not accessible by integration`. Therefore the GitLab-side change is prepared and committed, but GitHub activation and the secret are outstanding.
+
+### Local validation performed
+
+- YAML parsing confirmed the quoted `"on"` key and all three triggers (`push`, `workflow_dispatch`, `schedule`).
+- Embedded Bash scripts passed `bash -n` syntax validation.
+- A temporary local Git test repository exercised the three reconciliation cases:
+  - GitLab-ahead fast-forward: passed.
+  - GitHub-ahead preservation: passed.
+  - Diverged histories with a conflicting file: passed, with GitLab's content winning.
+- These are logic/syntax tests, not a successful GitHub-hosted mirror run.
+
+### Remaining activation requirement
+
+A repository owner with sufficient GitHub access must replace `.github/workflows/main.yml` with the canonical file and add the `MIRROR_TOKEN` Actions secret. The token must be scoped to this repository with **Contents: Read and write** and **Workflows: Read and write**. Afterward, manually run the workflow and verify the push step and branch contents. Do not mark synchronization fully operational before that end-to-end test passes.
