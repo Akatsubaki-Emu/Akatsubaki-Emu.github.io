@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Verify mirror token is configured
         env:
-          MIRROR_TOKEN: \${{ secrets.MIRROR_TOKEN }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
           set -euo pipefail
           if [ -z "$MIRROR_TOKEN" ]; then
@@ -88,7 +88,7 @@ jobs:
       - name: Push mirror update to GitHub
         if: steps.reconcile.outputs.changed == 'true'
         env:
-          MIRROR_TOKEN: \${{ secrets.MIRROR_TOKEN }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
           set -euo pipefail
           AUTH="$(printf 'x-access-token:%s' "$MIRROR_TOKEN" | base64 -w0)"
