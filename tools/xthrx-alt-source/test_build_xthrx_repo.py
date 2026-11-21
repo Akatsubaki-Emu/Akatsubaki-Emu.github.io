@@ -1,5 +1,12 @@
 import unittest
-from build_xthrx_repo import build, merge_apps, normalize_app, unpack
+from build_xthrx_repo import (
+    MAX_VERSIONS_PER_APP,
+    build,
+    merge_apps,
+    normalize_app,
+    unpack,
+)
+
 
 class SourceBuilderTests(unittest.TestCase):
     def test_unpack_common_layouts(self):
@@ -49,7 +56,36 @@ class SourceBuilderTests(unittest.TestCase):
         self.assertEqual(len(result[0]["versions"]), 2)
         self.assertEqual(result[0]["xthrxSources"], ["First", "Second"])
 
-    def test_build_deduplicates_feed_urls_and_reports_failures(self):
+    def test_discards_unbounded_metadata_and_limits_version_history(self):
+        raw = {
+            "name": "Example",
+            "bundleIdentifier": "com.example.app",
+            "developerName": "Example Dev",
+            "localizedDescription": "Useful description",
+            "icon": "data:image/png;base64," + ("A" * 100_000),
+            "screenshots": ["data:image/png;base64," + ("B" * 100_000)],
+            "arbitraryPayload": {"binary": "C" * 100_000},
+            "versions": [
+                {
+                    "version": str(index),
+                    "date": f"2026-11-{index:02d}",
+                    "downloadURL": f"https://example.test/{index}.ipa",
+                    "size": index,
+                    "embeddedPayload": "D" * 100_000,
+                }
+                for index in range(1, MAX_VERSIONS_PER_APP + 6)
+            ],
+        }
+        app = normalize_app(raw)
+        self.assertIsNotNone(app)
+        self.assertNotIn("screenshots", app)
+        self.assertNotIn("arbitraryPayload", app)
+        self.assertNotIn("icon", app)
+        self.assertNotIn("embeddedPayload", app["versions"][0])
+        self.assertEqual(len(app["versions"]), MAX_VERSIONS_PER_APP)
+        self.assertEqual(app["iconURL"] if "iconURL" in app else None, None)
+
+    def test_deduplicates_feed_urls_and_reports_failures(self):
         manifest = {"sources": [
             {"name": "One", "url": "https://one.test/source.json"},
             {"name": "Duplicate", "url": "https://one.test/source.json"},
@@ -74,6 +110,7 @@ class SourceBuilderTests(unittest.TestCase):
         self.assertEqual(report["acceptedFeeds"], 1)
         self.assertEqual(report["failedFeeds"], 1)
         self.assertEqual(len(catalogue["apps"]), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
