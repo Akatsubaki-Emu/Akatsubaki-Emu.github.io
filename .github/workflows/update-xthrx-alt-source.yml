@@ -1,43 +1,67 @@
 name: Update Xthrx's Repo
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - "tools/xthrx-alt-source/**"
+      - "altsource/**"
       - ".github/workflows/update-xthrx-alt-source.yml"
+
 permissions:
   contents: write
+
 concurrency:
   group: xthrx-alt-source
   cancel-in-progress: false
+
 jobs:
   build:
+    name: Validate feeds and publish catalogue
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out website
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install dependencies
+          cache: "pip"
+      - name: Install builder dependency
         run: python -m pip install --disable-pip-version-check requests
-      - name: Merge all working feeds
+      - name: Run offline regression tests
+        working-directory: tools/xthrx-alt-source
+        run: python -m unittest -v
+      - name: Fetch, normalize and merge configured feeds
         working-directory: tools/xthrx-alt-source
         env:
-          XTHRX_SOURCE_URL: https://i-steam.github.io/altsource/Xthrx%27s%20repo.json
+          XTHRX_SOURCE_URL: https://akatsubaki-emu.github.io/altsource/Xthrx%27s%20repo.json
         run: python build_xthrx_repo.py
-      - name: Copy generated files into the Pages site
+      - name: Stage generated source and health report
         run: |
+          set -euo pipefail
+          test -s "tools/xthrx-alt-source/docs/Xthrx's repo.json"
+          test -s tools/xthrx-alt-source/docs/xthrx-source-report.json
+          python -m json.tool "tools/xthrx-alt-source/docs/Xthrx's repo.json" >/dev/null
+          python -m json.tool tools/xthrx-alt-source/docs/xthrx-source-report.json >/dev/null
           mkdir -p altsource
           cp "tools/xthrx-alt-source/docs/Xthrx's repo.json" altsource/
           cp tools/xthrx-alt-source/docs/xthrx-source-report.json altsource/
-      - name: Publish updated catalogue
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(altsource): refresh Xthrx's Repo"
-          file_pattern: "altsource/*.json"
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Commit refreshed catalogue
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json
+          if git diff --cached --quiet; then
+            echo "Catalogue is already current; no commit required."
+            exit 0
+          fi
+          git commit -m "chore(altsource): refresh Xthrx's Repo"
+          git push
