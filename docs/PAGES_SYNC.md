@@ -23,7 +23,7 @@ Create a fine-grained token for **only** `I-Steam/I-steam.github.io` with:
 
 The token owner must have write access to the repository. Add it under GitHub repository **Settings → Secrets and variables → Actions → New repository secret**, with the exact name `MIRROR_TOKEN`. Never put the token in this repository, workflow YAML, README, or message board.
 
-The workflow checks for the secret before checkout and reports a clear error if it is missing. The checkout action uses this token for the subsequent Git push.
+The workflow checks for the secret before doing any mirror work. It checks out the public GitHub repository using the built-in read-only GITHUB_TOKEN, then configures MIRROR_TOKEN only for the final push. This avoids making public checkout depend on the personal access token while retaining the Workflows permission needed for syncing workflow files.
 
 ## Reconciliation behavior
 
@@ -91,3 +91,22 @@ A repository owner with sufficient GitHub access must replace `.github/workflows
 The 125 configured URLs are candidates, not a claim that all are online or compatible. The report records per-feed success/failure and valid/rejected app counts. If no compatible apps are found, the builder exits non-zero and does not replace the published catalogue with an empty file. SideStore-required version sizes are populated with the upstream size or zero when omitted.
 
 The source generator and Pages files are committed in the GitLab canonical repository. The corresponding GitHub mirror must contain the same files before the GitHub Actions updater can run. A successful unit-test run does not prove that any particular upstream feed is live; the first hosted run is required to measure actual feed health.
+
+
+## AltSource workflow failure investigation — 2026-11-21
+
+GitHub Actions run https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.io/actions/runs/44933354834 failed at the Python setup step. The exact error was:
+
+\`No file ... matched to [**/requirements.txt or **/pyproject.toml]\`
+
+Cause: \`actions/setup-python\` had \`cache: pip\`, which requires a dependency manifest. This repository installs the single runtime dependency directly in the workflow and intentionally has no requirements.txt or pyproject.toml. The cache option has been removed; the install step now runs \`pip check\` after installing requests.
+
+The separate mirror run https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.io/actions/runs/44933354820 failed during checkout with \`could not read Username for 'https://github.com': terminal prompts disabled\`. The workflow had passed a personal token to checkout, but the checkout could not authenticate. The workflow now uses the built-in GITHUB_TOKEN for reading the public mirror and configures MIRROR_TOKEN as the GitHub HTTP extraheader only for the final push. The secret must still be a valid fine-grained token with repository Contents and Workflows read/write access.
+
+### Fix commits
+
+- AltSource setup-python cache fix: https://gitlab.com/chantinlongx/i-steam.github.io/-/commit/12a7af88c2d02412a644b9ddfa29fc00eead3539
+- Mirror checkout/push authentication change: https://gitlab.com/chantinlongx/i-steam.github.io/-/commit/71037dfaea631f6e263ac63b631e24a632dae843
+- Correct GitHub Actions expression escaping in mirror workflow: see the subsequent mirror workflow fix commit on GitLab main.
+
+These changes are committed to the GitLab canonical website repository. A subsequent GitHub Actions run is required to verify mirror authentication, the AltSource tests, live feed retrieval and catalogue publication. Do not treat the fix as end-to-end verified until both workflows pass.
