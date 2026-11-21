@@ -110,3 +110,18 @@ The separate mirror run https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.
 - Correct GitHub Actions expression escaping in mirror workflow: see the subsequent mirror workflow fix commit on GitLab main.
 
 These changes are committed to the GitLab canonical website repository. A subsequent GitHub Actions run is required to verify mirror authentication, the AltSource tests, live feed retrieval and catalogue publication. Do not treat the fix as end-to-end verified until both workflows pass.
+
+## Latest verified status — 2026-11-21
+
+The previously outstanding GitHub activation and hosted validation have now completed.
+
+- GitLab canonical website commit: 4c9f1ec8c68e63d820174da8b17682c2504f73dc.
+- GitLab-to-GitHub mirror run: https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.io/actions/runs/44935002476 — **success**; both refs matched at the canonical commit.
+- AltSource updater run: https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.io/actions/runs/44935002487 — **success**; six offline tests passed, all 125 candidate feeds were checked, and the catalogue plus report were committed.
+- Pages build/deployment run: https://github.com/Akatsubaki-Emu/Akatsubaki-Emu.github.io/actions/runs/44935050937 — **success**, including the deploy step.
+- Generated GitHub commit: c5e8128885b473cbae0b18db602c8c7794fc9b46.
+- Latest feed report: 125 configured, 90 successful, 35 failed, 3,726 unique apps.
+- The first generated catalogue was 87,350,472 bytes. The normaliser was tightened to whitelist supported metadata, discard arbitrary embedded payloads, cap descriptions, and retain at most 20 versions per app. The regenerated catalogue is 10,829,448 bytes.
+- The Pages build and deploy workflow succeeded, and both generated files are present on GitHub main. The public Pages URL was not independently fetched by the web reader, so direct external HTTP retrieval is not separately claimed.
+
+The original Python setup failure and mirror checkout failure are resolved. The mirror is synchronised, the updater and its six tests pass, and the latest Pages deployment completed successfully. The 35 failed feed candidates remain listed in the report with per-feed errors; they are not silently counted as working.

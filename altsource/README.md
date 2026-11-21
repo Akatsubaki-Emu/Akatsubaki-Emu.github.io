@@ -23,3 +23,7 @@ Run offline tests with:
 The workflow installs the only runtime dependency (requests) and runs tests before contacting upstream feeds. Generated output is written under tools/xthrx-alt-source/docs/ and copied into this Pages directory.
 
 Upstream app metadata and downloads remain controlled by their publishers. Review each app, its signing requirements and permissions before installing it.
+
+## Output size and metadata limits
+
+The normaliser copies only supported app/version fields instead of preserving arbitrary upstream payloads. Embedded data images, screenshots and unknown nested fields are excluded; descriptions are bounded, and no more than 20 newest distinct versions are retained per app. This keeps a large merged catalogue practical to download and parse while preserving the app identity, icon URL, descriptions, release metadata and IPA download URLs needed by clients.
