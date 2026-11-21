@@ -1,6 +1,6 @@
 name: Update Xthrx's Repo
 
-on:
+"on":
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
@@ -32,9 +32,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
       - name: Install builder dependency
-        run: python -m pip install --disable-pip-version-check requests
+        run: |
+          python -m pip install --disable-pip-version-check requests
+          python -m pip check
       - name: Run offline regression tests
         working-directory: tools/xthrx-alt-source
         run: python -m unittest -v
