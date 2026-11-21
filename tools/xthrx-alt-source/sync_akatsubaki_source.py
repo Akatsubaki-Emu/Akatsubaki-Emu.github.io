@@ -135,6 +135,7 @@ def build_sources(releases, existing):
             "iconURL": app.get("iconURL", ICON_URL),
             "downloadURL": version["downloadURL"],
             "version": version["version"],
+            "buildVersion": version.get("buildVersion", ""),
             "date": version.get("date", ""),
             "size": version.get("size", 0),
             "minOSVersion": version.get("minOSVersion", "16.0"),

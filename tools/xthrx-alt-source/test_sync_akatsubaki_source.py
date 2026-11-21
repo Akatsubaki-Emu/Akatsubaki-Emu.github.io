@@ -31,6 +31,7 @@ class AkatsubakiSourceSyncTests(unittest.TestCase):
         self.assertEqual(source["apps"][1]["versions"][0]["version"], "0.1.121")
         self.assertEqual(source["apps"][1]["versions"][0]["buildVersion"], "121")
         self.assertEqual(pal["apps"][1]["downloadURL"], source["apps"][1]["versions"][0]["downloadURL"])
+        self.assertEqual(pal["apps"][1]["buildVersion"], "121")
 
     def test_ignores_tvos_assets(self):
         assets = [{
@@ -55,6 +56,21 @@ class AkatsubakiSourceSyncTests(unittest.TestCase):
         self.assertEqual(len(source["apps"]), 1)
         self.assertEqual(source["apps"][0]["versions"][0]["version"], "0.1.009")
         self.assertEqual(pal["apps"][0]["downloadURL"], existing_app["versions"][0]["downloadURL"])
+
+    def test_normalizes_case_variant_legacy_bundle_id(self):
+        existing_app = {
+            "name": "Akatsubaki Emu Nightly",
+            "bundleIdentifier": "com.Xthrx.iSteam.Nightly",
+            "versions": [{
+                "version": "0.2.1",
+                "buildVersion": "3",
+                "date": "2026-10-10T13:06:07Z",
+                "downloadURL": "https://akatsubaki-emu.github.io/downloads/iSteam-nightly.ipa",
+            }],
+        }
+        source, _ = build_sources([], {"apps": [existing_app]})
+        self.assertEqual(source["apps"][0]["bundleIdentifier"], BUNDLE_IDS["nightly"])
+        self.assertEqual(source["apps"][0]["versions"][0]["version"], "0.2.1")
 
     def test_rejects_release_without_semver(self):
         item = release("main", "unversioned", False)
