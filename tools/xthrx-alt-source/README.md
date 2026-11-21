@@ -1,12 +1,19 @@
-# Xthrx's Repo on I-Steam Pages
+# Xthrx AltSource builder
 
-- Configured source feeds: **125 unique URLs**
-- Page: https://i-steam.github.io/altsource/
-- Source JSON: https://i-steam.github.io/altsource/Xthrx%27s%20repo.json
-- Feed health report: https://i-steam.github.io/altsource/xthrx-source-report.json
+- \`sources.json\` — 125 unique candidate feed URLs; not a live-feed guarantee.
+- \`build_xthrx_repo.py\` — concurrent fetcher, JSON parser, SideStore-compatible normaliser, deduplicator and report generator.
+- \`test_build_xthrx_repo.py\` — offline regression tests; no upstream network calls.
+- \`docs/\` — generated catalogue and health report, copied into \`/altsource/\` by GitHub Actions.
 
-The GitHub Actions workflow checks the configured feeds every six hours, accepts supported AltStore/PAL JSON layouts, deduplicates apps by bundle identifier, and commits refreshed JSON here. Failed, offline, HTML-only, or incompatible feeds are listed in the report.
+## Run locally
 
-**Important:** 125 is the number of configured candidate URLs, not a claim that all 125 are currently live or compatible. The scheduled validator determines which sources actually contribute apps. Some sources may be duplicates, archived, rate-limited, or use non-standard formats.
+\`\`\`sh
+python -m pip install requests
+python -m unittest -v
+python build_xthrx_repo.py
+\`\`\`
 
-Edit `tools/xthrx-alt-source/sources.json` to add or remove upstream feeds.
+Set \`XTHRX_SOURCE_URL\` only when publishing at a different URL. The builder
+rejects malformed download URLs, skips records without a bundle identifier or
+usable version, fills SideStore's required version \`size\` with zero when
+upstream omits it, and never writes an empty catalogue.
