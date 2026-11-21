@@ -1,32 +1,34 @@
 {
   "name": "Akatsubaki Emu",
   "subtitle": "Experimental iOS emulation project",
-  "description": "Official Akatsubaki Emu iOS nightly build. Experimental and unstable; not yet a working PC emulator. Unsigned IPA requires a compatible signing method.",
+  "description": "Official nightly build of Akatsubaki Emu for iOS. This is an unsigned development build; install using a compatible signing tool. Guest OS boot and game compatibility are still under development.",
   "iconURL": "https://akatsubaki-emu.github.io/IMG_3523.jpeg",
   "website": "https://akatsubaki-emu.github.io/",
   "tintColor": "#7A263A",
   "apps": [
     {
       "name": "Akatsubaki Emu Nightly",
-      "bundleIdentifier": "com.xthrx.isteam.nightly",
+      "bundleIdentifier": "com.Xthrx.iSteam.Nightly",
       "developerName": "Xthrx",
-      "subtitle": "Experimental iOS nightly",
-      "localizedDescription": "Experimental iOS game-library and guest-runtime project. It is not yet a working PC emulator and does not guarantee Windows/Linux guest boot or Steam game compatibility. This development build is unstable and unsigned; sign it with a compatible installer before use.",
+      "subtitle": "Unsigned iOS development build",
+      "localizedDescription": "Akatsubaki Emu is an experimental iOS emulation project. This archived nightly build is unsigned and requires a compatible signing tool. Guest OS boot and game compatibility are not verified on physical devices.",
       "iconURL": "https://akatsubaki-emu.github.io/IMG_3523.jpeg",
       "tintColor": "#7A263A",
       "versions": [
         {
-          "version": "0.1.009",
-          "buildVersion": "9",
-          "date": "2026-10-11T15:00:00Z",
+          "version": "0.2.1",
+          "buildVersion": "3",
+          "date": "2026-10-10T13:06:07Z",
+          "size": 140386,
+          "sha256": "6288e0d4ea49a901870a5edcd66a4b061ba39820dd473184569b0d1ca741e43d",
           "downloadURL": "https://akatsubaki-emu.github.io/downloads/iSteam-nightly.ipa",
-          "localizedDescription": "Nightly iOS prototype build 0.1.009. Unsigned development build; signing required.",
+          "localizedDescription": "Archived nightly build 0.2.1 (3). Unsigned development IPA; signing required.",
           "minOSVersion": "16.0"
         }
       ]
     }
   ],
   "featuredApps": [
-    "com.xthrx.isteam.nightly"
+    "com.Xthrx.iSteam.Nightly"
   ]
 }
