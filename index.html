@@ -3,58 +3,110 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Akatsubaki Emu is an experimental iOS emulation project.">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="Akatsubaki Emu — an experimental iOS game-library and guest-runtime project.">
   <title>Akatsubaki Emu</title>
   <style>
-    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #24272d; background: #fff; }
+    :root {
+      color-scheme: light;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #292925;
+      background: #f7f6f2;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; line-height: 1.65; }
-    a { color: #315f9d; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header { border-bottom: 1px solid #e7e9ed; }
-    nav, main, footer { width: min(100% - 40px, 900px); margin: 0 auto; }
-    nav { min-height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-    .brand { color: inherit; font-weight: 650; letter-spacing: -.02em; }
-    main { padding-top: 76px; padding-bottom: 84px; }
-    h1 { margin: 0; font-size: clamp(2.4rem, 7vw, 4rem); line-height: 1.12; letter-spacing: -.055em; font-weight: 650; }
-    .intro { max-width: 660px; margin: 20px 0 0; color: #555e69; font-size: 1.12rem; }
-    .status { margin-top: 14px; color: #737b86; font-size: .9rem; }
-    .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: .96rem; }
-    .links a:first-child { font-weight: 650; }
-    section { max-width: 680px; margin-top: 54px; padding-top: 22px; border-top: 1px solid #e7e9ed; }
-    h2 { margin: 0 0 9px; font-size: 1.12rem; font-weight: 650; }
-    section p { margin: 0; color: #555e69; }
-    footer { padding: 20px 0 28px; border-top: 1px solid #e7e9ed; color: #777f89; font-size: .86rem; }
-    @media (max-width: 560px) { nav { min-height: 54px; } main { padding-top: 52px; } }
+    body { margin: 0; line-height: 1.6; }
+    a { color: #87353a; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #542126; }
+    .wrap { width: min(100% - 40px, 820px); margin: 0 auto; }
+    header { border-bottom: 1px solid #deddd6; }
+    nav { min-height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .wordmark { color: #292925; font-weight: 650; letter-spacing: -.025em; text-decoration: none; }
+    .nav-links { display: flex; gap: 19px; font-size: .9rem; }
+    main { padding: 68px 0 76px; }
+    .eyebrow { margin: 0 0 12px; color: #77756d; font: 600 .76rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { max-width: 680px; margin: 0; font-size: clamp(2.6rem, 7vw, 4.15rem); line-height: 1.04; letter-spacing: -.065em; font-weight: 680; }
+    .lead { max-width: 620px; margin: 20px 0 0; font-size: 1.14rem; color: #55544e; }
+    .meta { margin: 15px 0 0; color: #77756d; font-size: .88rem; }
+    .primary-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 25px; font-size: .95rem; }
+    .primary-links a:first-child { font-weight: 650; }
+    .rule { height: 1px; margin: 48px 0 0; background: #deddd6; border: 0; }
+    section { max-width: 690px; padding-top: 26px; }
+    h2 { margin: 0 0 11px; font-size: 1.1rem; letter-spacing: -.015em; }
+    p { margin: 0; color: #55544e; }
+    section p + p { margin-top: 11px; }
+    ul { margin: 9px 0 0; padding-left: 21px; color: #55544e; }
+    li + li { margin-top: 5px; }
+    .release-list { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 11px; }
+    footer { border-top: 1px solid #deddd6; padding: 18px 0 25px; color: #77756d; font-size: .84rem; }
+    @media (max-width: 560px) {
+      nav { align-items: flex-start; flex-direction: column; justify-content: center; padding: 12px 0; gap: 7px; }
+      .nav-links { gap: 15px; }
+      main { padding-top: 48px; }
+      .rule { margin-top: 38px; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <nav aria-label="Main navigation">
-      <a class="brand" href="/">Akatsubaki Emu</a>
-      <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">GitHub source ↗</a>
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="wordmark" href="/">Akatsubaki Emu</a>
+      <div class="nav-links">
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">Source</a>
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases">Releases</a>
+        <a href="/altsource/">Xthrx's Repo</a>
+      </div>
     </nav>
   </header>
-  <main>
+
+  <main class="wrap">
+    <p class="eyebrow">iOS · tvOS · GPL-3.0</p>
     <h1>Akatsubaki Emu</h1>
-    <p class="intro">An experimental emulation project for iOS, built around a native app and the Kenran Butō hybrid runtime.</p>
-    <p class="status">In development. Guest operating-system boot and game compatibility have not yet been verified on a physical device.</p>
-    <div class="links">
-      <a href="/AltSource.json">Add the official app source</a>
-      <a href="/altsource/">Xthrx's Repo</a>
+    <p class="lead">A Steam-oriented game library and experimental guest-runtime project for Apple platforms.</p>
+    <p class="meta">Open source · In active development · Unsigned development builds</p>
+    <div class="primary-links">
+      <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases/tag/nightly">Latest nightly build</a>
+      <a href="/AltSource.json">Add the AltStore source</a>
     </div>
 
+    <hr class="rule">
+
     <section>
-      <h2>About</h2>
-      <p>Akatsubaki Emu is being developed as an iOS front end for experimental guest execution and emulation. The runtime combines native components with emulation and translation backends. Features and device support remain under active development.</p>
+      <h2>About the project</h2>
+      <p>The app brings together a game-library interface, file import, session configuration and early guest-runtime work. The runtime architecture is called Kenran Butō (絢爛舞踏); it is being developed to combine native components with emulation and translation backends.</p>
+      <p>The repository also contains exploratory work on guest memory, storage, display, input and executable-file inspection.</p>
     </section>
 
     <section>
-      <h2>Installation</h2>
-      <p>The available nightly IPA is an unsigned development build. Use a compatible signing tool before installing. Builds may be incomplete and are not intended for production use.</p>
+      <h2>Current state</h2>
+      <ul>
+        <li>Library and file-import flows, with local session configuration.</li>
+        <li>Read-only metadata inspection for Windows PE and Linux ELF files.</li>
+        <li>Guest-memory, block-device, display and input prototypes.</li>
+        <li>An early tvOS interface preview; its launch and settings actions are not functional runtime controls.</li>
+      </ul>
+      <p style="margin-top: 12px">This is not yet a working PC emulator. Arbitrary Windows or Linux images do not currently boot through a complete integrated runtime, and Steam game compatibility is not established.</p>
+    </section>
+
+    <section>
+      <h2>Downloads</h2>
+      <p>Builds are unsigned and require a compatible signing method. A successful package build does not mean the app or guest runtime has been verified on a physical device.</p>
+      <div class="release-list">
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases/tag/main">Main releases</a>
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases/tag/nightly">Nightly builds</a>
+        <a href="/AltSource.json">AltStore source</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Development</h2>
+      <p>Source code, issues and build history are on <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">GitHub</a>. The project is licensed under the GNU General Public License v3.0.</p>
     </section>
   </main>
-  <footer>Akatsubaki Emu · Open-source development project</footer>
+
+  <footer>
+    <div class="wrap">Akatsubaki Emu · <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/LICENSE">GPL-3.0</a></div>
+  </footer>
 </body>
 </html>
