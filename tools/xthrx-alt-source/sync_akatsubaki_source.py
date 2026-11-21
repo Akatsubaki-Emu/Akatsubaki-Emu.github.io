@@ -55,6 +55,18 @@ def app_from_release(release, channel):
     except (TypeError, ValueError, OverflowError):
         size = 0
     channel_label = "Nightly" if channel == "nightly" else "Main"
+    version_entry = {
+        "version": version,
+        "buildVersion": str(int(version.rsplit(".", 1)[1])),
+        "date": published,
+        "downloadURL": download_url,
+        "size": size,
+        "localizedDescription": f"{channel_label} iOS build {version}. Unsigned development build; signing required.",
+        "minOSVersion": "16.0",
+    }
+    digest = asset.get("digest", "")
+    if isinstance(digest, str) and digest.startswith("sha256:"):
+        version_entry["sha256"] = digest.split(":", 1)[1].lower()
     return {
         "name": APP_NAMES[channel],
         "bundleIdentifier": BUNDLE_IDS[channel],
@@ -63,14 +75,7 @@ def app_from_release(release, channel):
         "localizedDescription": DESCRIPTION,
         "iconURL": ICON_URL,
         "tintColor": "#7A263A",
-        "versions": [{
-            "version": version,
-            "date": published,
-            "downloadURL": download_url,
-            "size": size,
-            "localizedDescription": f"{channel_label} iOS build {version}. Unsigned development build; signing required.",
-            "minOSVersion": "16.0",
-        }],
+        "versions": [version_entry],
     }
 
 
@@ -87,10 +92,20 @@ def build_sources(releases, existing):
             None,
         )
         fallback = existing_apps.get(BUNDLE_IDS[channel])
+        if fallback is None:
+            fallback = next(
+                (
+                    app for bundle, app in existing_apps.items()
+                    if bundle.casefold() == BUNDLE_IDS[channel].casefold()
+                ),
+                None,
+            )
         if latest:
             apps.append(latest)
         elif fallback and fallback.get("versions"):
-            apps.append(fallback)
+            preserved = dict(fallback)
+            preserved["bundleIdentifier"] = BUNDLE_IDS[channel]
+            apps.append(preserved)
 
     source = {
         "name": "Akatsubaki Emu",
@@ -123,6 +138,7 @@ def build_sources(releases, existing):
             "date": version.get("date", ""),
             "size": version.get("size", 0),
             "minOSVersion": version.get("minOSVersion", "16.0"),
+            **({"sha256": version["sha256"]} if version.get("sha256") else {}),
         })
     pal = {
         "name": "Akatsubaki Emu",

@@ -2,22 +2,24 @@
   "name": "Akatsubaki Emu",
   "identifier": "com.xthrx.akatsubaki-emu.source",
   "subtitle": "Experimental iOS emulation project",
-  "description": "Official Akatsubaki Emu iOS nightly build. Experimental and unstable; not yet a working PC emulator. Unsigned IPA requires a compatible signing method.",
+  "description": "Official nightly build of Akatsubaki Emu for iOS. This is an unsigned development build; install using a compatible signing tool. Guest OS boot and game compatibility are still under development.",
   "website": "https://akatsubaki-emu.github.io/",
   "apps": [
     {
       "name": "Akatsubaki Emu Nightly",
       "bundleIdentifier": "com.xthrx.isteam.nightly",
       "developerName": "Xthrx",
-      "subtitle": "Experimental iOS nightly",
-      "localizedDescription": "Experimental iOS game-library and guest-runtime project. It is not yet a working PC emulator and does not guarantee Windows/Linux guest boot or Steam game compatibility. This development build is unstable and unsigned; sign it with a compatible installer before use.",
+      "subtitle": "Unsigned iOS development build",
+      "localizedDescription": "Akatsubaki Emu is an experimental iOS emulation project. This archived nightly build is unsigned and requires a compatible signing tool. Guest OS boot and game compatibility are not verified on physical devices.",
       "tintColor": "7A263A",
       "category": "utilities",
       "iconURL": "https://akatsubaki-emu.github.io/IMG_3523.jpeg",
       "downloadURL": "https://akatsubaki-emu.github.io/downloads/iSteam-nightly.ipa",
-      "version": "0.1.009",
-      "buildVersion": "9",
-      "date": "2026-10-11T15:00:00Z",
+      "version": "0.2.1",
+      "buildVersion": "3",
+      "date": "2026-10-10T13:06:07Z",
+      "size": 140386,
+      "sha256": "6288e0d4ea49a901870a5edcd66a4b061ba39820dd473184569b0d1ca741e43d",
       "minOSVersion": "16.0"
     }
   ]
