@@ -110,17 +110,17 @@ def build_sources(releases, existing):
     for app in apps:
         version = app["versions"][0]
         pal_apps.append({
-            "name": app["name"],
+            "name": app.get("name", "Akatsubaki Emu"),
             "bundleIdentifier": app["bundleIdentifier"],
-            "developerName": app["developerName"],
-            "subtitle": app["subtitle"],
-            "localizedDescription": app["localizedDescription"],
-            "tintColor": "7A263A",
+            "developerName": app.get("developerName", "Xthrx"),
+            "subtitle": app.get("subtitle", "Experimental iOS build"),
+            "localizedDescription": app.get("localizedDescription", DESCRIPTION),
+            "tintColor": app.get("tintColor", "#7A263A").lstrip("#"),
             "category": "utilities",
-            "iconURL": app["iconURL"],
+            "iconURL": app.get("iconURL", ICON_URL),
             "downloadURL": version["downloadURL"],
             "version": version["version"],
-            "date": version["date"],
+            "date": version.get("date", ""),
             "size": version.get("size", 0),
             "minOSVersion": version.get("minOSVersion", "16.0"),
         })
