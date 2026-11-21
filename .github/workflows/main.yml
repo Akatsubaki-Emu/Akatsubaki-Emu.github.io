@@ -8,8 +8,6 @@ name: GitLab to GitHub Pages Mirror
   schedule:
     - cron: "*/15 * * * *"
 
-# The mirror token is used because GITHUB_TOKEN cannot grant the
-# Workflows permission required when syncing files under .github/workflows/.
 permissions:
   contents: read
 
@@ -25,7 +23,7 @@ jobs:
     steps:
       - name: Verify mirror token is configured
         env:
-          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_TOKEN: \${{ secrets.MIRROR_TOKEN }}
         run: |
           set -euo pipefail
           if [ -z "$MIRROR_TOKEN" ]; then
@@ -38,7 +36,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.MIRROR_TOKEN }}
           persist-credentials: true
 
       - name: Configure Git identity
@@ -90,9 +87,14 @@ jobs:
 
       - name: Push mirror update to GitHub
         if: steps.reconcile.outputs.changed == 'true'
+        env:
+          MIRROR_TOKEN: \${{ secrets.MIRROR_TOKEN }}
         run: |
           set -euo pipefail
+          AUTH="$(printf 'x-access-token:%s' "$MIRROR_TOKEN" | base64 -w0)"
+          git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $AUTH"
           git push origin HEAD:main
+          git config --local --unset-all http.https://github.com/.extraheader
 
       - name: Report result
         run: echo "GitLab-to-GitHub mirror job completed."
