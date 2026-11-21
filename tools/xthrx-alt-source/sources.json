@@ -3,6 +3,11 @@
   "description": "Expanded directory of AltStore, SideStore, PAL, Feather and developer/community app feeds. Every URL is a candidate until the scheduled validator confirms it returns compatible app metadata.",
   "sources": [
     {
+      "name": "Akatsubaki Emu official",
+      "url": "https://akatsubaki-emu.github.io/AltSource.json",
+      "verification": "first-party"
+    },
+    {
       "name": "AppTesters",
       "url": "https://repository.apptesters.org"
     },
