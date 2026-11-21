@@ -80,12 +80,12 @@ A repository owner with sufficient GitHub access must replace `.github/workflows
 
 ## Xthrx AltSource catalogue
 
-- The source manifest is \`tools/xthrx-alt-source/sources.json\` and currently contains 125 unique HTTP(S) candidate feeds.
-- \`tools/xthrx-alt-source/build_xthrx_repo.py\` fetches each candidate independently, accepts supported AltStore / SideStore / PAL JSON layouts, normalises version metadata, and deduplicates by exact bundle identifier.
-- \`tools/xthrx-alt-source/test_build_xthrx_repo.py\` provides offline regression coverage. The updater runs these tests before making upstream requests.
-- GitHub Actions workflow: \`.github/workflows/update-xthrx-alt-source.yml\`; it runs every six hours, on relevant source changes, or manually.
-- Generated catalogue: \`altsource/Xthrx's repo.json\`.
-- Feed health report: \`altsource/xthrx-source-report.json\`.
+- The source manifest is `tools/xthrx-alt-source/sources.json` and currently contains 125 unique HTTP(S) candidate feeds.
+- `tools/xthrx-alt-source/build_xthrx_repo.py` fetches each candidate independently, accepts supported AltStore / SideStore / PAL JSON layouts, normalises version metadata, and deduplicates by exact bundle identifier.
+- `tools/xthrx-alt-source/test_build_xthrx_repo.py` provides offline regression coverage. The updater runs these tests before making upstream requests.
+- GitHub Actions workflow: `.github/workflows/update-xthrx-alt-source.yml`; it runs every six hours, on relevant source changes, or manually.
+- Generated catalogue: `altsource/Xthrx's repo.json`.
+- Feed health report: `altsource/xthrx-source-report.json`.
 - Public source URL after the GitHub Pages deployment and first successful catalogue run: https://akatsubaki-emu.github.io/altsource/Xthrx%27s%20repo.json
 
 The 125 configured URLs are candidates, not a claim that all are online or compatible. The report records per-feed success/failure and valid/rejected app counts. If no compatible apps are found, the builder exits non-zero and does not replace the published catalogue with an empty file. SideStore-required version sizes are populated with the upstream size or zero when omitted.
