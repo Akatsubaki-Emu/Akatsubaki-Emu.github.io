@@ -1,21 +1,102 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#10131b"><meta name="description" content="Akatsubaki Emu — iOS emulation project and app distribution.">
-<title>Akatsubaki Emu</title>
-<style>
-:root{color-scheme:dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#10131b;color:#eef2ff}
-*{box-sizing:border-box}body{margin:0;padding:32px 18px;background:radial-gradient(ellipse at top,#202b43,#10131b 65%);min-height:100vh}
-main{max-width:760px;margin:8vh auto;padding:30px;border:1px solid #34405a;border-radius:22px;background:#171e2c}
-h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 8px}p{line-height:1.65;color:#c5cee0}
-a{color:#9fc4ff}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
-a.action{display:inline-block;padding:12px 16px;border:1px solid #657da7;border-radius:12px;text-decoration:none;font-weight:650}
-</style></head>
-<body><main>
-<h1>Akatsubaki Emu</h1>
-<p>Experimental iOS emulation project. Guest OS boot and game execution remain under development.</p>
-<div class="actions">
-<a class="action" href="/AltSource.json">Add the Akatsubaki Emu app source</a>
-<a class="action" href="/altsource/">Browse Xthrx's Repo</a>
-<a class="action" href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/actions">Builds and releases</a>
-</div></main></body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Akatsubaki Emu is an experimental iOS emulation project.">
+  <title>Akatsubaki Emu</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #20242b; background: #f7f8fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.6; }
+    a { color: #2459a6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .site-header { background: #fff; border-bottom: 1px solid #e3e6eb; }
+    .nav { max-width: 1040px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { color: #20242b; font-weight: 700; letter-spacing: -.02em; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 22px; font-size: .94rem; }
+    main { max-width: 1040px; margin: 0 auto; padding: 64px 24px 80px; }
+    .eyebrow { margin: 0 0 12px; color: #68717e; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { max-width: 760px; margin: 0; font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.08; letter-spacing: -.055em; }
+    .intro { max-width: 700px; margin: 22px 0 0; color: #535d6a; font-size: 1.16rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button { display: inline-block; padding: 10px 15px; border: 1px solid #cbd2dc; border-radius: 6px; color: #283342; background: #fff; font-size: .94rem; font-weight: 600; }
+    .button.primary { color: #fff; border-color: #2459a6; background: #2459a6; }
+    .section { margin-top: 72px; padding-top: 30px; border-top: 1px solid #e0e4e9; }
+    h2 { margin: 0 0 18px; font-size: 1.45rem; letter-spacing: -.025em; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+    .item h3 { margin: 0 0 7px; font-size: 1rem; }
+    .item p { margin: 0; color: #626c78; font-size: .94rem; }
+    .status { display: inline-block; margin-top: 18px; padding: 3px 8px; border: 1px solid #d7dce3; border-radius: 4px; color: #596372; background: #fff; font-size: .82rem; }
+    footer { border-top: 1px solid #e0e4e9; color: #737c88; font-size: .86rem; }
+    footer .inner { max-width: 1040px; margin: 0 auto; padding: 22px 24px; }
+    @media (max-width: 680px) {
+      .nav { align-items: flex-start; flex-direction: column; gap: 8px; }
+      main { padding-top: 46px; }
+      .grid { grid-template-columns: 1fr; gap: 22px; }
+      .section { margin-top: 54px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">Akatsubaki Emu</a>
+      <div class="nav-links">
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">Source</a>
+        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/actions">Actions</a>
+        <a href="/altsource/">Xthrx's Repo</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <p class="eyebrow">Open-source project</p>
+    <h1>Akatsubaki Emu</h1>
+    <p class="intro">An experimental emulation project for iOS. The project is working towards running desktop and console software through a native iOS interface and a hybrid emulation runtime.</p>
+    <span class="status">In development · Guest boot and game execution are not yet considered complete</span>
+    <div class="actions">
+      <a class="button primary" href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">View source on GitHub</a>
+      <a class="button" href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/actions">Builds and releases</a>
+      <a class="button" href="/AltSource.json">App source</a>
+    </div>
+
+    <section class="section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About the project</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Hybrid runtime</h3>
+          <p>Kenran Butō combines emulation and translation components behind a shared runtime architecture.</p>
+        </div>
+        <div class="item">
+          <h3>iOS development</h3>
+          <p>The app and its supporting tools are developed for Apple's mobile platforms. Device compatibility and runtime support are still being tested.</p>
+        </div>
+        <div class="item">
+          <h3>Project status</h3>
+          <p>Work is ongoing. Builds and source changes are published through the project repository and its Actions workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="downloads-heading">
+      <h2 id="downloads-heading">Downloads and related pages</h2>
+      <div class="grid">
+        <div class="item">
+          <h3><a href="/AltSource.json">Akatsubaki Emu source</a></h3>
+          <p>Add the project's app source to a compatible AltStore or SideStore installation.</p>
+        </div>
+        <div class="item">
+          <h3><a href="/altsource/">Xthrx's Repo</a></h3>
+          <p>Browse the combined community app catalogue and its source information.</p>
+        </div>
+        <div class="item">
+          <h3><a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">Source code</a></h3>
+          <p>Read the code, report an issue, or follow development on GitHub.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="inner">Akatsubaki Emu · Experimental software · See the repository for licence and contribution information.</div></footer>
+</body>
+</html>
