@@ -1,21 +1,23 @@
-# I-Steam Pages
+# Akatsubaki Emu Website
 
-Source repository for the I-Steam website and AltStore / SideStore source.
+The GitHub Pages site for Akatsubaki Emu.
 
-## Repository synchronization
+## Pages
 
-GitLab `chantinlongxthrx/i-steam.github.io` on `main` is the canonical source. GitHub `I-Steam/I-steam.github.io` is the public mirror.
+- Home: https://akatsubaki-emu.github.io/
+- Xthrx's Repo: https://akatsubaki-emu.github.io/altsource/
+- Combined AltStore / SideStore source: https://akatsubaki-emu.github.io/altsource/Xthrx%27s%20repo.json
+- Feed health report: https://akatsubaki-emu.github.io/altsource/xthrx-source-report.json
+- Project source: https://github.com/Akatsubaki-Emu/Akatsubaki-Emu
 
-GitHub Actions performs the recurring GitLab-to-GitHub sync. The workflow source is `.github/workflows/main.yml`; setup, permissions, reconciliation behavior, and validation notes are documented in [docs/PAGES_SYNC.md](docs/PAGES_SYNC.md).
+## AltSource maintenance
 
-The mirror workflow reads public GitLab without a GitLab token. It uses the repository Actions secret `MIRROR_TOKEN` (a fine-grained token with Contents and Workflows read/write access) because GitHub's built-in `GITHUB_TOKEN` cannot push updates to `.github/workflows/`. The workflow never force-pushes or writes back to GitLab. GitLab CI runners are not needed for this synchronization.
+The candidate feed catalogue is maintained in
+\`tools/xthrx-alt-source/sources.json\`. The builder and offline tests live beside
+it. GitHub Actions validates the builder, fetches upstream feeds every six
+hours, normalises app/version records for AltStore and SideStore, and publishes
+the aggregate plus a health report under \`altsource/\`. See
+[altsource/README.md](altsource/README.md) for details.
 
-## Website contents
-
-- `index.html` — website landing page.
-- `AltSource.json`, `alt/`, and `altsource/` — AltStore / SideStore source metadata and pages.
-- `downloads/` — published i-Steam IPA and checksum.
-- `tools/xthrx-alt-source/` — helper for building the Xthrx AltStore source.
-- `.github/workflows/` — GitHub Actions workflow sources and related automation.
-
-See [docs/PAGES_SYNC.md](docs/PAGES_SYNC.md) before changing the mirror configuration.
+The 125 configured feed URLs are candidates, not a guarantee of availability or
+compatibility. Only validated records enter the published source.
