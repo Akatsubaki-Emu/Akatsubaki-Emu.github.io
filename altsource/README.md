@@ -1,12 +1,36 @@
-# Xthrx's Repo on I-Steam Pages
+# Xthrx's Repo
 
-- Configured source feeds: **125 unique URLs**
-- Page: https://i-steam.github.io/altsource/
-- Source JSON: https://i-steam.github.io/altsource/Xthrx%27s%20repo.json
-- Feed health report: https://i-steam.github.io/altsource/xthrx-source-report.json
+Combined AltStore / SideStore source built from public feeds listed in
+[tools/xthrx-alt-source/sources.json](../tools/xthrx-alt-source/sources.json).
 
-The GitHub Actions workflow checks the configured feeds every six hours, accepts supported AltStore/PAL JSON layouts, deduplicates apps by bundle identifier, and commits refreshed JSON here. Failed, offline, HTML-only, or incompatible feeds are listed in the report.
+- Website: https://akatsubaki-emu.github.io/altsource/
+- Source JSON: https://akatsubaki-emu.github.io/altsource/Xthrx%27s%20repo.json
+- Feed health: https://akatsubaki-emu.github.io/altsource/xthrx-source-report.json
+- Configured inputs: 125 unique HTTP(S) candidate feeds
 
-**Important:** 125 is the number of configured candidate URLs, not a claim that all 125 are currently live or compatible. The scheduled validator determines which sources actually contribute apps. Some sources may be duplicates, archived, rate-limited, or use non-standard formats.
+The six-hour GitHub Actions job fetches each candidate independently, accepts
+recognised AltStore / SideStore / PAL JSON layouts, normalises app and version
+metadata, deduplicates by exact bundle identifier, and retains distinct version
+downloads. It publishes a health report showing accepted and failed feeds,
+valid and rejected app counts, and per-feed errors.
 
-Edit `tools/xthrx-alt-source/sources.json` to add or remove upstream feeds.
+The configured count is not a live-feed claim. A candidate contributes apps only
+when it returns parseable JSON containing compatible app records. The builder
+will not overwrite the published catalogue with an empty result.
+
+## Maintenance
+
+Edit \`tools/xthrx-alt-source/sources.json\` to add, remove or rename feed inputs.
+Run offline tests with:
+
+\`\`\`sh
+cd tools/xthrx-alt-source
+python -m unittest -v
+\`\`\`
+
+The workflow installs the only runtime dependency (\`requests\`) and runs tests
+before contacting upstream feeds. Generated output is written under
+\`tools/xthrx-alt-source/docs/\` and copied into this Pages directory.
+
+Upstream app metadata and downloads remain controlled by their publishers.
+Review each app, its signing requirements and permissions before installing it.
