@@ -1,6 +1,6 @@
 # Xthrx AltSource builder
 
-- `sources.json` — candidate AltStore, SideStore, PAL and community feeds, including the first-party Akatsubaki Emu source.
+- `sources.json` — candidate AltStore, SideStore, PAL and community feeds, including the first-party Akatsubaki Emu source. The official feed is read from the checked-out `AltSource.json` snapshot during the build, avoiding a race with GitHub Pages deployment.
 - `build_xthrx_repo.py` — concurrent fetcher, JSON parser, SideStore-compatible normaliser, bounded metadata merger and report generator.
 - `sync_akatsubaki_source.py` — refreshes the official Akatsubaki Emu AltStore and PAL manifests from published GitHub releases. It selects only iOS IPA assets from the canonical repository; tvOS and visionOS packages are not advertised as iOS apps. If a release channel has no valid published asset, its last known valid entry is retained rather than replaced with a broken link.
 - `test_build_xthrx_repo.py` and `test_sync_akatsubaki_source.py` — offline regression tests; no upstream network calls.

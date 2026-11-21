@@ -5,7 +5,8 @@
     {
       "name": "Akatsubaki Emu (official)",
       "url": "https://akatsubaki-emu.github.io/AltSource.json",
-      "verification": "first-party"
+      "verification": "first-party",
+      "local_path": "AltSource.json"
     },
     {
       "name": "AppTesters",

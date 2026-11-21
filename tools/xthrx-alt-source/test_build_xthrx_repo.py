@@ -1,7 +1,12 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
 from build_xthrx_repo import (
     MAX_VERSIONS_PER_APP,
     build,
+    fetch,
     merge_apps,
     normalize_app,
     unpack,
@@ -9,6 +14,38 @@ from build_xthrx_repo import (
 
 
 class SourceBuilderTests(unittest.TestCase):
+    def test_first_party_feed_uses_local_manifest_snapshot(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repository = Path(directory)
+            source_path = repository / "AltSource.json"
+            source_path.write_text(json.dumps({"apps": [{
+                "name": "Akatsubaki Emu Nightly",
+                "bundleIdentifier": "com.xthrx.isteam.nightly",
+                "version": "0.2.1",
+                "downloadURL": "https://akatsubaki-emu.github.io/downloads/iSteam-nightly.ipa",
+            }]}), encoding="utf-8")
+            with patch("build_xthrx_repo.ROOT", repository / "tools" / "xthrx-alt-source"):
+                result = fetch({
+                    "name": "Akatsubaki Emu (official)",
+                    "url": "https://akatsubaki-emu.github.io/AltSource.json",
+                    "local_path": "AltSource.json",
+                })
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual(result["apps"][0]["bundleIdentifier"], "com.xthrx.isteam.nightly")
+        self.assertEqual(result["final_url"], "https://akatsubaki-emu.github.io/AltSource.json")
+
+    def test_first_party_local_path_cannot_escape_repository(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repository = Path(directory)
+            with patch("build_xthrx_repo.ROOT", repository / "tools" / "xthrx-alt-source"):
+                result = fetch({
+                    "name": "Akatsubaki Emu (official)",
+                    "url": "https://akatsubaki-emu.github.io/AltSource.json",
+                    "local_path": "../outside.json",
+                })
+        self.assertEqual(result["status"], "failed")
+        self.assertIn("escapes repository root", result["error"])
+
     def test_unpack_common_layouts(self):
         self.assertEqual(unpack({"source": {"apps": [{"name": "A"}]}}), [{"name": "A"}])
         self.assertEqual(unpack({"apps": {"one": {"name": "A"}}}), [{"name": "A"}])

@@ -192,20 +192,36 @@ def fetch(source):
         result["error"] = "Invalid HTTP(S) URL"
         return result
     try:
-        response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        response.raise_for_status()
-        if len(response.content) > MAX_BYTES:
-            raise ValueError("Response exceeds 25 MiB limit")
-        body = response.content.decode(response.encoding or "utf-8-sig").lstrip("\ufeff \t\r\n")
-        if not body or body.startswith("<"):
-            raise ValueError("HTML or empty response")
-        records = unpack(response.json())
+        local_path = source.get("local_path")
+        if local_path:
+            repository_root = ROOT.parent.parent.resolve()
+            source_path = (repository_root / local_path).resolve()
+            if not source_path.is_relative_to(repository_root):
+                raise ValueError("Local source path escapes repository root")
+            if not source_path.is_file():
+                raise ValueError("Local source file does not exist")
+            payload = source_path.read_bytes()
+            if len(payload) > MAX_BYTES:
+                raise ValueError("Local source exceeds 25 MiB limit")
+            data = json.loads(payload.decode("utf-8-sig"))
+            final_url = url
+        else:
+            response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+            response.raise_for_status()
+            if len(response.content) > MAX_BYTES:
+                raise ValueError("Response exceeds 25 MiB limit")
+            body = response.content.decode(response.encoding or "utf-8-sig").lstrip("\\ufeff \\t\\r\\n")
+            if not body or body.startswith("<"):
+                raise ValueError("HTML or empty response")
+            data = response.json()
+            final_url = response.url
+        records = unpack(data)
         apps = [app for record in records if (app := normalize_app(record)) is not None]
         if not apps:
             raise ValueError(f"No compatible apps ({len(records)} records)")
         result.update({
             "status": "ok",
-            "final_url": response.url,
+            "final_url": final_url,
             "appCount": len(records),
             "validApps": len(apps),
             "rejectedApps": len(records) - len(apps),
