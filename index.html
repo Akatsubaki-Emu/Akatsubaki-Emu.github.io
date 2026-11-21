@@ -16,43 +16,33 @@
     nav, main, footer { width: min(100% - 40px, 900px); margin: 0 auto; }
     nav { min-height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
     .brand { color: inherit; font-weight: 650; letter-spacing: -.02em; }
-    .nav-links { display: flex; gap: 20px; font-size: .93rem; }
     main { padding-top: 76px; padding-bottom: 84px; }
     h1 { margin: 0; font-size: clamp(2.4rem, 7vw, 4rem); line-height: 1.12; letter-spacing: -.055em; font-weight: 650; }
     .intro { max-width: 660px; margin: 20px 0 0; color: #555e69; font-size: 1.12rem; }
-    .status { margin-top: 18px; color: #737b86; font-size: .9rem; }
-    .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 25px; font-size: .96rem; }
+    .status { margin-top: 14px; color: #737b86; font-size: .9rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: .96rem; }
     .links a:first-child { font-weight: 650; }
-    section { max-width: 680px; margin-top: 64px; padding-top: 24px; border-top: 1px solid #e7e9ed; }
-    h2 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 650; }
+    section { max-width: 680px; margin-top: 54px; padding-top: 22px; border-top: 1px solid #e7e9ed; }
+    h2 { margin: 0 0 9px; font-size: 1.12rem; font-weight: 650; }
     section p { margin: 0; color: #555e69; }
     footer { padding: 20px 0 28px; border-top: 1px solid #e7e9ed; color: #777f89; font-size: .86rem; }
-    @media (max-width: 560px) {
-      nav { align-items: flex-start; flex-direction: column; justify-content: center; padding: 13px 0; gap: 6px; }
-      .nav-links { gap: 16px; }
-      main { padding-top: 52px; }
-    }
+    @media (max-width: 560px) { nav { min-height: 54px; } main { padding-top: 52px; } }
   </style>
 </head>
 <body>
   <header>
     <nav aria-label="Main navigation">
       <a class="brand" href="/">Akatsubaki Emu</a>
-      <div class="nav-links">
-        <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">Source</a>
-        <a href="/AltSource.json">AltStore source</a>
-        <a href="/altsource/">Xthrx's Repo</a>
-      </div>
+      <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">GitHub source ↗</a>
     </nav>
   </header>
   <main>
     <h1>Akatsubaki Emu</h1>
     <p class="intro">An experimental emulation project for iOS, built around a native app and the Kenran Butō hybrid runtime.</p>
-    <p class="status">In development. Guest operating-system boot and game compatibility are not yet verified on a physical device.</p>
+    <p class="status">In development. Guest operating-system boot and game compatibility have not yet been verified on a physical device.</p>
     <div class="links">
-      <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">View source on GitHub ↗</a>
-      <a href="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/actions">Build history ↗</a>
-      <a href="/AltSource.json">Add the app source</a>
+      <a href="/AltSource.json">Add the official app source</a>
+      <a href="/altsource/">Xthrx's Repo</a>
     </div>
 
     <section>
@@ -62,12 +52,7 @@
 
     <section>
       <h2>Installation</h2>
-      <p>The nightly IPA is an unsigned development build. Install it through a compatible signing tool, or add the <a href="/AltSource.json">official AltStore source</a> to a supported client. Builds may be incomplete and are not intended for production use.</p>
-    </section>
-
-    <section>
-      <h2>Community app catalogue</h2>
-      <p><a href="/altsource/">Xthrx's Repo</a> is a separate catalogue of apps from public AltStore, SideStore and PAL sources.</p>
+      <p>The available nightly IPA is an unsigned development build. Use a compatible signing tool before installing. Builds may be incomplete and are not intended for production use.</p>
     </section>
   </main>
   <footer>Akatsubaki Emu · Open-source development project</footer>
