@@ -10,7 +10,7 @@ const config = {
   organizationName: 'Akatsubaki-Emu',
   projectName: 'Akatsubaki-Emu.github.io',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   trailingSlash: false,
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [['classic', {
