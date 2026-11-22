@@ -10,6 +10,8 @@ name: GitLab to GitHub Pages Mirror
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: gitlab-to-github-pages
@@ -20,6 +22,8 @@ jobs:
     name: Mirror canonical GitLab main to GitHub
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.reconcile.outputs.changed }}
     steps:
       - name: Verify mirror token is configured
         env:
@@ -30,25 +34,21 @@ jobs:
             echo "::error::Missing repository secret MIRROR_TOKEN. Add a fine-grained PAT with Contents and Workflows read/write access."
             exit 1
           fi
-
       - name: Check out GitHub mirror
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           persist-credentials: true
-
       - name: Configure Git identity
         run: |
           git config user.name "GitLab Pages Mirror Bot"
           git config user.email "pages-mirror[bot]@users.noreply.github.com"
-
       - name: Fetch canonical GitLab main
         run: |
           set -euo pipefail
           git remote add gitlab https://gitlab.com/chantinlongxthrx/i-steam.github.io.git
           git fetch --no-tags gitlab main
-
       - name: Reconcile GitLab changes without force-pushing
         id: reconcile
         shell: bash
@@ -58,13 +58,11 @@ jobs:
           GITLAB_SHA="$(git rev-parse gitlab/main)"
           echo "GitHub mirror: $GITHUB_SHA"
           echo "GitLab canonical: $GITLAB_SHA"
-
           if [ "$GITHUB_SHA" = "$GITLAB_SHA" ]; then
             echo "Both repositories already point to the same commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-
           if git merge-base --is-ancestor "$GITHUB_SHA" "$GITLAB_SHA"; then
             echo "GitLab is ahead; fast-forwarding the GitHub mirror."
             git checkout -B sync-main "$GITLAB_SHA"
@@ -84,7 +82,6 @@ jobs:
             fi
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
-
       - name: Push mirror update to GitHub
         if: steps.reconcile.outputs.changed == 'true'
         env:
@@ -95,6 +92,35 @@ jobs:
           git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $AUTH"
           git push origin HEAD:main
           git config --local --unset-all http.https://github.com/.extraheader
-
       - name: Report result
         run: echo "GitLab-to-GitHub mirror job completed."
+
+  deploy-pages:
+    name: Build and deploy documentation website
+    needs: mirror
+    if: github.event_name != 'schedule' || needs.mirror.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Check out mirrored canonical website
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install documentation dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build documentation and website
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
