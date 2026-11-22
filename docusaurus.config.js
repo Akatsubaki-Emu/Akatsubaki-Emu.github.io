@@ -1,5 +1,3 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Akatsubaki Emu Docs',
@@ -32,8 +30,7 @@ const config = {
       {title: 'Documentation', items: [{label: 'Introduction', to: '/docs/'}, {label: 'Install', to: '/docs/installation'}]},
       {title: 'Project', items: [{label: 'Source code', href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu'}, {label: 'Releases', href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases'}]},
       {title: 'Distribution', items: [{label: 'AltStore source', href: 'https://akatsubaki-emu.github.io/AltSource.json'}, {label: "Xthrx's Repo", href: 'https://akatsubaki-emu.github.io/altsource/'}]}
-    ], copyright: 'Akatsubaki Emu · GPL-3.0'},
-    prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula}
+    ], copyright: 'Akatsubaki Emu · GPL-3.0'}
   }
 };
-export default config;
+module.exports = config;

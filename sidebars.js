@@ -9,4 +9,4 @@ const sidebars = {
     {type: 'category', label: 'Contributing and legal', collapsible: true, collapsed: true, items: ['contributing', 'third-party-notices']}
   ]
 };
-export default sidebars;
+module.exports = sidebars;
