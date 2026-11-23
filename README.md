@@ -14,6 +14,8 @@ The wiki is built with Docusaurus and follows the information architecture of Si
 
 The complete app documentation is mirrored from the canonical application repository: installation, contribution and third-party notices; Kenran Butō hybrid runtime architecture; host-device bridge and Windows x64 → ARM64 translation research; DroidDeck port plan and status; iOS entitlements, JIT activation and tvOS guidance; QEMU/UTM build workflow, releases and Git synchronization.
 
+The expanded wiki also includes a user guide, compatibility matrix, FAQ, troubleshooting guide, and project metrics page. The original metrics SVG assets are preserved under `static/img/`.
+
 The docs source lives in `docs/`; navigation is defined in `sidebars.js`; theme configuration is in `docusaurus.config.js`; custom styling and the homepage are in `src/`.
 
 ## Local development
