@@ -24,7 +24,7 @@ const config = {
       {type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Documentation'},
       {href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu', label: 'Source', position: 'right'},
       {href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases', label: 'Releases', position: 'right'},
-      {href: '/AltSource.json', label: 'AltStore source', position: 'right'}
+      {href: 'https://akatsubaki-emu.github.io/AltSource.json', label: 'AltStore source', position: 'right'}
     ]},
     footer: {style: 'dark', links: [
       {title: 'Documentation', items: [{label: 'Introduction', to: '/docs/'}, {label: 'Install', to: '/docs/installation'}]},
