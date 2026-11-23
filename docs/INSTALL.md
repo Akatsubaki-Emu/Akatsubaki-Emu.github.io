@@ -1,6 +1,6 @@
 ---
 id: installation
-title: "Install Akatsubaki Emu on iPhone or iPad"
+title: "Install Akatsubaki Emu"
 ---
 
 # Install Akatsubaki Emu on iPhone or iPad
@@ -67,4 +67,4 @@ Import the actual `.ipa`, not the downloaded artifact ZIP. LiveContainer compati
 - [Combined build workflow](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/actions/workflows/release.yml)
 - [SideStore](https://sidestore.io/)
 - [SideStore documentation](https://docs.sidestore.io/)
-- [Credits and references](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README.md#credits-and-technical-references)
+- [Credits and references](README.md#credits-and-technical-references)
