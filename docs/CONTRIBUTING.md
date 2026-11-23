@@ -11,8 +11,8 @@ Akatsubaki Emu is an experimental project. Please help us distinguish prototypes
 
 ## Before you start
 
-1. Read the [README](README.md) to understand the project's current scope and limitations.
-2. Review the [GPL-3.0 license](LICENSE) and the licenses of any third-party code you plan to reuse.
+1. Read the [README](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README.md) to understand the project's current scope and limitations.
+2. Review the [GPL-3.0 license](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/LICENSE) and the licenses of any third-party code you plan to reuse.
 3. Search existing issues and pull requests to avoid duplicating work.
 4. For larger changes, open an issue or discussion first to explain the proposal and agree on its scope.
 
