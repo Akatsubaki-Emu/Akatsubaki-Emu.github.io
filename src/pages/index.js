@@ -4,8 +4,10 @@ import Link from '@docusaurus/Link';
 
 const guides = [
   {title: 'Install the app', description: 'Download, sign and install the iOS build.', to: '/docs/installation'},
+  {title: 'User guide', description: 'Import files, manage the library and understand launch limits.', to: '/docs/user-guide'},
+  {title: 'Compatibility', description: 'See what is verified, experimental or not yet supported.', to: '/docs/compatibility'},
   {title: 'Understand the runtime', description: 'Explore the Kenran Butō hybrid architecture.', to: '/docs/hybrid-runtime-architecture'},
-  {title: 'Build QEMU for iOS', description: 'Read the runtime build pipeline and its constraints.', to: '/docs/qemu-build-workflow'},
+  {title: 'Troubleshooting', description: 'Resolve common install, file access and JIT issues.', to: '/docs/troubleshooting'},
   {title: 'Contribute', description: 'Set up development, report issues and validate changes.', to: '/docs/contributing'}
 ];
 
@@ -24,7 +26,7 @@ export default function Home() {
         <div className="card"><div className="card__header"><h2>{guide.title}</h2></div><div className="card__body"><p>{guide.description}</p></div><div className="card__footer"><Link to={guide.to}>Read guide →</Link></div></div>
       </div>)}</div>
       <div className="alert alert--warning margin-top--lg"><strong>Experimental software:</strong> Akatsubaki Emu is not yet a complete PC emulator. Arbitrary Windows/Linux guests and Steam games are not currently guaranteed to run. A successful build or IPA package is not proof of physical-device guest execution.</div>
-      <p className="text--center margin-top--lg"><Link to="/docs/droiddeck-port-status">Review current feature readiness</Link> · <Link to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases">Download releases</Link></p>
+      <p className="text--center margin-top--lg"><Link to="/docs/faq">Read the FAQ</Link> · <Link to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases">Download releases</Link></p>
     </main>
   </Layout>;
 }
