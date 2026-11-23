@@ -17,6 +17,7 @@ Welcome to the official Akatsubaki Emu wiki. This is the central, searchable gui
 - **[Compatibility](/docs/compatibility)** — see what is implemented, experimental, planned or unsupported.
 - **[Frequently asked questions](/docs/faq)** — answers about emulation, JIT, platforms and contributing.
 - **[Troubleshooting](/docs/troubleshooting)** — diagnose installation, file access, JIT and build issues.
+- **[Project metrics](/docs/project-metrics)** — view repository activity snapshots (not runtime benchmarks).
 
 ## Documentation sections
 
