@@ -1,12 +1,12 @@
 ---
 id: hybrid-runtime-architecture
-title: "Kenran Butō (絢爛舞踏) — Hybrid runtime composition"
+title: "Kenran Butō hybrid runtime architecture"
 ---
 
 # Kenran Butō (絢爛舞踏) — Hybrid runtime composition
 
 - **System name:** Kenran Butō (絢爛舞踏).
-- **Status:** composable execution-policy prototype; the translation-cache artifact layer and a bounded x86-64 to AArch64 AOT translation/cache bring-up are implemented, alongside a limited static Linux process-entry stack. No executable AOT dispatcher or full Windows/Linux userspace stack is integrated.
+- **Status:** composable execution-policy prototype with an explicit upstream-reuse strategy. The translation-cache artifact layer, bounded x86-64 → AArch64 AOT bring-up, limited static Linux process-entry stack, and QEMU integration work exist. FEXCore, Box64, Wine, Proton and a32rt are planned reuse/port targets, not currently integrated or packaged as a working user-mode stack.
 - **Component naming:** Kenran Butō AOT is a bounded static x86-64 → ARM64 translator bring-up; Kenran Butō Cache stores validated translated-code artifacts; Kenran Butō Router selects backends and fallback; Kenran Butō Runtime orchestrates execution; Kenran Butō Graphics owns graphics translation. These names do not imply that missing implementations are complete.
 - **Planner:** `src/Runtime/ExecutionBackendRouter.swift`
 - **Cache:** `src/Performance/TranslationCache.swift`
@@ -35,6 +35,57 @@ title: "Kenran Butō (絢爛舞踏) — Hybrid runtime composition"
 | ARM32 Linux ELF | a32rt architecture backend; QEMU full-system where a complete OS is needed |
 | Native ARM64 process | native ARM64 under a compatible ABI |
 | Complete OS/kernel | QEMU TCG full-system emulation |
+
+## Upstream reuse and porting plan
+
+The development strategy is to reuse mature upstream implementations wherever they solve a subsystem better than a new in-house implementation. Kenran Butō owns orchestration, platform adapters, guest-state contracts, policy, validation and integration; it should not reimplement a mature CPU translator or Windows compatibility layer without a measured reason.
+
+### Target composition
+
+| Subsystem | Preferred upstream implementation | Role in Kenran Butō | Porting boundary |
+|---|---|---|---|
+| Linux x86-64 → ARM64 user-mode execution | **FEXCore** (primary candidate) | Main dynamic translation engine for Linux x86-64 processes; reuse its decoder/IR/recompiler and supported instruction implementation | FEX is designed and tested for ARM64 Linux. iOS requires a Darwin host layer, syscall/runtime boundary, signal/thread/memory integration and Apple executable-memory policy work. Do not assume upstream FEX runs unchanged on iOS. |
+| Linux x86-64 compatibility alternative | **Box64** | Secondary backend for workloads where its compatibility or measured performance is better; keep behind the same process/runtime interface | Box64 is also Linux-oriented and depends on Linux process, loader, signal and library behavior. Port and package it as an alternative, not as a second translator for the same process. |
+| Windows user-mode API compatibility | **Wine** | PE process environment, Win32/NT user-mode APIs, DLL loading and Windows runtime behavior | Wine is not a CPU translator. It must be paired with exactly one x86-64 execution backend and a compatible guest userspace/root filesystem. Darwin/iOS host integration and required services must be evaluated separately. |
+| Windows game distribution/runtime layer | **Proton** | Optional game-focused Wine configuration, patches and components after a minimal Wine path works | Proton is built around Steam-on-Linux assumptions and a collection of separately licensed dependencies. Port only the required components; do not treat Proton as a replacement for Wine or the CPU translator. |
+| ARM32 guest execution | **a32rt** | Dedicated ARM32 execution backend where the guest ABI and source project match the required workload | Verify the exact upstream repository, revision, API, supported host OS and licence before selecting or importing code. It does not replace x86-64 translation or provide a complete Linux syscall ABI by itself. |
+| Whole operating system / kernel | **QEMU TCG** | Full-system emulation, including booting complete guest OS images | Keep QEMU independent of user-mode FEX/Box64/Wine/Proton processes. Prefer the no-JIT TCI route where it is the viable iOS path; validate JIT separately. |
+| Static hot-block acceleration | **Kenran Butō AOT/cache** | Optional project-owned fast path for a deliberately bounded subset and validated cached translations | Avoid building a competing general-purpose translator. Keep it only where differential tests and benchmarks demonstrate value over FEXCore/Box64. |
+
+### Execution rules
+
+1. A process selects **one** x86-64 dynamic translator: FEXCore or Box64. Never execute the same guest thread through both.
+2. Wine supplies Windows API compatibility; Proton layers game-oriented patches/configuration and selected components over Wine. Neither is a CPU emulator.
+3. The selected translator, Wine/Proton layer, guest root filesystem, syscall ABI and host services must be versioned and validated as one runtime profile.
+4. QEMU owns a complete guest machine and its kernel. Do not try to compose QEMU TCG and FEX/Box64 as simultaneous CPU engines for the same guest process.
+5. a32rt is an architecture-specific ARM32 route. Native ARM64 is used only when the guest ABI is genuinely compatible.
+6. Keep the current diagnostic interpreter and bounded custom AOT translator as bring-up tools until upstream engines are built, integrated and proven. Do not silently route workloads to an unavailable backend.
+7. Preserve the guest execution-context boundary so engines can be swapped without rewriting loaders, storage, display, input or application UI.
+
+### Integration sequence — optimise for the first playable build
+
+**Track A — first physical guest (continues immediately):**
+1. Finish and package the QEMU TCI no-JIT runtime and its iOS device-arm64 dependencies.
+2. Build the unsigned iOS IPA, install it on a physical iPad, and boot a known-good small Linux guest.
+3. Verify display, input, stop/cleanup, repeat launch and persistent disk state. This is the first-playable acceptance path; do not block it on Wine/Proton or user-mode translator ports.
+
+**Track B — reusable user-mode engines (parallel after the shared interfaces are stable):**
+1. Pin and audit FEXCore's upstream revision, licence and dependencies; build a minimal ARM64 host-side library harness and measure the build footprint.
+2. Define the Darwin host adapter and explicit Linux guest syscall, signal, thread, memory-map, loader and filesystem contracts. Port FEXCore incrementally and run its upstream correctness tests plus differential guest tests.
+3. Benchmark the existing bounded interpreter/AOT path against FEXCore before deciding which custom code remains useful.
+4. Evaluate Box64 against the same Linux ELF test corpus. Integrate it only if it adds compatibility or performance that justifies a second backend.
+5. Add Wine only after one x86-64 engine can run a Linux userspace reliably. Start with a small Windows console program, DLL loading and Win32 API tests before graphical applications.
+6. Add Proton as an optional profile after Wine works; audit each submodule and dependency independently and port only the components that can be supported on Apple platforms.
+7. Audit and integrate a32rt against a named upstream source and ARM32 test corpus; connect its Linux syscall/runtime adapter before advertising ARM32 support.
+
+### Licensing, provenance and platform gates
+
+- The project is GPL-3.0. Record the exact upstream URL, commit, licence, copyright notices, modifications and transitive dependency licences for every imported component.
+- FEXCore's upstream repository identifies the project as MIT-licensed and targets ARM64 Linux; Box64, Wine and Proton have their own licence terms and dependency trees. Proton's submodules must be audited individually rather than assuming the top-level licence covers every component.
+- Do not copy code from an unverified project called “a32rt”: first establish the canonical repository and licence. Keep it as a candidate until that check is complete.
+- Prefer linking or vendoring an unmodified upstream component with its notices where practical. Keep local iOS changes in clearly separated patch sets and preserve upstream attribution.
+- A successful ARM64 compile is not proof of iOS compatibility. Each candidate must pass device-SDK compilation, dependency closure, runtime loading, guest correctness tests, memory/permission checks and physical-device validation.
+- No upstream project listed in this plan is currently promoted to an operational iOS backend solely by this plan. Runtime capability registration must remain fail-closed until the concrete binary, ABI, dependencies and guest workload have been tested.
 
 ## What is actually integrated today
 

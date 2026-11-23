@@ -1,6 +1,6 @@
 ---
 id: git-sync
-title: "GitHub Actions CI/CD and GitLab mirror synchronization"
+title: "GitHub Actions and GitLab synchronization"
 ---
 
 # GitHub Actions CI/CD and GitLab mirror synchronization
