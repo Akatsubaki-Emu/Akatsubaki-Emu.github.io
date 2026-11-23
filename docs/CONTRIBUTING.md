@@ -105,6 +105,6 @@ Be respectful, constructive, and welcoming. Critique ideas and code rather than 
 
 ## Licensing
 
-By submitting a contribution, you agree that it may be distributed under the project's [GNU General Public License v3.0](LICENSE). You must have the right to submit the code and must preserve applicable third-party copyright notices and license terms.
+By submitting a contribution, you agree that it may be distributed under the project's [GNU General Public License v3.0](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/LICENSE). You must have the right to submit the code and must preserve applicable third-party copyright notices and license terms.
 
 Thank you for helping improve Akatsubaki Emu!
