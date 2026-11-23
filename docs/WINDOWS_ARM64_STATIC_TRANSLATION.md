@@ -1,6 +1,6 @@
 ---
 id: windows-arm64-static-translation
-title: "Windows x64 → ARM64 static translation: implementation plan"
+title: "Windows x64 to ARM64 static translation"
 ---
 
 # Windows x64 → ARM64 static translation: implementation plan
