@@ -2,47 +2,77 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
-const guides = [
-  {title: 'Installation', text: 'Install the iOS app and complete the initial setup.', to: '/docs/installation'},
-  {title: 'Using Akatsubaki Emu', text: 'Learn about the library, guest files and current launch flow.', to: '/docs/user-guide'},
-  {title: 'Compatibility', text: 'Check which parts of the runtime are implemented or still experimental.', to: '/docs/compatibility'},
-  {title: 'Kenran Butō', text: 'Read about the hybrid execution architecture.', to: '/docs/hybrid-runtime-architecture'},
-  {title: 'JIT setup', text: 'Understand the available JIT activation paths and their limitations.', to: '/docs/jit-activation'},
-  {title: 'Troubleshooting', text: 'Find help with installation, signing, file access and runtime issues.', to: '/docs/troubleshooting'}
-];
-
 export default function Home() {
   return (
-    <Layout title="Home" description="Documentation and project information for Akatsubaki Emu.">
+    <Layout
+      title="Akatsubaki Emu"
+      description="Documentation and development notes for Akatsubaki Emu and the Kenran Butō hybrid emulation runtime."
+    >
       <main className="home">
-        <div className="home-main">
-          <div className="home-kicker">Akatsubaki Emu · Project documentation</div>
+        <header className="container home-intro">
           <h1>Akatsubaki Emu</h1>
-          <p className="home-lead">An experimental emulator for Apple platforms, built around Kenran Butō — a hybrid runtime combining ahead-of-time translation with interpreter fallbacks.</p>
-          <div className="home-actions">
-            <Link className="button button--primary button--lg" to="/docs/">Read the documentation</Link>
-            <Link className="button button--secondary button--lg" to="/docs/installation">Installation guide</Link>
+          <p className="home-intro__lead">
+            An experimental emulation project for Apple platforms. Its runtime,
+            Kenran Butō, combines ahead-of-time translation with interpreter
+            fallbacks to explore guest execution within iOS constraints.
+          </p>
+          <div className="home-intro__links">
+            <Link className="button button--primary button--lg" to="/docs/">
+              Read the documentation
+            </Link>
+            <Link className="button button--secondary button--lg" to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">
+              View source code
+            </Link>
           </div>
-          <div className="home-status"><strong>Development status:</strong> the project is still in active development. A successful build or IPA installation does not prove that a guest operating system or application can run. Check the compatibility guide for the current implementation status.</div>
-          <h2>About the project</h2>
-          <p>Akatsubaki Emu is focused on making guest software run within the constraints of iOS and iPadOS. Its work includes guest loading, memory management, instruction translation, interpreter execution and the host-device interfaces needed by the runtime.</p>
-          <h2>Documentation</h2>
-          <div className="home-guides">
-            {guides.map((guide) => (
-              <section className="home-guide" key={guide.title}>
-                <Link to={guide.to}>{guide.title}</Link>
-                <p>{guide.text}</p>
-              </section>
-            ))}
-          </div>
-          <h2>Project links</h2>
-          <ul>
-            <li><Link to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">Source code</Link></li>
-            <li><Link to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases">Releases</Link></li>
-            <li><Link to="https://akatsubaki-emu.github.io/AltSource.json">AltStore source</Link></li>
+        </header>
+
+        <section className="home-status" aria-label="Development status">
+          <p>
+            <strong>Development status:</strong> the project is still in active
+            development. A successful build or installation does not establish
+            that a guest operating system or application runs on a physical
+            device. Check the compatibility notes for the current state.
+          </p>
+        </section>
+
+        <section className="container home-section">
+          <h2>What is included?</h2>
+          <ul className="home-feature-list">
+            <li><strong>Kenran Butō:</strong> the hybrid execution architecture, including translation and interpreter paths.</li>
+            <li><strong>Apple-platform runtime work:</strong> research into memory, signing, app sandboxing and host-device services.</li>
+            <li><strong>Build and release tooling:</strong> project build instructions, QEMU integration notes and release information.</li>
+          </ul>
+        </section>
+
+        <section className="container home-section">
+          <h2>Getting started</h2>
+          <p>Choose the guide that matches what you want to do.</p>
+          <ul className="home-links">
+            <li><Link to="/docs/installation">Installation guide</Link></li>
+            <li><Link to="/docs/user-guide">Using the app</Link></li>
+            <li><Link to="/docs/compatibility">Compatibility and status</Link></li>
+            <li><Link to="/docs/faq">Frequently asked questions</Link></li>
+            <li><Link to="/docs/hybrid-runtime-architecture">Kenran Butō architecture</Link></li>
             <li><Link to="/docs/contributing">Contributing</Link></li>
           </ul>
-        </div>
+        </section>
+
+        <section className="container home-section">
+          <h2>About this documentation</h2>
+          <p>
+            These pages describe the current implementation and the work still
+            required. Experimental features are identified as such; plans and
+            research notes should not be read as evidence that a feature is
+            already available.
+          </p>
+          <p>
+            <Link to="/docs/compatibility">Read the compatibility notes</Link>
+            {' · '}
+            <Link to="/docs/troubleshooting">Troubleshooting</Link>
+            {' · '}
+            <Link to="/docs/third-party-notices">Third-party notices</Link>
+          </p>
+        </section>
       </main>
     </Layout>
   );

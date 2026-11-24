@@ -1,67 +1,62 @@
-/* A quiet, documentation-first layout inspired by LiveContainer's practical guides. */
+/* Keep the documentation close to Docusaurus defaults: readable and quiet. */
 :root {
   --ifm-container-width-xl: 1440px;
-  --ifm-menu-color: var(--ifm-color-emphasis-700);
-  --ifm-menu-color-active: var(--ifm-color-primary);
   --ifm-menu-link-padding-horizontal: .75rem;
-  --ifm-menu-link-padding-vertical: .45rem;
-  --ifm-pagination-nav-border-radius: 8px;
-  --ifm-alert-border-radius: 8px;
+  --ifm-menu-link-padding-vertical: .42rem;
+  --ifm-pagination-nav-border-radius: 7px;
+  --ifm-alert-border-radius: 7px;
 }
 [data-theme='light'] {
-  --ifm-color-primary: #9e4f67;
-  --ifm-color-primary-dark: #8d425a;
-  --ifm-color-primary-darker: #843d54;
-  --ifm-color-primary-darkest: #6d3245;
-  --ifm-color-primary-light: #b2657c;
-  --ifm-color-primary-lighter: #c17f92;
-  --ifm-color-primary-lightest: #dfb3bf;
   --ifm-background-color: #fff;
-  --ifm-background-surface-color: #f7f6f7;
+  --ifm-background-surface-color: #f7f5f6;
   --ifm-navbar-background-color: #fff;
-  --ifm-footer-background-color: #211820;
-  --ifm-menu-color: #514b53;
-  --ifm-menu-color-active: #9e4f67;
+  --ifm-footer-background-color: #211a20;
+  --ifm-toc-border-color: rgba(30,20,28,.14);
+  --ifm-menu-color: #554d56;
+  --ifm-menu-color-active: #96506a;
 }
 .navbar { z-index: 100; }
-.theme-doc-sidebar-container { border-right: 1px solid var(--ifm-toc-border-color); }
+.navbar__inner { max-width: 1440px; margin: 0 auto; }
 .menu { padding: 1rem .7rem 2rem; }
 .menu__list-item { margin: .1rem 0; }
-.menu__link { border-radius: 6px; font-size: .88rem; line-height: 1.45; }
-.menu__link:hover { background: var(--ifm-color-emphasis-100); text-decoration: none; }
-.menu__link--active:not(.menu__link--sublist) { background: var(--ifm-color-emphasis-100); color: var(--ifm-color-primary); font-weight: 650; }
-.menu__list-item-collapsible { border-radius: 6px; }
-.theme-doc-markdown { max-width: 800px; padding-bottom: 2rem; font-size: 1rem; line-height: 1.75; }
-.theme-doc-markdown > h1:first-child { margin-bottom: 1.1rem; font-size: clamp(2rem, 4vw, 2.7rem); line-height: 1.18; letter-spacing: -.04em; }
-.theme-doc-markdown h2 { margin-top: 2.4rem; padding-bottom: .4rem; border-bottom: 1px solid var(--ifm-toc-border-color); font-size: 1.55rem; letter-spacing: -.025em; }
+.menu__link { border-radius: 5px; font-size: .9rem; line-height: 1.45; }
+.menu__link:hover { background: rgba(173,96,119,.07); text-decoration: none; }
+.menu__link--active:not(.menu__link--sublist) { background: rgba(173,96,119,.1); font-weight: 650; }
+.theme-doc-markdown { max-width: 820px; padding-bottom: 2rem; font-size: 1rem; line-height: 1.78; }
+.theme-doc-markdown > h1:first-child { margin-bottom: 1.2rem; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.15; letter-spacing: -.04em; }
+.theme-doc-markdown h2 { margin-top: 2.5rem; padding-bottom: .4rem; border-bottom: 1px solid var(--ifm-toc-border-color); font-size: 1.55rem; letter-spacing: -.025em; }
 .theme-doc-markdown h3 { margin-top: 1.8rem; font-size: 1.18rem; }
-.theme-doc-markdown a { font-weight: 600; text-underline-offset: 2px; }
-.theme-doc-markdown blockquote { margin: 1.3rem 0; padding: .8rem 1rem; border-left: 3px solid var(--ifm-color-primary); border-radius: 0 6px 6px 0; background: var(--ifm-background-surface-color); }
-.theme-doc-markdown table { display: table; width: 100%; border-collapse: collapse; font-size: .9rem; }
+.theme-doc-markdown a { text-underline-offset: 3px; }
+.theme-doc-markdown blockquote { border-left: 3px solid var(--ifm-color-primary); border-radius: 0 6px 6px 0; background: var(--ifm-background-surface-color); }
+.theme-doc-markdown table { display: table; width: 100%; border-collapse: collapse; font-size: .92rem; }
 .theme-doc-markdown th, .theme-doc-markdown td { padding: .65rem .75rem; border: 1px solid var(--ifm-toc-border-color); vertical-align: top; }
-.theme-doc-markdown th { background: var(--ifm-background-surface-color); font-weight: 650; }
-.theme-doc-markdown pre { margin: 1.2rem 0; border: 1px solid var(--ifm-toc-border-color); border-radius: 8px; box-shadow: none; }
+.theme-doc-markdown pre { margin: 1.2rem 0; border: 1px solid var(--ifm-toc-border-color); border-radius: 7px; box-shadow: none; }
 .theme-doc-markdown :not(pre) > code { padding: .12rem .32rem; border: 1px solid var(--ifm-toc-border-color); border-radius: 4px; background: var(--ifm-background-surface-color); font-size: .88em; }
 .theme-doc-markdown img { max-width: 100%; border-radius: 6px; }
 .theme-doc-toc-desktop { padding-top: 1.2rem; }
-.table-of-contents { border-left: 1px solid var(--ifm-toc-border-color); font-size: .8rem; }
-.table-of-contents__link:hover, .table-of-contents__link--active { color: var(--ifm-color-primary); }
+.table-of-contents { border-left: 1px solid var(--ifm-toc-border-color); font-size: .82rem; }
 .pagination-nav { gap: .8rem; margin-top: 2.5rem; }
-.pagination-nav__link { min-height: 82px; padding: .9rem 1rem; border-color: var(--ifm-toc-border-color); border-radius: 8px; background: var(--ifm-background-surface-color); }
-.pagination-nav__link:hover { border-color: var(--ifm-color-primary-light); text-decoration: none; }
-.pagination-nav__sublabel { color: var(--ifm-color-primary); font-size: .72rem; font-weight: 700; }
-.alert { margin: 1.3rem 0; border-radius: 8px; box-shadow: none; }
-.breadcrumbs__link { border-radius: 5px; font-size: .78rem; }
+.pagination-nav__link { min-height: 82px; padding: 1rem; border-color: var(--ifm-toc-border-color); border-radius: 7px; }
+.pagination-nav__sublabel { color: var(--ifm-color-primary); font-size: .72rem; font-weight: 650; }
+.alert { margin: 1.3rem 0; border-radius: 7px; box-shadow: none; }
+.breadcrumbs__link { border-radius: 4px; font-size: .8rem; }
 .footer { padding-top: 2.5rem; padding-bottom: 1.8rem; }
-.footer__title { font-size: .85rem; font-weight: 650; }
+.footer__title { font-size: .85rem; }
 .footer__link-item { font-size: .86rem; }
 .footer__copyright { font-size: .78rem; }
-@media (min-width: 997px) { .docMainContainer { padding-top: 2rem; } .theme-doc-sidebar-container { width: 280px; } .theme-doc-markdown { margin-inline: auto; } }
-@media (max-width: 996px) { .docMainContainer { padding-top: 1.4rem; } .theme-doc-markdown { max-width: none; } .theme-doc-sidebar-container { border-right: 0; } }
-@media (max-width: 650px) {
+@media (min-width: 997px) {
+  .docMainContainer { padding-top: 2rem; }
+  .theme-doc-sidebar-container { width: 280px; }
+  .theme-doc-markdown { margin-inline: auto; }
+}
+@media (max-width: 996px) {
+  .docMainContainer { padding-top: 1.25rem; }
+  .theme-doc-markdown { max-width: none; }
+}
+@media (max-width: 600px) {
   .theme-doc-markdown > h1:first-child { font-size: 2rem; }
   .theme-doc-markdown h2 { margin-top: 2rem; font-size: 1.4rem; }
-  .theme-doc-markdown table { display: block; overflow-x: auto; white-space: normal; }
+  .theme-doc-markdown table { display: block; overflow-x: auto; }
   .pagination-nav { flex-direction: column; }
   .pagination-nav__link { min-height: 0; }
 }
