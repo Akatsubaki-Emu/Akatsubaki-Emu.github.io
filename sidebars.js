@@ -10,7 +10,7 @@ const sidebars = {
       items: ['compatibility', 'ios-entitlements', 'jit-activation', 'tvos']},
     {type: 'category', label: 'Kenran Butō', collapsible: true, collapsed: false,
       link: {type: 'generated-index', title: 'Kenran Butō architecture', description: 'Explore the hybrid runtime, guest/host boundary and translation plans.'},
-      items: ['hybrid-runtime-architecture', 'host-device-bridge', 'windows-arm64-static-translation', 'droiddeck-port-plan', 'droiddeck-port-status']},
+      items: ['hybrid-runtime-architecture', 'kenran-buto-aot-abi', 'host-device-bridge', 'windows-arm64-static-translation', 'droiddeck-port-plan', 'droiddeck-port-status']},
     {type: 'category', label: 'Build and release', collapsible: true, collapsed: true,
       link: {type: 'generated-index', title: 'Build and release', description: 'Build the iOS runtime, understand release channels and repository synchronization.'},
       items: ['qemu-build-workflow', 'releases', 'git-sync', 'pages-sync']},

@@ -29,7 +29,7 @@ The project is under active development. Not every planned component is implemen
 
 ### Runtime architecture
 
-Read about [Kenran Butō](/docs/hybrid-runtime-architecture), the [host-device bridge](/docs/host-device-bridge) and the current [Windows ARM64 translation work](/docs/windows-arm64-static-translation).
+Read about [Kenran Butō](/docs/hybrid-runtime-architecture), the [AOT execution ABI](/docs/kenran-buto-aot-abi), the [host-device bridge](/docs/host-device-bridge) and the current [Windows ARM64 translation work](/docs/windows-arm64-static-translation).
 
 ### Building and releases
 
