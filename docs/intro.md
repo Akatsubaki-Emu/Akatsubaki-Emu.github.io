@@ -1,48 +1,35 @@
 ---
 id: introduction
-title: Akatsubaki Emu documentation
+title: Introduction
 slug: /
 ---
 
-# Akatsubaki Emu documentation
+# Akatsubaki Emu
 
-Welcome to the official Akatsubaki Emu wiki. This is the central, searchable guide to installing and using the app, understanding platform support, learning the Kenran Butō runtime architecture, building the project and contributing.
+Akatsubaki Emu is an experimental emulator for Apple platforms. Its hybrid runtime, **Kenran Butō**, combines ahead-of-time translation with interpreter fallbacks.
 
-> **Development status:** Akatsubaki Emu is experimental and is not yet a complete PC emulator. It does not currently promise to boot arbitrary Windows/Linux images or run Steam games. A successful build or IPA package is not proof of guest execution on a physical Apple device.
+This site covers installation, using the app, platform compatibility, runtime internals and development.
 
-## Start here
+:::warning Development build
+Akatsubaki Emu is still under development. It is not yet a general-purpose PC emulator, and support for arbitrary Windows or Linux images and Steam games is not established. Installing the app successfully does not mean guest software will run. See [Compatibility](/docs/compatibility) for the current status.
+:::
 
-- **[Install Akatsubaki Emu](/docs/installation)** — download, sign and install the iOS build.
-- **[User guide](/docs/user-guide)** — understand file import, the library, profiles and current launch boundaries.
-- **[Compatibility](/docs/compatibility)** — see what is implemented, experimental, planned or unsupported.
-- **[Frequently asked questions](/docs/faq)** — answers about emulation, JIT, platforms and contributing.
-- **[Troubleshooting](/docs/troubleshooting)** — diagnose installation, file access, JIT and build issues.
-- **[Project metrics](/docs/project-metrics)** — view repository activity snapshots (not runtime benchmarks).
+## Getting started
 
-## Documentation sections
+- [Installation](/docs/installation) — install and set up the iOS app.
+- [User guide](/docs/user-guide) — learn about importing files and using the library.
+- [Compatibility](/docs/compatibility) — check implemented, experimental and planned features.
+- [Troubleshooting](/docs/troubleshooting) — resolve common setup and runtime problems.
 
-### User guides
+## About Kenran Butō
 
-Installation, file import, library workflows, platform support, signing and JIT setup.
+Kenran Butō is the hybrid execution architecture used by Akatsubaki Emu. It is designed to combine translated code for suitable guest instructions with interpreter execution when translation is unavailable or unsuitable.
 
-### Architecture and runtime
+Read the [runtime architecture guide](/docs/hybrid-runtime-architecture) for the current design and implementation status.
 
-Kenran Butō, host-device services, Windows x64 static-translation research, and the DroidDeck feature-port inventory.
+## Project
 
-### Build and maintenance
-
-QEMU/UTM build integration, release automation, repository synchronization, contributing and third-party notices.
-
-## Important terminology
-
-- **Kenran Butō (絢爛舞踏):** Akatsubaki Emu's hybrid emulation architecture.
-- **AOT:** ahead-of-time translation, which translates guest instructions before execution.
-- **TCI:** QEMU's tiny code generator interpreter, a possible no-JIT execution path when a compatible runtime is built and packaged.
-- **Physical-device verification:** tests performed on real Apple hardware. Simulator builds and source-level tests do not replace them.
-
-## Project links
-
-- [Source repository](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu)
-- [GitHub releases](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases)
-- [GitLab website source](https://gitlab.com/chantinlongxthrx/i-steam.github.io)
-- [AltStore source](https://akatsubaki-emu.github.io/AltSource.json)
+- [Source code](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu)
+- [Releases](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases)
+- [Contributing](/docs/contributing)
+- [Third-party notices](/docs/third-party-notices)
