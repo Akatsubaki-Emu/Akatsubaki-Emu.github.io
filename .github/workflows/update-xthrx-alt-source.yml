@@ -56,15 +56,23 @@ jobs:
           python -m json.tool alt/source.json >/dev/null
           python -m json.tool "tools/xthrx-alt-source/docs/Xthrx's repo.json" >/dev/null
           python -m json.tool tools/xthrx-alt-source/docs/xthrx-source-report.json >/dev/null
-          mkdir -p altsource
+          # Publish the official app feed and the aggregate repo from the
+          # exact generated files, keeping every public JSON document readable.
+          mkdir -p static/altsource altsource
+          python -m json.tool AltSource.json > static/AltSource.json
+          python -m json.tool alt/source.json > static/alt-source.json
+          python -m json.tool "tools/xthrx-alt-source/docs/Xthrx's repo.json" > "static/altsource/Xthrx's repo.json"
+          python -m json.tool tools/xthrx-alt-source/docs/xthrx-source-report.json > static/altsource/xthrx-source-report.json
           cp "tools/xthrx-alt-source/docs/Xthrx's repo.json" altsource/
           cp tools/xthrx-alt-source/docs/xthrx-source-report.json altsource/
+          cp static/AltSource.json AltSource.json
+          cp static/alt-source.json alt/source.json
       - name: Commit refreshed catalogue
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add AltSource.json alt/source.json "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json
+          git add AltSource.json alt/source.json static/AltSource.json static/alt-source.json "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json "static/altsource/Xthrx's repo.json" static/altsource/xthrx-source-report.json
           if git diff --cached --quiet; then
             echo "Official app source and catalogue are already current."
             exit 0
