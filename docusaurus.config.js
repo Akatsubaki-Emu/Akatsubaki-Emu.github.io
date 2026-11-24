@@ -28,7 +28,8 @@ const config = {
         {type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Documentation'},
         {href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu', label: 'Source', position: 'right'},
         {href: 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/releases', label: 'Releases', position: 'right'},
-        {href: 'https://akatsubaki-emu.github.io/AltSource.json', label: 'AltStore source', position: 'right'}
+        {href: 'https://akatsubaki-emu.github.io/AltSource.json', label: 'AltStore source', position: 'right'},
+        {href: "https://altdirect.app/?url=https://akatsubaki-emu.github.io/altsource/Xthrx%27s%20repo.json", label: "Xthrx's repo", position: 'right'}
       ]
     },
     docs: {sidebar: {hideable: true, autoCollapseCategories: false}},
