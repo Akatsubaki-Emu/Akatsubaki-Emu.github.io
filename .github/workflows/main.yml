@@ -88,10 +88,12 @@ jobs:
           MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
           set -euo pipefail
-          AUTH="$(printf 'x-access-token:%s' "$MIRROR_TOKEN" | base64 -w0)"
-          git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $AUTH"
+          # Use the supplied PAT explicitly; checkout's persisted GITHUB_TOKEN
+          # credential is read-only and can shadow a separately configured header.
+          git remote set-url origin "https://x-access-token:${MIRROR_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:main
-          git config --local --unset-all http.https://github.com/.extraheader
+          # Remove the credential-bearing URL from local git configuration.
+          git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
       - name: Report result
         run: echo "GitLab-to-GitHub mirror job completed."
 
