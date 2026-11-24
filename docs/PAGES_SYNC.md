@@ -1,3 +1,9 @@
+---
+id: pages-sync
+title: Pages repository synchronization
+description: How the documentation site is built, mirrored and published.
+---
+
 # Pages repository synchronization
 
 ## Canonical direction

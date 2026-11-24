@@ -12,7 +12,7 @@ const config = {
   trailingSlash: false,
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [['classic', {
-    docs: {routeBasePath: 'docs', sidebarPath: './sidebars.js', sidebarCollapsible: true, exclude: ['PAGES_SYNC.md']},
+    docs: {routeBasePath: 'docs', sidebarPath: './sidebars.js', sidebarCollapsible: true},
     blog: false,
     theme: {customCss: ['./src/css/custom.css', './src/css/docs-theme.css']}
   }]],

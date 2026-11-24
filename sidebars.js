@@ -13,7 +13,7 @@ const sidebars = {
       items: ['hybrid-runtime-architecture', 'host-device-bridge', 'windows-arm64-static-translation', 'droiddeck-port-plan', 'droiddeck-port-status']},
     {type: 'category', label: 'Build and release', collapsible: true, collapsed: true,
       link: {type: 'generated-index', title: 'Build and release', description: 'Build the iOS runtime, understand release channels and repository synchronization.'},
-      items: ['qemu-build-workflow', 'releases', 'git-sync']},
+      items: ['qemu-build-workflow', 'releases', 'git-sync', 'pages-sync']},
     {type: 'category', label: 'Project reference', collapsible: true, collapsed: true,
       link: {type: 'generated-index', title: 'Project reference', description: 'Project metrics and implementation status references.'},
       items: ['project-metrics']},
