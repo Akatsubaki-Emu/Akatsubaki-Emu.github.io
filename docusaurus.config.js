@@ -10,6 +10,13 @@ const config = {
   onBrokenLinks: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   trailingSlash: false,
+  headTags: [{
+    tagName: 'meta',
+    attributes: {
+      name: 'google-site-verification',
+      content: 'dskTPELl4KFBeZASfSDUawWQuAqBPbxrcb9TFvXgOKk'
+    }
+  }],
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [['classic', {
     docs: {routeBasePath: 'docs', sidebarPath: './sidebars.js', sidebarCollapsible: true},
@@ -17,7 +24,7 @@ const config = {
     theme: {customCss: ['./src/css/custom.css', './src/css/docs-theme.css']}
   }]],
   plugins: [['docusaurus-lunr-search', {languages: ['en'], maxHits: 10, indexBatchSize: 100, excludeRoutes: ['404']}]],
-  staticDirectories: ['static', 'alt', 'altsource', 'downloads'],
+  staticDirectories: ['static'],
   themeConfig: {
     colorMode: {defaultMode: 'dark', disableSwitch: false, respectPrefersColorScheme: true},
     navbar: {
