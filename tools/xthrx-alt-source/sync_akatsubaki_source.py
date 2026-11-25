@@ -136,7 +136,7 @@ def build_sources(releases, existing):
             "localizedDescription": app.get("localizedDescription", DESCRIPTION),
             "tintColor": app.get("tintColor", "#7A263A").lstrip("#"),
             "category": "utilities",
-            "iconURL": app.get("iconURL", ICON_URL),
+            "iconURL": app.get("iconURL", ICON_URLS["main"]),
             "downloadURL": version["downloadURL"],
             "version": version["version"],
             "buildVersion": version.get("buildVersion", ""),
