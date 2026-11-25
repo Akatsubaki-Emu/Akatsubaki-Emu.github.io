@@ -109,6 +109,12 @@ jobs:
     name: Build and deploy documentation website
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: read
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
     steps:
@@ -149,8 +155,6 @@ jobs:
           grep -Fxq 'google-site-verification: google48684d15ae18b623.html' build/google48684d15ae18b623.html
           test -s build/AltSource.json
           test -s "build/altsource/Xthrx's repo.json"
-      - name: Allow Pages artifact metadata to propagate
-        run: sleep 20
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -158,3 +162,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 10
+          reporting_interval: 5000
+      - name: Retry Pages deployment if artifact lookup was transiently unavailable
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 10
+          reporting_interval: 5000
