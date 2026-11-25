@@ -34,6 +34,8 @@ class AkatsubakiSourceSyncTests(unittest.TestCase):
         self.assertEqual(source["apps"][1]["iconURL"], ICON_URLS["nightly"])
         self.assertEqual(pal["apps"][1]["downloadURL"], source["apps"][1]["versions"][0]["downloadURL"])
         self.assertEqual(pal["apps"][1]["buildVersion"], "121")
+        self.assertEqual(pal["apps"][0]["iconURL"], ICON_URLS["main"])
+        self.assertEqual(pal["apps"][1]["iconURL"], ICON_URLS["nightly"])
 
     def test_ignores_tvos_assets(self):
         assets = [{
