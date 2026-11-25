@@ -1,5 +1,5 @@
 import unittest
-from sync_akatsubaki_source import BUNDLE_IDS, build_sources
+from sync_akatsubaki_source import BUNDLE_IDS, ICON_URLS, build_sources
 
 
 def release(tag, version, prerelease, assets=None):
@@ -30,6 +30,8 @@ class AkatsubakiSourceSyncTests(unittest.TestCase):
         self.assertEqual(source["apps"][0]["versions"][0]["version"], "0.1.120")
         self.assertEqual(source["apps"][1]["versions"][0]["version"], "0.1.121")
         self.assertEqual(source["apps"][1]["versions"][0]["buildVersion"], "121")
+        self.assertEqual(source["apps"][0]["iconURL"], ICON_URLS["main"])
+        self.assertEqual(source["apps"][1]["iconURL"], ICON_URLS["nightly"])
         self.assertEqual(pal["apps"][1]["downloadURL"], source["apps"][1]["versions"][0]["downloadURL"])
         self.assertEqual(pal["apps"][1]["buildVersion"], "121")
 
@@ -55,6 +57,7 @@ class AkatsubakiSourceSyncTests(unittest.TestCase):
         source, pal = build_sources([], {"apps": [existing_app]})
         self.assertEqual(len(source["apps"]), 1)
         self.assertEqual(source["apps"][0]["versions"][0]["version"], "0.1.009")
+        self.assertEqual(source["apps"][0]["iconURL"], ICON_URLS["nightly"])
         self.assertEqual(pal["apps"][0]["downloadURL"], existing_app["versions"][0]["downloadURL"])
 
     def test_normalizes_case_variant_legacy_bundle_id(self):
