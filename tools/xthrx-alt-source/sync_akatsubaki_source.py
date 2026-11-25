@@ -8,7 +8,10 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[2]
 API_URL = "https://api.github.com/repos/Akatsubaki-Emu/Akatsubaki-Emu/releases?per_page=30"
-ICON_URL = "https://akatsubaki-emu.github.io/IMG_3523.jpeg"
+ICON_URLS = {
+    "main": "https://akatsubaki-emu.github.io/img/akatsubaki-icon-default.png",
+    "nightly": "https://akatsubaki-emu.github.io/img/akatsubaki-icon-simple.png",
+}
 BUNDLE_IDS = {
     "main": "com.xthrx.isteam",
     "nightly": "com.xthrx.isteam.nightly",
@@ -73,7 +76,7 @@ def app_from_release(release, channel):
         "developerName": "Xthrx",
         "subtitle": f"Experimental iOS {channel_label.lower()}",
         "localizedDescription": DESCRIPTION,
-        "iconURL": ICON_URL,
+        "iconURL": ICON_URLS[channel],
         "tintColor": "#7A263A",
         "versions": [version_entry],
     }
@@ -105,6 +108,7 @@ def build_sources(releases, existing):
         elif fallback and fallback.get("versions"):
             preserved = dict(fallback)
             preserved["bundleIdentifier"] = BUNDLE_IDS[channel]
+            preserved["iconURL"] = ICON_URLS[channel]
             apps.append(preserved)
 
     source = {
@@ -114,7 +118,7 @@ def build_sources(releases, existing):
             "Official Akatsubaki Emu iOS builds. Experimental and unstable; not yet a working PC "
             "emulator. Unsigned IPAs require a compatible signing method."
         ),
-        "iconURL": ICON_URL,
+        "iconURL": ICON_URLS["main"],
         "website": "https://akatsubaki-emu.github.io/",
         "tintColor": "#7A263A",
         "apps": apps,
