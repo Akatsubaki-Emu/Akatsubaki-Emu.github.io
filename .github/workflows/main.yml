@@ -16,6 +16,7 @@ name: GitLab to GitHub Pages Mirror
       - main
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -106,10 +107,7 @@ jobs:
 
   deploy-pages:
     name: Build and deploy documentation website
-    needs: mirror
-    if: >-
-      (github.event_name != 'schedule' || needs.mirror.outputs.changed == 'true') &&
-      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
