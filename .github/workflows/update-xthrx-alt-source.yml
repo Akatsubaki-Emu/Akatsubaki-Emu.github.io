@@ -34,11 +34,16 @@ jobs:
           python-version: "3.12"
       - name: Install builder dependency
         run: |
-          python -m pip install --disable-pip-version-check requests
+          python -m pip install --disable-pip-version-check requests cairosvg pillow
           python -m pip check
       - name: Run offline regression tests
         working-directory: tools/xthrx-alt-source
         run: python -m unittest -v
+      - name: Render official app icon previews
+        working-directory: tools/xthrx-alt-source
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python render_icon_previews.py
       - name: Refresh official Akatsubaki Emu release feeds
         working-directory: tools/xthrx-alt-source
         run: python sync_akatsubaki_source.py
@@ -72,7 +77,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add AltSource.json alt/source.json static/AltSource.json static/alt-source.json "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json "static/altsource/Xthrx's repo.json" static/altsource/xthrx-source-report.json
+          git add AltSource.json alt/source.json static/AltSource.json static/alt-source.json "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json "static/altsource/Xthrx's repo.json" static/altsource/xthrx-source-report.json static/img/akatsubaki-icon-default.png static/img/akatsubaki-icon-simple.png
           if git diff --cached --quiet; then
             echo "Official app source and catalogue are already current."
             exit 0
