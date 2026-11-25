@@ -7,6 +7,13 @@ name: GitLab to GitHub Pages Mirror
   workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
+  workflow_run:
+    workflows:
+      - "Update Xthrx's Repo"
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -100,7 +107,9 @@ jobs:
   deploy-pages:
     name: Build and deploy documentation website
     needs: mirror
-    if: github.event_name != 'schedule' || needs.mirror.outputs.changed == 'true'
+    if: >-
+      (github.event_name != 'schedule' || needs.mirror.outputs.changed == 'true') &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -117,8 +126,33 @@ jobs:
           node-version: '22'
       - name: Install documentation dependencies
         run: npm install --no-audit --no-fund
+      - name: Stage generated feeds and public downloads in static
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p static
+          for directory in alt altsource downloads; do
+            if [ -d "$directory" ]; then
+              mkdir -p "static/$directory"
+              cp -a "$directory/." "static/$directory/"
+            fi
+          done
+          if [ -d static/altsource ]; then
+            find static/altsource -maxdepth 1 -type f -name '*.json' -print
+          fi
+          test -s static/google48684d15ae18b623.html
+          grep -Fxq 'google-site-verification: google48684d15ae18b623.html' static/google48684d15ae18b623.html
       - name: Build documentation and website
         run: npm run build
+      - name: Verify published static output
+        run: |
+          set -euo pipefail
+          test -s build/google48684d15ae18b623.html
+          grep -Fxq 'google-site-verification: google48684d15ae18b623.html' build/google48684d15ae18b623.html
+          test -s build/AltSource.json
+          test -s "build/altsource/Xthrx's repo.json"
+      - name: Allow Pages artifact metadata to propagate
+        run: sleep 20
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
