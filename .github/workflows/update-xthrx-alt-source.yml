@@ -8,7 +8,6 @@ name: Update Xthrx's Repo
     branches: [main]
     paths:
       - "tools/xthrx-alt-source/**"
-      - "altsource/**"
       - ".github/workflows/update-xthrx-alt-source.yml"
 
 permissions:
