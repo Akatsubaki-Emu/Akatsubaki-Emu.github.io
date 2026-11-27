@@ -7598,6 +7598,692 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Knoks1111/TwitchPlusK — update.json",
+      "url": "https://raw.githubusercontent.com/Knoks1111/TwitchPlusK/9d198df5ea4714f69059963e88b61d0070a093c5/update.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: RipeStore/repos — oatmeal.json",
+      "url": "https://raw.githubusercontent.com/RipeStore/repos/0ec12b08fccb54b1971e73a0c86f157727f814b3/oatmeal.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: gdorgian/aura — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/gdorgian/aura/cd15d8dc545b35ab0fb3d4e5d79467e04b599b3c/sidestore-source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: rsyumi/RisuNest — alt-source.json",
+      "url": "https://raw.githubusercontent.com/rsyumi/RisuNest/827124a79e3e36cca596559dbfae7b3edb010cbb/alt-source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: maniac75/t-box-for-torbox — docs/source.json",
+      "url": "https://raw.githubusercontent.com/maniac75/t-box-for-torbox/2729fac81f19cd2bc5c557190cc6a7ccc9c94d4e/docs/source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: BCYAYAY14/bluebox — source.json",
+      "url": "https://raw.githubusercontent.com/BCYAYAY14/bluebox/b578bab0b8264db72b44b0ce159dede8f54160e8/source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: RBx9/RBx9.github.io — ipa-source/source.json",
+      "url": "https://raw.githubusercontent.com/RBx9/RBx9.github.io/31518c9dedca91ca6ca0c89bec99d7771818b21e/ipa-source/source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — api/v2/apps/chan.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/api/v2/apps/chan.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — api/v2/apps/ish.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/api/v2/apps/ish.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ytkp.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ytkp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ppsspp.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ppsspp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — api/v2/apps/ksign.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/api/v2/apps/ksign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/dynamiccow.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/dynamiccow.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/xenios.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/xenios.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/voyager.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/voyager.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.32.4/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.32.4/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.32.10/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.32.10/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.25.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.25.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.25.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.25.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.17.8/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.17.8/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.19.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.19.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.18.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.18.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.4/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.4/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.22.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.22.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.24.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.24.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.24.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.24.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.14.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.14.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.15.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.15.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.0.4/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.0.4/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.0.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.0.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.9.8/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.9.8/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.28.5/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.28.5/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.29.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.29.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.28.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.28.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.30.8/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.30.8/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.27.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.27.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.4.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.4.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.0/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.0/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.1/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.1/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.2/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.2/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.3/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.3/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.4/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.4/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.5/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.5/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.5.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.5.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/1.6.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/1.6.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.1.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.1.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.1.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.1.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.2.3/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.2.3/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.2.7/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.2.7/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.2.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.2.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.2.8/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.2.8/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.2.6/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.2.6/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.3.9/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.3.9/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.3.8/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.3.8/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.16.17/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.16.17/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.16.29/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.16.29/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.16.13/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.16.13/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.17.19/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.17.19/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.17.21/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.17.21/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.18.25/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.18.25/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.19.19/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.19.19/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.19.13/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.19.13/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.16/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.16/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.10/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.10/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.21/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.21/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.17/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.17/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.13/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.13/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.21.18/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.21.18/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.15/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.15/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.22.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.22.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.20.14/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.20.14/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.24.18/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.24.18/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.23.23/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.23.23/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.23.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.23.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.23.10/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.23.10/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.24.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.24.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.14.27/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.14.27/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.13.25/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.13.25/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.13.21/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.13.21/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.13.10/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.13.10/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.15.19/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.15.19/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.5.25/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.5.25/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.6.11/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.6.11/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.2.16/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.2.16/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.6.14/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.6.14/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.6.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.6.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.2.11/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.2.11/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.3.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.3.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.6.18/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.6.18/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.5.26/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.5.26/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.0.12/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.0.12/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/3.1.10/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/3.1.10/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: oslook/cursor-ai-downloads — cursor_products/2.5.17/product.json",
+      "url": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/fed1bbeff236ff9ad8b2cbda2c0345b8846ba667/cursor_products/2.5.17/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
