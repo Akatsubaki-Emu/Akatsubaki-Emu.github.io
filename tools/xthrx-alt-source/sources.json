@@ -2565,6 +2565,83 @@
       "verification": "upstream-index",
       "discovered_by": "R0GUEEE/sidestore-sources",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: StonedModder/dusklight-ios-repo — esign-repo.json",
+      "url": "https://raw.githubusercontent.com/StonedModder/dusklight-ios-repo/762ba2c62082faa80778c047b1ff32391525dfe4/esign-repo.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: testinganything/SideStore — repo.json",
+      "url": "https://raw.githubusercontent.com/testinganything/SideStore/c2fc1d9a7279e8b34e7ef9bae18dcf5b97d70635/repo.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/StikDebug/apps.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/StikDebug/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/AirCard/apps.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/AirCard/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/DLiPA/apps.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/DLiPA/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/Asspp/apps.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/Asspp/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: verback2308/Opaline — source/apps.json",
+      "url": "https://raw.githubusercontent.com/verback2308/Opaline/26622322ddaccd1e6b9e27fc9988786b8aa8abb6/source/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: driftywinds/driftywinds.github.io — repos/YTLPaltstore.json",
+      "url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/94f01c6500273ee920994fb82c1d0a294cc341e1/repos/YTLPaltstore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: drphe/KhoIPA — upload/repo.favorite.altstore.json",
+      "url": "https://raw.githubusercontent.com/drphe/KhoIPA/95b9bd47f4a74f4adad2ee99a7b5c3a2256205e7/upload/repo.favorite.altstore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: BlackHawk185/tone — altstore.json",
+      "url": "https://raw.githubusercontent.com/BlackHawk185/tone/c2802c504240bb04157a13c9f42b58e940bb27b0/altstore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: BlackHawk185/tone — app/web/altstore.json",
+      "url": "https://raw.githubusercontent.com/BlackHawk185/tone/c2802c504240bb04157a13c9f42b58e940bb27b0/app/web/altstore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
