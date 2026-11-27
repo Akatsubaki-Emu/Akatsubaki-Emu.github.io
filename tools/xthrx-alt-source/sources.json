@@ -5694,6 +5694,279 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: AppsFlyerSDK/appsflyer.analytics-app.io — PALSource.json",
+      "url": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer.analytics-app.io/0aca60fbfd01cb34d126c56b6800ab28104e2664/PALSource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: cheeaun/hackerwebapp-alt — PALSource.json",
+      "url": "https://raw.githubusercontent.com/cheeaun/hackerwebapp-alt/800f2191b9f188a0e10592d87a6cc21c7f9233b3/PALSource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Ivoozz/AutoLog — PALSource.json",
+      "url": "https://raw.githubusercontent.com/Ivoozz/AutoLog/103b1a39e768fae1927757e0fdd64f36e02a1b81/PALSource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Samuel095383/registroElettronicoAltStore — PALSource.json",
+      "url": "https://raw.githubusercontent.com/Samuel095383/registroElettronicoAltStore/5e648c461f0fe427041e2025949dd631442009c6/PALSource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: wtfroichi/NeoTwitter — PALSource.json",
+      "url": "https://raw.githubusercontent.com/wtfroichi/NeoTwitter/b00ddd04c541aa3fa2abfd43513fbbb2beba21c5/PALSource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: C0A2518617/4Me — source.pal.json",
+      "url": "https://raw.githubusercontent.com/C0A2518617/4Me/d7ecbe7f54d342a1e1758c5ba068f1f29762555c/source.pal.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: RipeStore/repos — feather.json",
+      "url": "https://raw.githubusercontent.com/RipeStore/repos/0ec12b08fccb54b1971e73a0c86f157727f814b3/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — api/v2/apps/feather.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/api/v2/apps/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Nepsterwasd/GridSlot-Releases — feather.json",
+      "url": "https://raw.githubusercontent.com/Nepsterwasd/GridSlot-Releases/66d86d03ecbba3fee524d7c2216050bbde7a8dbd/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/api/v2/apps/feather.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/api/v2/apps/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: dvntm0/AltStore — feather.json",
+      "url": "https://raw.githubusercontent.com/dvntm0/AltStore/1a27332ee28cda529b3ee2f35c36cf203a241816/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/feather.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/kh-crysalis-feather.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/kh-crysalis-feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/kh-crysailis-feather.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/kh-crysailis-feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/thewonderofyou-feather.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/thewonderofyou-feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: j3qq4h7h2v/json-ipa-repos — dvntm0_AltStore_feather.json",
+      "url": "https://raw.githubusercontent.com/j3qq4h7h2v/json-ipa-repos/d8eedd52826bdd3ed3504da1b0cef23ca8a81880/dvntm0_AltStore_feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — api/v3/apps/thewonderofyou.Feather.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/api/v3/apps/thewonderofyou.Feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JiangNanGenius/call-message-relay-ios — feather.json",
+      "url": "https://raw.githubusercontent.com/JiangNanGenius/call-message-relay-ios/e9148f7b70787c7e4ae74ab643fc3859c03b15f2/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/thewonderofyou-feather--feather.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/thewonderofyou-feather--feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: wacns/wacns.github.io — stremio-source/ios/feather.json",
+      "url": "https://raw.githubusercontent.com/wacns/wacns.github.io/8dfa5b00db89868a5c695d11e05f78c847739394/stremio-source/ios/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Lucas25Pedrosa/ipa-r2-automation — Feather/feather.json",
+      "url": "https://raw.githubusercontent.com/Lucas25Pedrosa/ipa-r2-automation/65af25caf0aaa60ac0729aba761884016a6b6a41/Feather/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: nabzclan-reborn/safe-check-app — repos/esign.json",
+      "url": "https://raw.githubusercontent.com/nabzclan-reborn/safe-check-app/4a594fca2166e9138c17b16030d1551b2a37ef6b/repos/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: dvntm0/AltStore — esign.json",
+      "url": "https://raw.githubusercontent.com/dvntm0/AltStore/1a27332ee28cda529b3ee2f35c36cf203a241816/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: j3qq4h7h2v/json-ipa-repos — dvntm0_AltStore_esign.json",
+      "url": "https://raw.githubusercontent.com/j3qq4h7h2v/json-ipa-repos/d8eedd52826bdd3ed3504da1b0cef23ca8a81880/dvntm0_AltStore_esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: khtbd/KDRepo — KDEsign/kdesign.json",
+      "url": "https://raw.githubusercontent.com/khtbd/KDRepo/21a066dababfc04b730b32cda6fbb0a5b17181bf/KDEsign/kdesign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mikevillarroel/mikebuilds-source — esign.json",
+      "url": "https://raw.githubusercontent.com/mikevillarroel/mikebuilds-source/f6186a202ec16763cf4b655fd23f35636688355a/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: RBx9/RBx9.github.io — ipa-source/esign.json",
+      "url": "https://raw.githubusercontent.com/RBx9/RBx9.github.io/31518c9dedca91ca6ca0c89bec99d7771818b21e/ipa-source/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: computers-robbers/Apps — apps_esign.json",
+      "url": "https://raw.githubusercontent.com/computers-robbers/Apps/9743fbffcb9d60f9bff4f066db1161b2e4c6fabe/apps_esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: aa1286901/aa1286901.github.io — design.json",
+      "url": "https://raw.githubusercontent.com/aa1286901/aa1286901.github.io/33e5b492074726f9d57fae075668ef21255b041a/design.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/nologs-xyz-yyyue-esign.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/nologs-xyz-yyyue-esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hieuitcz/ipa — esign.json",
+      "url": "https://raw.githubusercontent.com/hieuitcz/ipa/736533d87f15b6c22a07f36c2db92e73cafe956c/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/p3-xyz-yyyue-esign.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/p3-xyz-yyyue-esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/co-lovetap-female-by-design.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/co-lovetap-female-by-design.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/kz8mjr464r-k-xyz-yyyue-esign.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/kz8mjr464r-k-xyz-yyyue-esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-rocketdigitals-aiinteriordesign.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-rocketdigitals-aiinteriordesign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: wacns/wacns.github.io — stremio-source/ios/esign.json",
+      "url": "https://raw.githubusercontent.com/wacns/wacns.github.io/8dfa5b00db89868a5c695d11e05f78c847739394/stremio-source/ios/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: CreepsoOff/source — driftywinds-github-io-repos/esign.json",
+      "url": "https://raw.githubusercontent.com/CreepsoOff/source/561174f1030e86e56b4c9ac9432e6ed807661d0b/driftywinds-github-io-repos/esign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JacobFV/behavioral-iphone-inferno — companion/evidence/owned-launch-timing-design.json",
+      "url": "https://raw.githubusercontent.com/JacobFV/behavioral-iphone-inferno/f635b7a00adca5bb5f227b7591c54be017a3f2bf/companion/evidence/owned-launch-timing-design.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JacobFV/behavioral-iphone-inferno — companion/evidence/owned-repeat-launch-control-design.json",
+      "url": "https://raw.githubusercontent.com/JacobFV/behavioral-iphone-inferno/f635b7a00adca5bb5f227b7591c54be017a3f2bf/companion/evidence/owned-repeat-launch-control-design.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
