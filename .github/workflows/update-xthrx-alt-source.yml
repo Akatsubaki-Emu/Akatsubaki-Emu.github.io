@@ -21,7 +21,7 @@ jobs:
   build:
     name: Validate feeds and publish catalogue
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - name: Check out website
         uses: actions/checkout@v4
@@ -38,7 +38,7 @@ jobs:
       - name: Run offline regression tests
         working-directory: tools/xthrx-alt-source
         run: python -m unittest -v
-      - name: Discover up to 1,000 new unique source manifests
+      - name: Discover unique source manifests up to the 6,000-source target
         working-directory: tools/xthrx-alt-source
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
