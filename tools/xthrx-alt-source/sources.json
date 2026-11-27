@@ -4770,6 +4770,209 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: rooootdev/lara — source_nightly.json",
+      "url": "https://raw.githubusercontent.com/rooootdev/lara/879e3fae0822776d1f75f91d9f2d1aee505f339e/source_nightly.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: NuvioMedia/NuvioMobile — store.json",
+      "url": "https://raw.githubusercontent.com/NuvioMedia/NuvioMobile/6d2fdab63d5eeb4e2daaed3f0adedc0c61f100cf/store.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: NeoFreeBird/app — resources/AltSource-X.json",
+      "url": "https://raw.githubusercontent.com/NeoFreeBird/app/5c001ae3b79bcb8b2eb408cb9be4dfa4838b6dd9/resources/AltSource-X.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: EhPanda-Team/EhPanda — AltStorePAL.json",
+      "url": "https://raw.githubusercontent.com/EhPanda-Team/EhPanda/0d2f52d4f99452e66599a87cec817851ed8288b7/AltStorePAL.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JiangNanGenius/floe-agent — feather.json",
+      "url": "https://raw.githubusercontent.com/JiangNanGenius/floe-agent/78e48207be6dc5917020ab4dfe161b50cd1da81e/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: TheResonanceTeam/TrollApps — assets/Docs/repo_template.json",
+      "url": "https://raw.githubusercontent.com/TheResonanceTeam/TrollApps/59c3fc20df2573375cfddcd3501c3d8dae9d8104/assets/Docs/repo_template.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/Doer/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/Doer/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: yuroyami/syncplay-mobile — altstore_yuroyami.json",
+      "url": "https://raw.githubusercontent.com/yuroyami/syncplay-mobile/0f2f94f977730d5bef2b601d66ade0db3015fcf6/altstore_yuroyami.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/Orca/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/Orca/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/Reloc/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/Reloc/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/LSX4/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/LSX4/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: FrizzleM/SideInstaller — frizzlem.json",
+      "url": "https://raw.githubusercontent.com/FrizzleM/SideInstaller/2ad2227afb82fe3b0a5b260a0d1ec48c3c86fc4b/frizzlem.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — ytkace.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/ytkace.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — youpro.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/youpro.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — ytlite.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/ytlite.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — youmod.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/youmod.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — ytmusic.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/ytmusic.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Apollo-Reborn/Apollo-Reborn — apps_noext_glass.json",
+      "url": "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/f26c82d3e95e05ea81f69e7899cbb78041fd8a6a/apps_noext_glass.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Apollo-Reborn/Apollo-Reborn — apps_noext_glass_icons.json",
+      "url": "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/f26c82d3e95e05ea81f69e7899cbb78041fd8a6a/apps_noext_glass_icons.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: gunnerkidBT/TwitchAdBlock — apps.json",
+      "url": "https://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/3354f6183e4cc01fa0a3e3986922a06199be91b1/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: MXFia19/TwitchUnblock — apps-tv.json",
+      "url": "https://raw.githubusercontent.com/MXFia19/TwitchUnblock/3422cbc0bb969aa56ffdeb774ba732aecef35f52/apps-tv.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: dracu-lah/TMPlayer — altstore/source.schema.json",
+      "url": "https://raw.githubusercontent.com/dracu-lah/TMPlayer/92ef528dbb5c2576f3305baf6bea6fb4bf9fa7a6/altstore/source.schema.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: CyrilPeng/Venera-Next — alt_store.json",
+      "url": "https://raw.githubusercontent.com/CyrilPeng/Venera-Next/5122f518f680bdfad7e7bea1132c9b8185e47aad/alt_store.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: venera-app/venera-prime — alt_store.json",
+      "url": "https://raw.githubusercontent.com/venera-app/venera-prime/056a419a504258e6c6352871f9c888b3fd5bc2f4/alt_store.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: drphe/KhoIPA — upload/EpicGamesIPASource.json",
+      "url": "https://raw.githubusercontent.com/drphe/KhoIPA/95b9bd47f4a74f4adad2ee99a7b5c3a2256205e7/upload/EpicGamesIPASource.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hosizoraru/KeiPix — apps_nightly.json",
+      "url": "https://raw.githubusercontent.com/hosizoraru/KeiPix/ed056d70cd490b3d16fd42d8d8862b86957e502d/apps_nightly.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: YTLitePlus/YTLitePlus-Altstore — apps.json",
+      "url": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/f0c51538e68e73e197eebc1d496c7600b35a4c8c/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: king1x32/Kingsman — app.json",
+      "url": "https://raw.githubusercontent.com/king1x32/Kingsman/0d652b71351988767ae540c67a0cfaa80c1d5361/app.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: singlekeycap/justarepo — AltStore/apps.json",
+      "url": "https://raw.githubusercontent.com/singlekeycap/justarepo/c4813bcdd52efce0c04f67f70e821426b46eb5fa/AltStore/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
