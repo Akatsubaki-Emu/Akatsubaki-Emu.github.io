@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
@@ -29,7 +29,37 @@ const guides = [
   {title: 'Troubleshooting', description: 'Find help with installation, file access, JIT and builds.', to: '/docs/troubleshooting', label: 'Solve a problem'},
 ];
 
+
+const regionalReadmeTarget = () => {
+  if (typeof window === 'undefined' || typeof navigator === 'undefined') return null;
+
+  const requested = new URLSearchParams(window.location.search).get('region');
+  if (requested === 'en') return null;
+  if (requested === 'hk') return 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_HK.md';
+  if (requested === 'jp') return 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_JP.md';
+  if (requested && requested !== 'auto') return null;
+
+  // GitHub Pages cannot reliably determine physical location. Use browser language,
+  // which requires no geolocation permission and sends no location data.
+  const languages = Array.isArray(navigator.languages) && navigator.languages.length
+    ? navigator.languages
+    : [navigator.language];
+
+  if (languages.some((language) => /^ja(?:-|$)/i.test(language || ''))) {
+    return 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_JP.md';
+  }
+  if (languages.some((language) => /^zh-(?:hant-)?hk(?:-|$)/i.test(language || ''))) {
+    return 'https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_HK.md';
+  }
+  return null;
+};
+
 export default function Home() {
+  useEffect(() => {
+    const target = regionalReadmeTarget();
+    if (target) window.location.replace(target);
+  }, []);
+
   return (
     <Layout
       title="Akatsubaki Emu"
@@ -53,6 +83,15 @@ export default function Home() {
             </Link>
             <Link className="home-source-link" to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu">
               View source code <span aria-hidden="true">↗</span>
+            </Link>
+            <Link className="home-source-link" to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_HK.md">
+              香港繁體中文
+            </Link>
+            <Link className="home-source-link" to="https://github.com/Akatsubaki-Emu/Akatsubaki-Emu/blob/main/README_JP.md">
+              日本語
+            </Link>
+            <Link className="home-source-link" to="/?region=en">
+              English
             </Link>
           </div>
         </header>
