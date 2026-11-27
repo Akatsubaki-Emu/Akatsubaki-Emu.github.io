@@ -7535,6 +7535,69 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/iDuanJu/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/iDuanJu/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/iDeck/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/iDeck/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/AniBaka/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/AniBaka/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/PiliPlus/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/PiliPlus/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/YouProEXTRA/apps-proxy.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/YouProEXTRA/apps-proxy.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: bebound/AltGallery — apps/Venera-Next/apps.json",
+      "url": "https://raw.githubusercontent.com/bebound/AltGallery/939b35ef89cc742e692cbf1594a8fa901d38672e/apps/Venera-Next/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: TonyRobotics/RoboWare-Studio — product.json",
+      "url": "https://raw.githubusercontent.com/TonyRobotics/RoboWare-Studio/aa2c309bd5e79f92ba7bf456ff86ad0573975c49/product.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: HelloAmHuman/IPA-Collection — new 1.json",
+      "url": "https://raw.githubusercontent.com/HelloAmHuman/IPA-Collection/dea39ea74e4b1c62cd7f05288799e12bfeac869f/new 1.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: AwesomePidgeon429/Top-Games-Repo — apps.json",
+      "url": "https://raw.githubusercontent.com/AwesomePidgeon429/Top-Games-Repo/3fc868916932925389f49366a9f56e5da548357e/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
