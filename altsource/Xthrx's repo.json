@@ -31,6 +31,170 @@
             ]
         },
         {
+            "name": "Locket",
+            "bundleIdentifier": "com.locket.Locket",
+            "developerName": "Unknown Developer",
+            "localizedDescription": "Injected with Gold",
+            "versions": [
+                {
+                    "version": "2.75.0",
+                    "date": "2026-11-28",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2026/Locket_2.75.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 100225431
+                },
+                {
+                    "version": "2.74.0",
+                    "date": "2026-11-22",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 98777331
+                },
+                {
+                    "version": "2.74.0",
+                    "date": "2026-11-22",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 98777331
+                },
+                {
+                    "version": "2.74.0",
+                    "date": "2026-11-22",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 98777331,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.74.0",
+                    "date": "2026-11-22",
+                    "downloadURL": "https://fastsign.dev/d/5ryem9u3/blatants/13657-Locket%20Widget%20v2.74.0%20Locket%20Gold%20blatant%20Patched.ipa",
+                    "localizedDescription": "@blatants | Locket Widget \u2022 Bundle ID: com.locket.Locket \u2022 Updated to: 2.74.0 \u2022 Minimum iOS: 15.0 \u2022 Patched \u2022 Modifier: Locket Gold \u2022 Tweaked by\u2026",
+                    "size": 98777331,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.73.0",
+                    "date": "2026-11-17",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 97875349
+                },
+                {
+                    "version": "2.73.0",
+                    "date": "2026-11-17",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97875349
+                },
+                {
+                    "version": "2.73.0",
+                    "date": "2026-11-17",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97875349,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.72.1",
+                    "date": "2026-11-08",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 97016533
+                },
+                {
+                    "version": "2.72.1",
+                    "date": "2026-11-08",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97016533
+                },
+                {
+                    "version": "2.72.1",
+                    "date": "2026-11-08",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97016533,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.72.0",
+                    "date": "2026-11-07",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 97096589
+                },
+                {
+                    "version": "2.72.0",
+                    "date": "2026-11-07",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97096589
+                },
+                {
+                    "version": "2.72.0",
+                    "date": "2026-11-07",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 97096589,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.71.2",
+                    "date": "2026-11-05",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 96961720
+                },
+                {
+                    "version": "2.71.2",
+                    "date": "2026-11-05",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 96961720
+                },
+                {
+                    "version": "2.71.2",
+                    "date": "2026-11-05",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 96961720,
+                    "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.71.1",
+                    "date": "2026-11-02",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Injected with Gold",
+                    "size": 96879089
+                },
+                {
+                    "version": "2.71.1",
+                    "date": "2026-11-02",
+                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 96879089
+                },
+                {
+                    "version": "2.71.1",
+                    "date": "2026-11-02",
+                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_@thisismanpreets_apptesters.org.ipa",
+                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
+                    "size": 96879089,
+                    "minOSVersion": "15.0"
+                }
+            ],
+            "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+            "xthrxSource": "AppTesters",
+            "xthrxSourceURL": "https://repository.apptesters.org/",
+            "xthrxSources": [
+                "AppTesters",
+                "Ittz_A7aa VIP",
+                "ThuthuatJB",
+                "FastSign full catalogue"
+            ]
+        },
+        {
             "name": "Fitia",
             "bundleIdentifier": "com.ulisesolave.Fitia",
             "developerName": "Unknown Developer",
@@ -15489,171 +15653,6 @@
                 }
             ],
             "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.CalculatorForiPad.InternetRocks.png",
-            "xthrxSource": "AppTesters",
-            "xthrxSourceURL": "https://repository.apptesters.org/",
-            "xthrxSources": [
-                "AppTesters",
-                "Ittz_A7aa VIP",
-                "ThuthuatJB",
-                "FastSign full catalogue"
-            ]
-        },
-        {
-            "name": "Locket",
-            "bundleIdentifier": "com.locket.Locket",
-            "developerName": "Unknown Developer",
-            "localizedDescription": "Injected with Gold",
-            "versions": [
-                {
-                    "version": "2.74.0",
-                    "date": "2026-11-22",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 98777331
-                },
-                {
-                    "version": "2.74.0",
-                    "date": "2026-11-22",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 98777331
-                },
-                {
-                    "version": "2.74.0",
-                    "date": "2026-11-22",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2026/Locket_2.74.0_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 98777331,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.74.0",
-                    "date": "2026-11-22",
-                    "downloadURL": "https://fastsign.dev/d/5ryem9u3/blatants/13657-Locket%20Widget%20v2.74.0%20Locket%20Gold%20blatant%20Patched.ipa",
-                    "localizedDescription": "@blatants | Locket Widget \u2022 Bundle ID: com.locket.Locket \u2022 Updated to: 2.74.0 \u2022 Minimum iOS: 15.0 \u2022 Patched \u2022 Modifier: Locket Gold \u2022 Tweaked by\u2026",
-                    "size": 98777331,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.73.0",
-                    "date": "2026-11-17",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 97875349
-                },
-                {
-                    "version": "2.73.0",
-                    "date": "2026-11-17",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97875349
-                },
-                {
-                    "version": "2.73.0",
-                    "date": "2026-11-17",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2026/Locket_2.73.0_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97875349,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.72.1",
-                    "date": "2026-11-08",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 97016533
-                },
-                {
-                    "version": "2.72.1",
-                    "date": "2026-11-08",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97016533
-                },
-                {
-                    "version": "2.72.1",
-                    "date": "2026-11-08",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2026/Locket_2.72.1_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97016533,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.72.0",
-                    "date": "2026-11-07",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 97096589
-                },
-                {
-                    "version": "2.72.0",
-                    "date": "2026-11-07",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97096589
-                },
-                {
-                    "version": "2.72.0",
-                    "date": "2026-11-07",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2026/Locket_2.72.0_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 97096589,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.71.2",
-                    "date": "2026-11-05",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 96961720
-                },
-                {
-                    "version": "2.71.2",
-                    "date": "2026-11-05",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 96961720
-                },
-                {
-                    "version": "2.71.2",
-                    "date": "2026-11-05",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2026/Locket_2.71.2_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 96961720,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.71.1",
-                    "date": "2026-11-02",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Injected with Gold",
-                    "size": 96879089
-                },
-                {
-                    "version": "2.71.1",
-                    "date": "2026-11-02",
-                    "downloadURL": "https://proxy-files.thuthuatjb.com/apps?=apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_%40thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 96879089
-                },
-                {
-                    "version": "2.71.1",
-                    "date": "2026-11-02",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2026/Locket_2.71.1_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 96879089,
-                    "minOSVersion": "15.0"
-                },
-                {
-                    "version": "2.71.0",
-                    "date": "2026-11-02",
-                    "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-11-2026/Locket_2.71.0_Gold_@thisismanpreets_apptesters.org.ipa",
-                    "localizedDescription": "Ch\u1ee9c n\u0103ng \u0111\u00e3 th\u00eam: Gold - IPA \u0111\u00e3 \u0111\u01b0\u1ee3c ki\u1ec3m tra v\u00e0 t\u1ed5ng h\u1ee3p b\u1edfi TTJB Team",
-                    "size": 96806058,
-                    "minOSVersion": "15.0"
-                }
-            ],
-            "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
             "xthrxSource": "AppTesters",
             "xthrxSourceURL": "https://repository.apptesters.org/",
             "xthrxSources": [
@@ -92904,14 +92903,6 @@
                     "minOSVersion": "15.0"
                 },
                 {
-                    "version": "2.0.7",
-                    "date": "2026-10-29",
-                    "downloadURL": "https://ipa.cypwn.xyz/ipas/Stremio-2.0.7.ipa",
-                    "localizedDescription": "Get pinged when any of your tweaks update. Free on Discord:\nhttps://discord.gg/mnJjP5qJRC",
-                    "size": 79978062,
-                    "minOSVersion": "10.0"
-                },
-                {
                     "version": "2.1.0",
                     "date": "2026-10-21",
                     "downloadURL": "https://dl.strem.io/apple/2.1.0b24/ios/stremio_iOS.ipa",
@@ -92954,6 +92945,13 @@
                     "size": 74055518,
                     "buildVersion": "23",
                     "minOSVersion": "15.0"
+                },
+                {
+                    "version": "2.0.7",
+                    "date": "2026-08-28",
+                    "downloadURL": "https://ipa.cypwn.xyz/ipas/Stremio-2.0.7.ipa",
+                    "localizedDescription": "",
+                    "size": 79974891
                 },
                 {
                     "version": "2.0.7",
@@ -180335,16 +180333,16 @@
             "name": "AppTesters",
             "url": "https://repository.apptesters.org/",
             "status": "ok",
-            "appCount": 10481,
-            "validApps": 10303,
+            "appCount": 10482,
+            "validApps": 10304,
             "rejectedApps": 178
         },
         {
             "name": "CyPwn",
             "url": "https://ipa.cypwn.xyz/cypwn.json",
             "status": "ok",
-            "appCount": 209,
-            "validApps": 209,
+            "appCount": 210,
+            "validApps": 210,
             "rejectedApps": 0
         },
         {

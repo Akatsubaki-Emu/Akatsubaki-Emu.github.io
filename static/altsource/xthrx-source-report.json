@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-11-27T21:15:17.092186+00:00",
+    "generatedAt": "2026-11-27T22:47:07.998408+00:00",
     "configuredFeeds": 126,
     "acceptedFeeds": 90,
     "failedFeeds": 36,
@@ -19,8 +19,8 @@
             "url": "https://repository.apptesters.org",
             "status": "ok",
             "final_url": "https://repository.apptesters.org/",
-            "appCount": 10481,
-            "validApps": 10303,
+            "appCount": 10482,
+            "validApps": 10304,
             "rejectedApps": 178
         },
         {
@@ -28,8 +28,8 @@
             "url": "https://ipa.cypwn.xyz/cypwn.json",
             "status": "ok",
             "final_url": "https://ipa.cypwn.xyz/cypwn.json",
-            "appCount": 209,
-            "validApps": 209,
+            "appCount": 210,
+            "validApps": 210,
             "rejectedApps": 0
         },
         {
@@ -402,13 +402,13 @@
             "name": "Decrypt Day catalogue (candidate)",
             "url": "https://decrypt.day/library",
             "status": "failed",
-            "error": "ValueError: HTML or empty response"
+            "error": "HTTPError: 403 Client Error: Forbidden for url: https://decrypt.day/library"
         },
         {
             "name": "AppyBois catalogue (candidate)",
             "url": "https://appybois.com/",
             "status": "failed",
-            "error": "ConnectTimeout: HTTPSConnectionPool(host='appybois.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='appybois.com', port=443) at 0x72f71c2e0bc0>, 'Connection to appybois.com timed out. (connect timeout=5)'))"
+            "error": "ConnectTimeout: HTTPSConnectionPool(host='appybois.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='appybois.com', port=443) at 0x78df4b244c80>, 'Connection to appybois.com timed out. (connect timeout=5)'))"
         },
         {
             "name": "SalupovTeam",
