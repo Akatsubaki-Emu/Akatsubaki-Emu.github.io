@@ -39,6 +39,11 @@ jobs:
       - name: Run offline regression tests
         working-directory: tools/xthrx-alt-source
         run: python -m unittest -v
+      - name: Discover up to 1,000 new unique source manifests
+        working-directory: tools/xthrx-alt-source
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python discover_sources.py
       - name: Render official app icon previews
         working-directory: tools/xthrx-alt-source
         env:
@@ -87,7 +92,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add AltSource.json alt/source.json static/AltSource.json static/alt/source.json static/altsource/ "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json static/img/akatsubaki-icon-default.png static/img/akatsubaki-icon-simple.png
+          git add tools/xthrx-alt-source/sources.json AltSource.json alt/source.json static/AltSource.json static/alt/source.json static/altsource/ "altsource/Xthrx's repo.json" altsource/xthrx-source-report.json static/img/akatsubaki-icon-default.png static/img/akatsubaki-icon-simple.png
           if git diff --cached --quiet; then
             echo "Official app source and catalogue are already current."
             exit 0
