@@ -7017,6 +7017,83 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-vectorunit-cobalt.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-vectorunit-cobalt.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Catta1997/myAltLibrary — alt.json",
+      "url": "https://raw.githubusercontent.com/Catta1997/myAltLibrary/eb56dc97a744dfef9bafc4403e33388dfaee55f2/alt.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: suprstarrd/locus-ios — alt.json",
+      "url": "https://raw.githubusercontent.com/suprstarrd/locus-ios/16697472a021c54269fbaa20509b02105ae32e1b/alt.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: itsfelipeh/apchile — config-alt.json",
+      "url": "https://raw.githubusercontent.com/itsfelipeh/apchile/987e5ba503e7ffaa41ca76968bd0c822af82abb0/config-alt.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: j3qq4h7h2v/json-ipa-repos — Trent112232_altstore-repo_ipa.json",
+      "url": "https://raw.githubusercontent.com/j3qq4h7h2v/json-ipa-repos/d8eedd52826bdd3ed3504da1b0cef23ca8a81880/Trent112232_altstore-repo_ipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-powen-modmyipa.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-powen-modmyipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-ahmedbafkir-dlipa.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-ahmedbafkir-dlipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/net-sourceloc-debtoipa.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/net-sourceloc-debtoipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-powen-modmyipa--modmyipa.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-powen-modmyipa--modmyipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/sidestore-sources — apps/com-ahmedbafkir-dlipa--dlipa.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/sidestore-sources/6ce7f782b4ce23e4f33e6a86b3e4eb24f1ae4a39/apps/com-ahmedbafkir-dlipa--dlipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: fla-sil/PyTorrent — Package_Metadata/pypi_packages/pyipa.json",
+      "url": "https://raw.githubusercontent.com/fla-sil/PyTorrent/26d35bee0370b6c0a6647ffb3d65e353c30ef2cb/Package_Metadata/pypi_packages/pyipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
