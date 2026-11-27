@@ -1,3 +1,8 @@
+---
+id: fexcore-ios-port-audit
+title: "FEXCore iOS port audit"
+---
+
 # FEXCore and Box64 — iOS integration audit
 
 **Checked:** 2026-11-27 13:35 UTC  

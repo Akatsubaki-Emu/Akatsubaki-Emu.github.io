@@ -1,3 +1,8 @@
+---
+id: first-playable-ios-acceptance
+title: "First playable iOS acceptance"
+---
+
 # First playable iOS acceptance and remaining feature backlog
 
 **Last audited:** 2026-11-27 13:55 UTC  

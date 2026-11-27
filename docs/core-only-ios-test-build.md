@@ -1,3 +1,8 @@
+---
+id: core-only-ios-test-build
+title: "Core-only iOS test build"
+---
+
 # Core-only iOS test build (no QEMU runtime)
 
 This manual workflow produces an unsigned iOS arm64 IPA containing the Akatsubaki Emu application and its interpreter/AOT code, but **no QEMU engine, QEMU firmware, or QEMU runtime manifest**.

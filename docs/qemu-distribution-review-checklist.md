@@ -1,3 +1,8 @@
+---
+id: qemu-distribution-review-checklist
+title: "QEMU distribution review checklist"
+---
+
 # QEMU iOS distribution — qualified review checklist
 
 **Purpose:** assemble the exact technical facts and questions for a qualified licensing reviewer. This document is not a legal opinion and does not approve distribution.

@@ -1,3 +1,8 @@
+---
+id: legacy-feature-parity
+title: "Legacy feature parity"
+---
+
 # Legacy feature parity and remaining Akatsubaki Emu requirements
 
 **Last audited:** 2026-11-27  
