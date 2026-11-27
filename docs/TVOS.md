@@ -24,6 +24,7 @@ The current `project.yml` declares tvOS 17.0 as its deployment target. The tvOS 
 Generate the project with XcodeGen:
 
 ```sh
+bash scripts/prepare-app-icons.sh
 xcodegen generate --spec project.yml
 ```
 

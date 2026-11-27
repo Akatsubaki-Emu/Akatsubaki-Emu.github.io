@@ -1,3 +1,8 @@
+---
+id: kenran-buto-aot-abi
+title: "Kenran Butō AOT ABI"
+---
+
 # Kenran Butō AOT execution ABI v1
 
 ## Scope

@@ -1,3 +1,8 @@
+---
+id: fexcore-ios-fork-build
+title: "FEXCore iOS fork build"
+---
+
 # FEXCore iOS fork build and integration boundary
 
 **Checked:** 2026-11-27  

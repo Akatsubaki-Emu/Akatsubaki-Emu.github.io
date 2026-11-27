@@ -38,3 +38,10 @@ Apple remains the authority: unsupported, unavailable, or account-ineligible ide
 ## Validation
 
 The source-contract test is `scripts/tests/test_entitlement_management.py`. A successful API response means Apple accepted the App ID update; it is not proof that a later installed build carries the entitlement. Verify the effective entitlements in the reinstalled app's code signature and test memory headroom on a supported physical device.
+
+
+## SideStore free-team signing caveat (checked 2026-11-24)
+
+[SideStore issue #1616](https://github.com/SideStore/SideStore/issues/1616) reports that SideStore 0.7.0 free-team signing can omit `com.apple.developer.kernel.increased-memory-limit` from the effective signed app, even after the App ID capability is enabled. The proposed [SideSign PR #4](https://github.com/SideStore/SideSign/pull/4) remains open and unmerged as of this check. The PR does not cover `com.apple.developer.kernel.extended-virtual-addressing`. If the installed SideStore build uses the affected signer, enabling the App ID capability in this screen is not proof that the installed app received it; inspect the effective signed entitlements after reinstall.
+
+This is **not a launch blocker** for the diagnostic interpreter path. `VMConfiguration` reads `os_proc_available_memory()`, reserves host headroom and caps the Linux guest budget at 1,024 MB. Missing optional memory entitlements therefore reduces the available budget rather than making the interpreter depend on a capability the signer may drop. The JIT `get-task-allow` entitlement is separate and must still be present for StikDebug; AOT falls back to the interpreter when JIT is unavailable.

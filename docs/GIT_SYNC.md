@@ -5,52 +5,35 @@ title: "GitHub Actions and GitLab synchronization"
 
 # GitHub Actions CI/CD and GitLab mirror synchronization
 
-## Repositories
+## Canonical repository and mirror
 
-- **Canonical source:** https://github.com/Akatsubaki-Emu/Akatsubaki-Emu
-- **Downstream mirror:** https://gitlab.com/chantinlongxthrx/I-steam
-- **Canonical branch:** `main`
-
-GitHub is the source of truth. All repository CI, regression tests, Apple-platform builds, QEMU/UTM runtime builds, and release publication execute through GitHub Actions. GitLab is retained as a downstream mirror and is not a CI runner.
+- **Canonical development destination:** https://github.com/Akatsubaki-Emu/Akatsubaki-Emu, existing branch `main`.
+- **GitLab mirror:** https://gitlab.com/chantinlongxthrx/I-steam, existing branch `main`.
+- GitHub `main` is authoritative. New source, workflow and documentation commits are made directly on GitHub `main`; GitLab is a downstream mirror.
+- The GitHub-to-GitLab sync workflow pushes only when GitLab `main` is an ancestor of GitHub `main`. It refuses divergent or newer GitLab history and never force-pushes.
+- GitLab-to-GitHub reconciliation is a separate, manual operation. It is restricted to the organization owner and requires an explicit authorization input; do not use it to bypass review of GitLab-only commits.
 
 ## GitHub Actions workflows
 
-All repository automation is stored in `.github/workflows/`:
+- `validate-repository.yml` — workflow/project YAML, source-contract, Python, native C/C++ and Swift runtime validation.
+- `validate-ios-build.yml` — iOS, tvOS and visionOS simulator compilation.
+- `build-core-only-ios.yml` — QEMU-free diagnostic iOS IPA.
+- `build-qemu-runtime.yml` — physical iOS arm64 QEMU/UTM JIT and TCI runtime variants.
+- `release.yml` — release orchestration, asset validation and publication.
+- `blank.yml` — GitHub-to-GitLab fast-forward-only synchronization.
+- `reconcile-gitlab-main.yml` — manual, owner-authorized GitLab-to-GitHub history integration.
+- `.gitlab-ci.yml` is retired for Apple-platform builds; GitHub Actions owns Apple-platform validation.
 
-- `validate-repository.yml` — validates workflow/project YAML, packaging-script shell syntax, QEMU source assumptions, Python source-contract/regression tests, native C/C++ bridge and guest-memory tests, and standalone Swift runtime harnesses.
-- `validate-ios-build.yml` — compiles the iOS, tvOS, and visionOS simulator targets and runs focused Apple-platform checks.
-- `build-qemu-runtime.yml` — reusable and manual build of the physical iOS arm64 QEMU/UTM JIT and TCI runtime variants.
-- `release.yml` — orchestrates the QEMU runtime and Apple-platform packaging, verifies release assets, and publishes Nightly/Main GitHub releases.
-- `Update stats.yml` — refreshes repository metrics.
-- `blank.yml` — retained GitHub-to-GitLab main synchronization. Do not rename, remove, or disable it without explicit owner approval.
-- `reconcile-gitlab-main.yml` — manually invoked history reconciliation helper. Review divergence and the exact GitLab commits before dispatching; never use it to bypass canonical GitHub review.
+## Synchronization rules
 
-There is no `.gitlab-ci.yml` in the canonical repository. Do not recreate GitLab CI jobs. The former GitLab Swift, native-memory, and Python validation jobs are now covered by `validate-repository.yml`.
+1. GitHub `main` is canonical; GitLab `main` is a downstream mirror.
+2. Sync pushes only when GitLab is an ancestor of GitHub; it refuses divergent or newer GitLab history.
+3. Review GitLab-only commits individually. Merge only after explicit owner authorization for this repository and exact history.
+4. Never create branches, force-push, reset or discard commits.
+5. Verify both SHAs before claiming synchronization.
+6. Queued, skipped, cancelled or failed workflow jobs are not passing tests.
+7. Simulator compilation, IPA archiving or QEMU compilation does not prove physical-device guest execution.
 
-## GitHub → GitLab synchronization
+## Required secret
 
-The retained `.github/workflows/blank.yml` workflow pushes canonical GitHub `main` to GitLab `main` using the existing `GITLAB_TOKEN` GitHub Actions secret. The metrics workflow writes SVG commits using `GITHUB_TOKEN`, which does not trigger a normal push workflow; its final `sync-mirror` job therefore dispatches `blank.yml` with `workflow_dispatch` after both metrics jobs succeed. This keeps generated metrics commits mirrored without changing the protected sync workflow. The sync workflow:
-
-- fetches GitLab history before pushing;
-- exits when both main refs already match;
-- only fast-forwards GitLab when its current head is an ancestor of GitHub;
-- retries only detected rate-limit responses, with increasing waits and fresh ancestry checks;
-- refuses to overwrite newer GitLab history or auto-resolve divergent histories;
-- serializes sync runs without cancelling an in-progress mirror update.
-
-Keep the workflow unchanged unless the owner explicitly approves a modification. The GitLab push-mirror configuration is external project settings and is not changed by this repository migration. Verify it separately in GitLab Settings → Repository → Mirroring repositories.
-
-## Development rules
-
-1. Make ordinary source, workflow, and documentation changes on canonical GitHub `main` or through reviewed GitHub pull requests.
-2. Let the retained GitHub Actions sync workflow propagate accepted commits to GitLab.
-3. Compare commit SHAs on both hosts before assuming synchronization completed.
-4. Never force-push either host or auto-merge divergent histories to make the refs appear synchronized.
-5. A GitHub workflow run is evidence only for the jobs that actually ran. A queued, skipped, cancelled, or failed run is not a passing test.
-6. Simulator compilation, an IPA archive, or a QEMU runtime artifact does not prove physical-device installation or successful guest execution.
-
-## Required secrets
-
-- `GITLAB_TOKEN` — GitLab project access token with the minimum repository write scope required by the GitHub → GitLab sync workflow.
-
-Do not commit tokens or mirror credentials. The website repository separately owns the AltStore/PAL source updater and its publishing permissions.
+- `GITLAB_TOKEN`: minimum GitLab repository write scope for the GitHub-to-GitLab sync workflow. Never commit credentials.
