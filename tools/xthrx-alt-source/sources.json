@@ -4973,6 +4973,545 @@
       "verification": "discovered-candidate",
       "discovered_by": "GitHub code search",
       "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: czy0729/Bangumi — alt_store.json",
+      "url": "https://raw.githubusercontent.com/czy0729/Bangumi/c00046d698f747862a0cbcf911d159d500395ec6/alt_store.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: alielsokary/CaskFlow — app_identities.json",
+      "url": "https://raw.githubusercontent.com/alielsokary/CaskFlow/0447e49741cf1f9e04eca244d04ce4c52aca2a04/app_identities.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: FluxaMedia/fluxa — sidestore.json",
+      "url": "https://raw.githubusercontent.com/FluxaMedia/fluxa/12b286bc974101c3eaf40cd53053995abcbf8a9c/sidestore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: lswlc33/zeeho-3d-models — app/version2.json",
+      "url": "https://raw.githubusercontent.com/lswlc33/zeeho-3d-models/7cf0800c4451f5050e332862cfcea5b7c9cf66ac/app/version2.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ish.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ish.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ime.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ime.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/sora.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/sora.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/glow.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/glow.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/lara.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/lara.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/orbot.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/orbot.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ksign.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ksign.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/iqface.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/iqface.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/hanami.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/hanami.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/nexasc.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/nexasc.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/aidoku.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/aidoku.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/helium.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/helium.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: RipeStore/repos — aidoku.json",
+      "url": "https://raw.githubusercontent.com/RipeStore/repos/0ec12b08fccb54b1971e73a0c86f157727f814b3/aidoku.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/feather.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/feather.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/unc0ver.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/unc0ver.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/stiknes.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/stiknes.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/taurine.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/taurine.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/cartube.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/cartube.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/purekfd.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/purekfd.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/sparkle.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/sparkle.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/odyssey.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/odyssey.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/chatsen.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/chatsen.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/winston.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/winston.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/cosmos.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/cosmos.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/yattee.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/yattee.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/msgplusx.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/msgplusx.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/animegen.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/animegen.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/ryukgram.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/ryukgram.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/dopamine.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/dopamine.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/minivmac.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/minivmac.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/cercube.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/cercube.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/ish.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/ish.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/mame4ios.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/mame4ios.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/ime.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/ime.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/caperfhud.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/caperfhud.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/sidestore.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/sidestore.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/serotonin.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/serotonin.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/swiftgram.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/swiftgram.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/raintweak.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/raintweak.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/bootstrap.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/bootstrap.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/cowabunga.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/cowabunga.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/mugunghwa.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/mugunghwa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/stikdebug.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/stikdebug.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/glow.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/glow.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/lara.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/lara.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/single/sora.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/single/sora.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/OmniSource — feeds/3105.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/OmniSource/f9a7b993c6e4d668254bdb2c842d2f187a11b088/feeds/3105.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Balackburn/Apollo — config.json",
+      "url": "https://raw.githubusercontent.com/Balackburn/Apollo/e2bd513818958c5ff353858143897fe640dd28f1/config.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: googleapis/google-api-go-client — games/v1/games-api.json",
+      "url": "https://raw.githubusercontent.com/googleapis/google-api-go-client/80c326ae05b6f23eddde122dec57b89cffcbb1b5/games/v1/games-api.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: sonnylazuardi/awponent — exp.json",
+      "url": "https://raw.githubusercontent.com/sonnylazuardi/awponent/a6b4090724b49e39b5ffe493a1121069d9b40a08/exp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: tiensonqin/lymchat-exp — exp.json",
+      "url": "https://raw.githubusercontent.com/tiensonqin/lymchat-exp/425a0738b11632119be08b5a59f12244f5df1575/exp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: utmapp/altstore-repo — config.json",
+      "url": "https://raw.githubusercontent.com/utmapp/altstore-repo/b578bc281f3bd28fd4b7df9a04c09a35fb0661a0/config.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: osy/altstore-github — config.sample.json",
+      "url": "https://raw.githubusercontent.com/osy/altstore-github/7a0171122e6dec32981e57c25edf053793c4a3a8/config.sample.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: expo/rnplay — exp.json",
+      "url": "https://raw.githubusercontent.com/expo/rnplay/9c1a6d7cf5ba1ee6da06e93c163350fa15e0da4b/exp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: MF57/yait — mobile/app.json",
+      "url": "https://raw.githubusercontent.com/MF57/yait/97b0da628d7498a528317ca2815021974aef321c/mobile/app.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: pH-7/pH7-Dating-App — exp.json",
+      "url": "https://raw.githubusercontent.com/pH-7/pH7-Dating-App/a47f73e6d434adce0e00db114e048fb266b93fce/exp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: aleotoidayy/nghluan — f.json",
+      "url": "https://raw.githubusercontent.com/aleotoidayy/nghluan/b8078eb942cd373d0249306f33a822614856c068/f.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: rafaelcorreiapoli/react-native-apollo-starter-kit — exp.json",
+      "url": "https://raw.githubusercontent.com/rafaelcorreiapoli/react-native-apollo-starter-kit/a56a1a6cf2b133b61930d10fe5436c78243415b7/exp.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JannikCrack/jannikcrack.github.io — ipa.json",
+      "url": "https://raw.githubusercontent.com/JannikCrack/jannikcrack.github.io/45cb092d2ca99400dc6ad72cceff3efdbc877e84/ipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Sini921/esign — ipa.json",
+      "url": "https://raw.githubusercontent.com/Sini921/esign/e2813448cc5e4b1b9b1d8cc22c33313011441b11/ipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: deepleeted/ipa-hub — ipa hub.json",
+      "url": "https://raw.githubusercontent.com/deepleeted/ipa-hub/cac6f7500c15306c9bc1174ff213d9a13ed26a19/ipa hub.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Brody100/IPA-sources — IPA.json",
+      "url": "https://raw.githubusercontent.com/Brody100/IPA-sources/ee823c2d02663ebb377bbe86baae84202f1ce3e9/IPA.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mainlxl/Resource — json/ipa.json/ipa.json",
+      "url": "https://raw.githubusercontent.com/mainlxl/Resource/46dddceaf471ae83ffdddd817b0c0b66e20b3d8b/json/ipa.json/ipa.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Dan1elTheMan1el/daily-script — data/IPAupdates.json",
+      "url": "https://raw.githubusercontent.com/Dan1elTheMan1el/daily-script/1a1106fd7584a6458949706925b24628e03b4107/data/IPAupdates.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: cone-d/cone-d.github.io — ipas.json",
+      "url": "https://raw.githubusercontent.com/cone-d/cone-d.github.io/099778f6c678947afe8d6e6390c9c16070df1d77/ipas.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: creezyz/creezyz.github.io — ipa/repo.json",
+      "url": "https://raw.githubusercontent.com/creezyz/creezyz.github.io/e668129aba31ecc8d2fad6ad16796dbdd2295d8d/ipa/repo.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hiepvk/hiepvk.github.io — ipaes/index.json",
+      "url": "https://raw.githubusercontent.com/hiepvk/hiepvk.github.io/ad970180f499ac83aff5ea9e145f63e95edb1421/ipaes/index.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hiepvk/hiepvk.github.io — ipats/index.json",
+      "url": "https://raw.githubusercontent.com/hiepvk/hiepvk.github.io/ad970180f499ac83aff5ea9e145f63e95edb1421/ipats/index.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: erqf/Alo — e alo ipas.json",
+      "url": "https://raw.githubusercontent.com/erqf/Alo/b77ac8d708fbf3f5df8bed22b279316c51d298e7/e alo ipas.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: KUAILESHANGWEI/AltGallery — apps/DLiPA/apps.json",
+      "url": "https://raw.githubusercontent.com/KUAILESHANGWEI/AltGallery/c5e3b8e192cff1eec0a01b50bce99cfbdf4b0932/apps/DLiPA/apps.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Apollo-Reborn/Apollo-Reborn — distribution/config.json",
+      "url": "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/f26c82d3e95e05ea81f69e7899cbb78041fd8a6a/distribution/config.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hackclub/shipwrecked — public/AltStoreExample.json",
+      "url": "https://raw.githubusercontent.com/hackclub/shipwrecked/a35a6741d2165d77e9ee8a1d1bd05f4f966b5d9b/public/AltStoreExample.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: 0xjohnnydev/Applesauce — distribution/altstore-source.json",
+      "url": "https://raw.githubusercontent.com/0xjohnnydev/Applesauce/e8e9d674a84903b14da0d9deb1dbe4f1dc735624/distribution/altstore-source.json",
+      "verification": "discovered-candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
