@@ -141,7 +141,7 @@ The planner's availability set must be populated only by concrete runtime probes
  
 ## Kenran Butō AOT execution subset
 
-The translator is now connected to a versioned ARM64 guest-state ABI, a W^X executable-memory provider, a bounded executable-block cache and interpreter side exits. ABI details and field offsets are documented in [KENRAN_BUTO_AOT_ABI.md](KENRAN_BUTO_AOT_ABI.md).
+The translator is now connected to a versioned ARM64 guest-state ABI, a W^X executable-memory provider, a bounded executable-block cache and interpreter side exits. ABI details and field offsets are documented in [/docs/kenran-buto-aot-abi](/docs/kenran-buto-aot-abi).
 
 Translator version 12 emits NOP; MOV r8,imm8 (B0–B7, including AH/CH/DH/BH without REX and REX.B-extended low-byte registers); MOV r32/r64,imm32/imm64 (B8–BF); register-only MOV (89/8B); C7 /0 register-only immediate MOV (32/64-bit, including imm32 sign-extension for 64-bit destinations); bounded base/index/SIB and guest-RIP-relative LEA; register-only MOVZX/MOVSX byte/word extensions (0F B6/B7/BE/BF); register-only MOVSXD r64,r/m32 (0x63 with REX.W); CWDE/CDQE and CDQ/CQO (0x98/0x99); accumulator/register XCHG (0x90–0x97, 32/64-bit including REX.B extension); register-only XCHG (0x87, ModRM mod=3); and BSWAP (0F C8–CF, 32/64-bit including REX.B extension). XCHG uses a flag-neutral three-EOR swap without a non-guest scratch register; byte MOV preserves all unrelated register bits. ENDBR64, arithmetic, guest memory operations, branches, calls/returns, syscalls, SIMD, atomics, relocations and cross-block control flow remain interpreter fallbacks. The translated subset does not modify x86 arithmetic flags.
 
@@ -200,7 +200,7 @@ This is useful evidence that a no-JIT Box64 user-mode path can be made to execut
 Track A now includes a second static guest, hybrid_runtime_smoke.elf, which exercises uname, write and exit through the no-JIT interpreter with separate RX/RW PT_LOAD segments. Verify its Linux/x86_64 output and exit status 0 on the physical device.
 
 
-See [FEXCore and Box64 iOS integration audit](FEXCORE_IOS_PORT_AUDIT.md) for the current upstream platform boundary, embedding requirements, Windows/graphics gaps and first-playable sequence.
+See [FEXCore and Box64 iOS integration audit](/docs/fexcore-ios-port-audit) for the current upstream platform boundary, embedding requirements, Windows/graphics gaps and first-playable sequence.
 
 
 ## iOS JIT lifecycle split
@@ -211,4 +211,4 @@ On iOS 26+ hardware, either TXM or SPTM selects StikDebug `universal.js`. QEMU k
 The first TXM/SPTM prepare requires a live StikDebug attachment and a separate explicit prepare call. Availability checks are side-effect-free; after the prepared-arena detach returns, the arena-ready state is reused for subsequent AOT work.
 
 
-See [Legacy feature parity and remaining requirements](LEGACY_FEATURE_PARITY.md) for the older launcher, storage, controller, keyboard, Steam, Android, VR, tvOS and visionOS requests and their current implementation boundaries.
+See [Legacy feature parity and remaining requirements](/docs/legacy-feature-parity) for the older launcher, storage, controller, keyboard, Steam, Android, VR, tvOS and visionOS requests and their current implementation boundaries.

@@ -2,7 +2,7 @@
 
 **Last audited:** 2026-11-27 13:55 UTC  
 
-**Scope:** Kenran Butō's first reproducible iOS guest-execution milestone. This is a checklist, not a claim that the full-system milestone has shipped. See [Legacy feature parity and remaining requirements](LEGACY_FEATURE_PARITY.md) for the older cross-chat feature requests and their current implementation status.
+**Scope:** Kenran Butō's first reproducible iOS guest-execution milestone. This is a checklist, not a claim that the full-system milestone has shipped. See [Legacy feature parity and remaining requirements](/docs/legacy-feature-parity) for the older cross-chat feature requests and their current implementation status.
 
 
 ## Current verified snapshot — 2026-11-27 13:55 UTC
@@ -131,7 +131,7 @@ QEMU TCI is the selected first playable no-JIT route. The manual build workflow 
 - The interpreter smoke path must work without JIT and must size guest memory using available host memory.
 - SideStore free-team signing may omit optional increased-memory entitlements from the effective installed signature; enabling an App ID capability is not proof that the installed app received it. Inspect effective entitlements after reinstall.
 - \`get-task-allow\` is a separate requirement for StikDebug JIT. Missing JIT must disable AOT execution safely and preserve interpreter fallback.
-- See [iOS memory entitlements](IOS_ENTITLEMENTS.md), [JIT activation](JIT_ACTIVATION.md), and [core-only iOS test build](CORE_ONLY_IOS_TEST_BUILD.md).
+- See [iOS memory entitlements](/docs/ios-entitlements), [JIT activation](/docs/jit-activation), and [core-only iOS test build](/docs/core-only-ios-test-build).
 
 ## Remaining features from older project requests
 

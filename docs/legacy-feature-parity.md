@@ -3,7 +3,7 @@
 **Last audited:** 2026-11-27  
 **Scope:** consolidate long-running requests from older project conversations against the current GitLab main source. Unless marked otherwise, these are source-level findings, not physical-device verification.
 
-This document complements the [first-playable acceptance checklist](FIRST_PLAYABLE_IOS_ACCEPTANCE.md) and [FEXCore/Box64 iOS integration audit](FEXCORE_IOS_PORT_AUDIT.md). It deliberately separates UI that exists from a guest runtime that has actually been proven.
+This document complements the [first-playable acceptance checklist](/docs/first-playable-ios-acceptance) and [FEXCore/Box64 iOS integration audit](/docs/fexcore-ios-port-audit). It deliberately separates UI that exists from a guest runtime that has actually been proven.
 
 ## Current mainline snapshot — 2026-11-27
 

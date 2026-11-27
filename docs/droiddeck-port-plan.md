@@ -28,4 +28,4 @@ DroidDeck is an Android/Linux-oriented project. Its FEX/Proton, Turnip, Gamescop
 
 ## Acceptance criteria
 
-A feature is not marked implemented solely because a model, enum, settings row, or source file exists. Require a concrete adapter, target-platform build, and relevant device test. See [DroidDeck port status](DROIDDECK_PORT_STATUS.md).
+A feature is not marked implemented solely because a model, enum, settings row, or source file exists. Require a concrete adapter, target-platform build, and relevant device test. See [DroidDeck port status](/docs/droiddeck-port-status).

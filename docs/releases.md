@@ -4,7 +4,7 @@
 
 - Canonical source: [Akatsubaki-Emu/Akatsubaki-Emu](https://github.com/Akatsubaki-Emu/Akatsubaki-Emu), branch `main`.
 - GitLab mirror: [chantinlongxthrx/I-steam](https://gitlab.com/chantinlongxthrx/I-steam).
-- CI/CD runs in GitHub Actions. See [Git sync policy](GIT_SYNC.md).
+- CI/CD runs in GitHub Actions. See [Git sync policy](/docs/git-sync).
 
 Do not treat a GitLab mirror commit as proof that GitHub Actions has tested the same revision. Compare commit SHAs before interpreting CI.
 
@@ -44,4 +44,4 @@ Before calling a release device-verified, record:
 6. Graceful stop and relaunch behavior.
 7. Disk persistence after app restart.
 
-See [QEMU build workflow](QEMU_BUILD_WORKFLOW.md) for dependency patching and link diagnostics.
+See [QEMU build workflow](/docs/qemu-build-workflow) for dependency patching and link diagnostics.
