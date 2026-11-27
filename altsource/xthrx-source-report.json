@@ -1,0 +1,1035 @@
+{
+    "generatedAt": "2026-11-27T21:15:17.092186+00:00",
+    "configuredFeeds": 126,
+    "acceptedFeeds": 90,
+    "failedFeeds": 36,
+    "uniqueApps": 3665,
+    "feeds": [
+        {
+            "name": "Akatsubaki Emu (official)",
+            "url": "https://akatsubaki-emu.github.io/AltSource.json",
+            "status": "ok",
+            "final_url": "https://akatsubaki-emu.github.io/AltSource.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AppTesters",
+            "url": "https://repository.apptesters.org",
+            "status": "ok",
+            "final_url": "https://repository.apptesters.org/",
+            "appCount": 10481,
+            "validApps": 10303,
+            "rejectedApps": 178
+        },
+        {
+            "name": "CyPwn",
+            "url": "https://ipa.cypwn.xyz/cypwn.json",
+            "status": "ok",
+            "final_url": "https://ipa.cypwn.xyz/cypwn.json",
+            "appCount": 209,
+            "validApps": 209,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Ittz_A7aa VIP",
+            "url": "https://ittza7aa.com/repo.json",
+            "status": "ok",
+            "final_url": "https://ittza7aa.com/repo.json",
+            "appCount": 1794,
+            "validApps": 1417,
+            "rejectedApps": 377
+        },
+        {
+            "name": "Quantum Source",
+            "url": "https://bit.ly/Quantumsource",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/quantumsource.json",
+            "appCount": 38,
+            "validApps": 38,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Quantum Source++",
+            "url": "https://bit.ly/Quantumsource-plus",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/quantumsource++.json",
+            "appCount": 35,
+            "validApps": 35,
+            "rejectedApps": 0
+        },
+        {
+            "name": "WuXu Library++",
+            "url": "https://bit.ly/wuxuslibraryplus",
+            "status": "ok",
+            "final_url": "https://wuxu1.github.io/wuxu-complete-plus.json",
+            "appCount": 36,
+            "validApps": 36,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AltStore Complete",
+            "url": "https://bit.ly/Altstore-complete",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/altstore-complete.json",
+            "appCount": 8,
+            "validApps": 8,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Burrito Software",
+            "url": "https://burritosoftware.github.io/altstore/channels/burritosource.json",
+            "status": "ok",
+            "final_url": "https://website.burrito.software/altstore/channels/burritosource.json",
+            "appCount": 7,
+            "validApps": 7,
+            "rejectedApps": 0
+        },
+        {
+            "name": "FloridaMan",
+            "url": "https://floridaman7588.me/altjb/altsource.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='floridaman7588.me', port=443): Max retries exceeded with url: /altjb/altsource.json (Caused by NameResolutionError(\"HTTPSConnection(host='floridaman7588.me', port=443): Failed to resolve 'floridaman7588.me' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+            "name": "RandomSource",
+            "url": "https://randomblock1.com/altstore/apps.json",
+            "status": "ok",
+            "final_url": "https://randomblock1.com/altstore/apps.json",
+            "appCount": 8,
+            "validApps": 8,
+            "rejectedApps": 0
+        },
+        {
+            "name": "SideStore Community",
+            "url": "https://community-apps.sidestore.io/sidecommunity.json",
+            "status": "ok",
+            "final_url": "https://community-apps.sidestore.io/sidecommunity.json",
+            "appCount": 23,
+            "validApps": 23,
+            "rejectedApps": 0
+        },
+        {
+            "name": "SpooferPro",
+            "url": "https://altstore.spooferpro.com",
+            "status": "ok",
+            "final_url": "https://altstore.spooferpro.com/",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "SpotCompiled",
+            "url": "https://spotc-repo.yodaluca.dev/AltStore%20Repo.json",
+            "status": "ok",
+            "final_url": "https://spotc-repo.yodaluca.dev/AltStore%20Repo.json",
+            "appCount": 3,
+            "validApps": 3,
+            "rejectedApps": 0
+        },
+        {
+            "name": "StikDebug",
+            "url": "https://stikdebug.xyz/index.json",
+            "status": "ok",
+            "final_url": "https://stikdebug.xyz/index.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AppDB endpoint (unverified)",
+            "url": "https://appdb.to/altstore.json",
+            "status": "failed",
+            "error": "ValueError: HTML or empty response"
+        },
+        {
+            "name": "Crystall1ne",
+            "url": "https://alt.crystall1ne.dev/",
+            "status": "ok",
+            "final_url": "https://alt.crystall1ne.dev/",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "App Fair",
+            "url": "https://appfair.net/altstore.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://appfair.net/altstore.json"
+        },
+        {
+            "name": "BringYour",
+            "url": "https://bringyour.com/altstore/source.json",
+            "status": "failed",
+            "error": "ValueError: HTML or empty response"
+        },
+        {
+            "name": "Quark Complete",
+            "url": "https://quarksources.github.io/altstore-complete.json",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/altstore-complete.json",
+            "appCount": 8,
+            "validApps": 8,
+            "rejectedApps": 0
+        },
+        {
+            "name": "DriftyWinds",
+            "url": "https://driftywinds.github.io/AltStore/apps.json",
+            "status": "ok",
+            "final_url": "https://driftywinds.github.io/AltStore/apps.json",
+            "appCount": 10,
+            "validApps": 10,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Omni Development",
+            "url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json",
+            "appCount": 116,
+            "validApps": 116,
+            "rejectedApps": 0
+        },
+        {
+            "name": "WuXu Standard",
+            "url": "https://wuxu1.github.io/wuxu-complete.json",
+            "status": "ok",
+            "final_url": "https://wuxu1.github.io/wuxu-complete.json",
+            "appCount": 36,
+            "validApps": 36,
+            "rejectedApps": 0
+        },
+        {
+            "name": "WuXu Plus direct",
+            "url": "https://wuxu1.github.io/wuxu-complete-plus.json",
+            "status": "ok",
+            "final_url": "https://wuxu1.github.io/wuxu-complete-plus.json",
+            "appCount": 36,
+            "validApps": 36,
+            "rejectedApps": 0
+        },
+        {
+            "name": "9ani",
+            "url": "https://9ani.app/api/altstore",
+            "status": "failed",
+            "error": "HTTPError: 522 Server Error: <none> for url: https://9ani.app/api/altstore"
+        },
+        {
+            "name": "UTM",
+            "url": "https://alt.getutm.app",
+            "status": "ok",
+            "final_url": "https://alt.getutm.app/",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "OatmealDome",
+            "url": "https://altstore.oatmealdome.me",
+            "status": "ok",
+            "final_url": "https://altstore.oatmealdome.me/",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Provenance",
+            "url": "https://provenance-emu.com/apps.json",
+            "status": "ok",
+            "final_url": "https://provenance-emu.com/apps.json",
+            "appCount": 4,
+            "validApps": 4,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Flycast",
+            "url": "https://flyinghead.github.io/flycast-builds/altstore.json",
+            "status": "ok",
+            "final_url": "https://flyinghead.github.io/flycast-builds/altstore.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "LiveContainer",
+            "url": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json"
+        },
+        {
+            "name": "iSH",
+            "url": "https://ish.app/altstore.json",
+            "status": "ok",
+            "final_url": "https://ish.app/altstore.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Ignited",
+            "url": "https://altstore.ignitedemulator.com",
+            "status": "ok",
+            "final_url": "https://altstore.ignitedemulator.com/",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "iTorrent",
+            "url": "https://xitrix.github.io/iTorrent/AltStoreEU.json",
+            "status": "ok",
+            "final_url": "https://xitrix.github.io/iTorrent/AltStoreEU.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Stremio iOS",
+            "url": "https://gorlev.github.io/stremio-altstore/stremio-ios.json",
+            "status": "ok",
+            "final_url": "https://gorlev.github.io/stremio-altstore/stremio-ios.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Stremio tvOS",
+            "url": "https://gorlev.github.io/stremio-altstore/stremio-tvos.json",
+            "status": "ok",
+            "final_url": "https://gorlev.github.io/stremio-altstore/stremio-tvos.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Watusi",
+            "url": "https://raw.githubusercontent.com/FouadRaheb/Watusi-for-WhatsApp/master/altstore/source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/FouadRaheb/Watusi-for-WhatsApp/master/altstore/source.json",
+            "appCount": 6,
+            "validApps": 6,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Enmity",
+            "url": "https://enmity-mod.github.io/repo/altstore.json",
+            "status": "ok",
+            "final_url": "https://enmity-mod.github.io/repo/altstore.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Taurine",
+            "url": "https://taurine.app/altstore/taurinestore.json",
+            "status": "ok",
+            "final_url": "https://taurine.app/altstore/taurinestore.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Odyssey",
+            "url": "https://theodyssey.dev/altstore/odysseysource.json",
+            "status": "ok",
+            "final_url": "https://theodyssey.dev/altstore/odysseysource.json",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AppTesters alternate",
+            "url": "https://apptesters.org/repo.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://apptesters.org/repo.json"
+        },
+        {
+            "name": "LiveContainer alternate",
+            "url": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/apps.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/apps.json"
+        },
+        {
+            "name": "Omni Development alternate",
+            "url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/main/app-repo.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/main/app-repo.json",
+            "appCount": 116,
+            "validApps": 116,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Quark Quantum Source",
+            "url": "https://quarksources.github.io/dist/quantumsource.min.json",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/dist/quantumsource.min.json",
+            "appCount": 38,
+            "validApps": 38,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Quark Quantum Source++",
+            "url": "https://quarksources.github.io/dist/quantumsource%2B%2B.min.json",
+            "status": "ok",
+            "final_url": "https://quarksources.github.io/dist/quantumsource%2B%2B.min.json",
+            "appCount": 35,
+            "validApps": 35,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Burrito channels index",
+            "url": "https://burritosoftware.github.io/altstore/channels/",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://website.burrito.software/altstore/channels/"
+        },
+        {
+            "name": "AltStore marketplace catalogue (candidate)",
+            "url": "https://marketplace.altstore.io/",
+            "status": "ok",
+            "final_url": "https://cdn.altstore.io/file/altstore/marketplace.json",
+            "appCount": 10,
+            "validApps": 10,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Starfiles public feed (candidate)",
+            "url": "https://repo.starfiles.co/public?gbox",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://repo.starfiles.co/public?gbox"
+        },
+        {
+            "name": "Decrypt Day catalogue (candidate)",
+            "url": "https://decrypt.day/library",
+            "status": "failed",
+            "error": "ValueError: HTML or empty response"
+        },
+        {
+            "name": "AppyBois catalogue (candidate)",
+            "url": "https://appybois.com/",
+            "status": "failed",
+            "error": "ConnectTimeout: HTTPSConnectionPool(host='appybois.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='appybois.com', port=443) at 0x72f71c2e0bc0>, 'Connection to appybois.com timed out. (connect timeout=5)'))"
+        },
+        {
+            "name": "SalupovTeam",
+            "url": "https://adp.salupovteam.com/altrepo.json",
+            "status": "ok",
+            "final_url": "https://adp.salupovteam.com/altrepo.json",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "zxcvbn AltStore",
+            "url": "https://aio.zxcvbn.fyi/r/repo.altstore.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='aio.zxcvbn.fyi', port=443): Max retries exceeded with url: /r/repo.altstore.json (Caused by NameResolutionError(\"HTTPSConnection(host='aio.zxcvbn.fyi', port=443): Failed to resolve 'aio.zxcvbn.fyi' ([Errno -5] No address associated with hostname)\"))"
+        },
+        {
+            "name": "zxcvbn eSign",
+            "url": "https://aio.zxcvbn.fyi/r/repo.esign.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='aio.zxcvbn.fyi', port=443): Max retries exceeded with url: /r/repo.esign.json (Caused by NameResolutionError(\"HTTPSConnection(host='aio.zxcvbn.fyi', port=443): Failed to resolve 'aio.zxcvbn.fyi' ([Errno -5] No address associated with hostname)\"))"
+        },
+        {
+            "name": "zxcvbn Feather",
+            "url": "https://aio.zxcvbn.fyi/r/repo.feather.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='aio.zxcvbn.fyi', port=443): Max retries exceeded with url: /r/repo.feather.json (Caused by NameResolutionError(\"HTTPSConnection(host='aio.zxcvbn.fyi', port=443): Failed to resolve 'aio.zxcvbn.fyi' ([Errno -5] No address associated with hostname)\"))"
+        },
+        {
+            "name": "HackerWeb",
+            "url": "https://alt.hackerwebapp.com/PALSource.json",
+            "status": "ok",
+            "final_url": "https://alt.hackerwebapp.com/PALSource.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Stux community",
+            "url": "https://alt.stux.me/repo.json",
+            "status": "ok",
+            "final_url": "https://alt.stux.me/repo.json",
+            "appCount": 7,
+            "validApps": 7,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Lao SB",
+            "url": "https://alts.lao.sb/source.json",
+            "status": "ok",
+            "final_url": "https://alts.lao.sb/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "TfourJ Apps",
+            "url": "https://altstore.tfourj.com",
+            "status": "ok",
+            "final_url": "https://altstore.tfourj.com/",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Nuumi",
+            "url": "https://altstore.nuumi.io/source.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='altstore.nuumi.io', port=443): Max retries exceeded with url: /source.json (Caused by NameResolutionError(\"HTTPSConnection(host='altstore.nuumi.io', port=443): Failed to resolve 'altstore.nuumi.io' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+            "name": "FullCodes PAL",
+            "url": "https://altstorepal.fullcodes.thatfinn.dev/repo.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='altstorepal.fullcodes.thatfinn.dev', port=443): Max retries exceeded with url: /repo.json (Caused by NameResolutionError(\"HTTPSConnection(host='altstorepal.fullcodes.thatfinn.dev', port=443): Failed to resolve 'altstorepal.fullcodes.thatfinn.dev' ([Errno -5] No address associated with hostname)\"))"
+        },
+        {
+            "name": "wxio PAL",
+            "url": "https://apk.wxio.site/PALSource02.json",
+            "status": "failed",
+            "error": "ValueError: HTML or empty response"
+        },
+        {
+            "name": "AppTesters alternate",
+            "url": "https://apptesters.org/altstore/",
+            "status": "failed",
+            "error": "ValueError: HTML or empty response"
+        },
+        {
+            "name": "nnsnodnb PAL",
+            "url": "https://as.nnsnodnb.moe/source.pal.json",
+            "status": "ok",
+            "final_url": "https://as.nnsnodnb.moe/source.pal.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "BlissQuake",
+            "url": "https://blissquake.net/AltStore/source",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='blissquake.net', port=443): Max retries exceeded with url: /AltStore/source (Caused by NameResolutionError(\"HTTPSConnection(host='blissquake.net', port=443): Failed to resolve 'blissquake.net' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+            "name": "SquadBlast marketplace",
+            "url": "https://cdn.squadblast.com/market/marketplace.json",
+            "status": "ok",
+            "final_url": "https://cdn.squadblast.com/market/marketplace.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Epic Games Store",
+            "url": "https://content-download-egs.distro.on.epicgames.com/iOS/altstore/source.json",
+            "status": "ok",
+            "final_url": "https://content-download-egs.distro.on.epicgames.com/iOS/altstore/source.json",
+            "appCount": 3,
+            "validApps": 3,
+            "rejectedApps": 0
+        },
+        {
+            "name": "CourtPredict",
+            "url": "https://courtpredict-ios.web.app/PALSource.json",
+            "status": "ok",
+            "final_url": "https://courtpredict-ios.web.app/PALSource.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "eSound",
+            "url": "https://esound.app/downloads/source.json",
+            "status": "ok",
+            "final_url": "https://esound.app/downloads/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Foxxoccino PAL",
+            "url": "https://foxxoccino.github.io/PALSource.json",
+            "status": "ok",
+            "final_url": "https://foxxoccino.github.io/PALSource.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Cizzuk PAL",
+            "url": "https://i.cizzuk.net/altstore/source.pal.json",
+            "status": "ok",
+            "final_url": "https://i.cizzuk.net/altstore/source.pal.json",
+            "appCount": 6,
+            "validApps": 6,
+            "rejectedApps": 0
+        },
+        {
+            "name": "PeopleDrop",
+            "url": "https://peopledrop.app/apps.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://peopledrop.app/apps.json"
+        },
+        {
+            "name": "PokeMMO",
+            "url": "https://pokemmo.com/altstore/",
+            "status": "ok",
+            "final_url": "https://pokemmo.com/altstore/",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Polymorph Distribution",
+            "url": "https://polymorph-distribution.netlify.app/source.json",
+            "status": "ok",
+            "final_url": "https://polymorph-distribution.netlify.app/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Apollo",
+            "url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Apollo Glass",
+            "url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps_glass.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps_glass.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "cbruegg AltStore",
+            "url": "https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "ChuteSpyro",
+            "url": "https://raw.githubusercontent.com/chutespyro/chutspyroaltsources/refs/heads/main/chutspyroaltsource",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/chutespyro/chutspyroaltsources/refs/heads/main/chutspyroaltsource"
+        },
+        {
+            "name": "ChuteSpyro mirror",
+            "url": "https://raw.githubusercontent.com/ChuteSpyro/ChutSpyroAltSources/refs/heads/main/ChutSpyroAltSource",
+            "status": "failed",
+            "error": "JSONDecodeError: Expecting value: line 9 column 5 (char 364)"
+        },
+        {
+            "name": "iphanpy",
+            "url": "https://raw.githubusercontent.com/matfantinel/iphanpy/refs/heads/main/altstore/source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/matfantinel/iphanpy/refs/heads/main/altstore/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "qBitControl",
+            "url": "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "qBitConnect",
+            "url": "https://raw.githubusercontent.com/RajnishOne/qbitconnect-releases/main/altstore-pal.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/RajnishOne/qbitconnect-releases/main/altstore-pal.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AltStoreRus",
+            "url": "https://raw.githubusercontent.com/vizunchik/AltStoreRus/master/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/vizunchik/AltStoreRus/master/apps.json",
+            "appCount": 18,
+            "validApps": 18,
+            "rejectedApps": 0
+        },
+        {
+            "name": "VVP Apps",
+            "url": "https://vvpapps.b-cdn.net/source.json",
+            "status": "ok",
+            "final_url": "https://vvpapps.b-cdn.net/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Weztling",
+            "url": "https://weztling.se/altstore.json",
+            "status": "ok",
+            "final_url": "https://weztling.se/altstore.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Cranci PAL",
+            "url": "https://www.cranci.tech/PAL.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='www.cranci.tech', port=443): Max retries exceeded with url: /PAL.json (Caused by NameResolutionError(\"HTTPSConnection(host='www.cranci.tech', port=443): Failed to resolve 'www.cranci.tech' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+            "name": "Yippee AIO",
+            "url": "https://aio.yippee.rip/repo.json",
+            "status": "failed",
+            "error": "ConnectionError: HTTPSConnectionPool(host='aio.yippee.rip', port=443): Max retries exceeded with url: /repo.json (Caused by NameResolutionError(\"HTTPSConnection(host='aio.yippee.rip', port=443): Failed to resolve 'aio.yippee.rip' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+            "name": "ThuthuatJB",
+            "url": "https://ipa.thuthuatjb.com/repo",
+            "status": "ok",
+            "final_url": "https://ipa.thuthuatjb.com/repo/",
+            "appCount": 10495,
+            "validApps": 10477,
+            "rejectedApps": 18
+        },
+        {
+            "name": "SideStore official",
+            "url": "https://apps.sidestore.io/",
+            "status": "ok",
+            "final_url": "https://apps.sidestore.io/",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "CSS EyZ",
+            "url": "https://css.eyz.ink/appstore",
+            "status": "failed",
+            "error": "ValueError: No compatible apps (0 records)"
+        },
+        {
+            "name": "dvntm0 eSign",
+            "url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/esign.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/esign.json",
+            "appCount": 13,
+            "validApps": 13,
+            "rejectedApps": 0
+        },
+        {
+            "name": "dvntm0 Feather",
+            "url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/feather.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/feather.json",
+            "appCount": 13,
+            "validApps": 13,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Feather official",
+            "url": "https://raw.githubusercontent.com/khcrysalis/Feather/main/app-repo.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/khcrysalis/Feather/main/app-repo.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AntonP29",
+            "url": "https://raw.githubusercontent.com/AntonP29/AntonP29-Repo/refs/heads/main/repo.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/AntonP29/AntonP29-Repo/refs/heads/main/repo.json"
+        },
+        {
+            "name": "YTLitePlus",
+            "url": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Gliddd4",
+            "url": "https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json"
+        },
+        {
+            "name": "Chromium iOS",
+            "url": "https://raw.githubusercontent.com/TheNightmanCodeth/chromium-ios/master/altstore-source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/TheNightmanCodeth/chromium-ios/master/altstore-source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "arichornlover apps2",
+            "url": "https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps2.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps2.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "arichornloverALT apps2",
+            "url": "https://raw.githubusercontent.com/arichornloverALT/arichornloveralt.github.io/main/apps2.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/arichornloverALT/arichornloveralt.github.io/main/apps2.json"
+        },
+        {
+            "name": "arichornloveralt apps",
+            "url": "https://raw.githubusercontent.com/arichornloveralt/arichornloveralt.github.io/main/apps.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/arichornloveralt/arichornloveralt.github.io/main/apps.json"
+        },
+        {
+            "name": "DriftyWinds eSign",
+            "url": "https://driftywinds.github.io/repos/esign.json",
+            "status": "ok",
+            "final_url": "https://driftywinds.github.io/repos/esign.json",
+            "appCount": 3,
+            "validApps": 3,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Yattee",
+            "url": "https://repos.yattee.stream/alt/apps.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://repos.yattee.stream/alt/apps.json"
+        },
+        {
+            "name": "Owo Network",
+            "url": "https://repo.owo.network/",
+            "status": "ok",
+            "final_url": "https://repo.owo.network/",
+            "appCount": 175,
+            "validApps": 175,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Aidoku",
+            "url": "https://raw.githubusercontent.com/Aidoku/Aidoku/altstore/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Aidoku/Aidoku/altstore/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "FastSign full catalogue",
+            "url": "https://fastsign.dev/repo.json",
+            "status": "ok",
+            "final_url": "https://fastsign.dev/repo.json",
+            "appCount": 17412,
+            "validApps": 17412,
+            "rejectedApps": 0
+        },
+        {
+            "name": "FastSign AltStore lite",
+            "url": "https://fastsign.dev/repo.lite.altstore.json",
+            "status": "ok",
+            "final_url": "https://fastsign.dev/repo.lite.altstore.json",
+            "appCount": 106,
+            "validApps": 106,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AltStore official apps",
+            "url": "https://apps.altstore.io/",
+            "status": "ok",
+            "final_url": "https://cdn.altstore.io/file/altstore/apps.json",
+            "appCount": 6,
+            "validApps": 6,
+            "rejectedApps": 0
+        },
+        {
+            "name": "AppMarket",
+            "url": "https://appmarket.tech/altstore.json",
+            "status": "failed",
+            "error": "SSLError: HTTPSConnectionPool(host='appmarket.tech', port=443): Max retries exceeded with url: /altstore.json (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'appmarket.tech'. (_ssl.c:1011)\")))"
+        },
+        {
+            "name": "Artemis",
+            "url": "https://raw.githubusercontent.com/Auties00/Artemis/refs/heads/main/source.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Auties00/Artemis/refs/heads/main/source.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Bunduuk",
+            "url": "https://bunduuk.github.io/altstore-source/apps.json",
+            "status": "ok",
+            "final_url": "https://bunduuk.github.io/altstore-source/apps.json",
+            "appCount": 18,
+            "validApps": 18,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Burrito alternate host",
+            "url": "https://website.burrito.software/altstore/channels/burritosource.json",
+            "status": "ok",
+            "final_url": "https://website.burrito.software/altstore/channels/burritosource.json",
+            "appCount": 7,
+            "validApps": 7,
+            "rejectedApps": 0
+        },
+        {
+            "name": "CelestialRepo",
+            "url": "https://raw.githubusercontent.com/RealBlackAstronaut/CelestialRepo/main/CelestialRepo.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/RealBlackAstronaut/CelestialRepo/main/CelestialRepo.json",
+            "appCount": 6,
+            "validApps": 6,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Dan1elTheMan1el iOS Repo",
+            "url": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json",
+            "appCount": 12,
+            "validApps": 10,
+            "rejectedApps": 2
+        },
+        {
+            "name": "Spotify AltStore mirror",
+            "url": "https://raw.githubusercontent.com/titouan336/Spotify-AltStoreRepo-mirror/refs/heads/main/source.json",
+            "status": "failed",
+            "error": "ValueError: No compatible apps (0 records)"
+        },
+        {
+            "name": "Flycast iOS",
+            "url": "https://raw.githubusercontent.com/chachillie/Flycast-iOS/main/flycast-ios.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/chachillie/Flycast-iOS/main/flycast-ios.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Foxster AltSource",
+            "url": "https://therealfoxster.github.io/altsource/apps.json",
+            "status": "ok",
+            "final_url": "https://therealfoxster.github.io/altsource/apps.json",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "JohnnWi Homelab",
+            "url": "https://raw.githubusercontent.com/JohnnWi/homelab-project/main/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/JohnnWi/homelab-project/main/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "ManicEmu",
+            "url": "https://apps.manicemu.site/altstore",
+            "status": "ok",
+            "final_url": "https://apps.manicemu.site/altstore",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Navic",
+            "url": "https://raw.githubusercontent.com/paigely/Navic/refs/heads/master/app-repo.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/paigely/Navic/refs/heads/master/app-repo.json"
+        },
+        {
+            "name": "NeoFreeBird",
+            "url": "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json"
+        },
+        {
+            "name": "SideStore Connect",
+            "url": "https://connect.sidestore.io/apps.json",
+            "status": "ok",
+            "final_url": "https://connect.sidestore.io/apps.json",
+            "appCount": 8,
+            "validApps": 8,
+            "rejectedApps": 0
+        },
+        {
+            "name": "Stremio repo mirror",
+            "url": "https://gablilli.github.io/stremiorepo/index.json",
+            "status": "ok",
+            "final_url": "https://gablilli.github.io/stremiorepo/index.json",
+            "appCount": 2,
+            "validApps": 2,
+            "rejectedApps": 0
+        },
+        {
+            "name": "MountainofPenguin",
+            "url": "https://raw.githubusercontent.com/MountainofPenguin/Altstore-Repository/main/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/MountainofPenguin/Altstore-Repository/main/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "azu0609",
+            "url": "https://azu0609.github.io/repo/altstore_repo.json",
+            "status": "ok",
+            "final_url": "https://azu0609.github.io/repo/altstore_repo.json",
+            "appCount": 7,
+            "validApps": 7,
+            "rejectedApps": 0
+        },
+        {
+            "name": "DriftyWinds Nyx",
+            "url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/nyx.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/nyx.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "DriftyWinds Theta",
+            "url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/theta.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/theta.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        },
+        {
+            "name": "ry0 Developer",
+            "url": "https://raw.githubusercontent.com/ry0-Developer/ry0_repo/main/repo.json",
+            "status": "failed",
+            "error": "HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/ry0-Developer/ry0_repo/main/repo.json"
+        },
+        {
+            "name": "Winston AltStore",
+            "url": "https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json",
+            "status": "ok",
+            "final_url": "https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json",
+            "appCount": 1,
+            "validApps": 1,
+            "rejectedApps": 0
+        }
+    ]
+}
