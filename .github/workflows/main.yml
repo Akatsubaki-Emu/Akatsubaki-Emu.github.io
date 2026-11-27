@@ -150,24 +150,40 @@ jobs:
         run: npm run build
       - name: Verify published static output
         run: |
-          set -euo pipefail
-          test -s build/google48684d15ae18b623.html
-          grep -Fxq 'google-site-verification: google48684d15ae18b623.html' build/google48684d15ae18b623.html
-          test -s build/AltSource.json
-          test -s build/alt/source.json
-          test -s "build/altsource/Xthrx's repo.json"
-          test -s build/index.html
-          # The static verification file above is the authoritative Search Console proof.
-          # Treat the generated meta tag as optional because Docusaurus may omit it from
-          # a route's rendered head; never block an otherwise valid Pages deployment.
-          if grep -Fq 'google-site-verification' build/index.html; then
-            echo "Google verification meta tag rendered in index.html."
-            if ! grep -Fq 'dskTPELl4KFBeZASfSDUawWQuAqBPbxrcb9TFvXgOKk' build/index.html; then
-              echo "::warning::Meta tag content differs; the validated static verification file remains authoritative."
-            fi
-          else
-            echo "::warning::Optional verification meta tag absent; the validated static verification file remains authoritative."
-          fi
+          python3 - <<'PY'
+          from pathlib import Path
+
+          checks = [
+              ("Google Search Console verification file",
+               Path("build/google48684d15ae18b623.html"),
+               "google-site-verification: google48684d15ae18b623.html"),
+              ("AltStore root manifest", Path("build/AltSource.json"), None),
+              ("AltStore legacy manifest", Path("build/alt/source.json"), None),
+              ("AltStore named source", Path("build/altsource/Xthrx's repo.json"), None),
+              ("Docusaurus homepage", Path("build/index.html"), None),
+          ]
+
+          failures = []
+          for label, path, expected in checks:
+              exists = path.is_file() and path.stat().st_size > 0
+              content_ok = exists and (expected is None or path.read_text(encoding="utf-8").strip() == expected)
+              if content_ok:
+                  print(f"OK: {label} ({path.stat().st_size} bytes)")
+              else:
+                  print(f"MISSING/INVALID: {label} ({path})")
+                  failures.append(label)
+
+          homepage = Path("build/index.html")
+          if homepage.is_file():
+              html = homepage.read_text(encoding="utf-8", errors="replace")
+              if "google-site-verification" in html and "dskTPELl4KFBeZASfSDUawWQuAqBPbxrcb9TFvXgOKk" in html:
+                  print("OK: optional Google verification meta tag")
+              else:
+                  print("WARNING: optional Google verification meta tag not rendered; static verification file is authoritative")
+
+          if failures:
+              raise SystemExit("Required Pages outputs failed verification: " + ", ".join(failures))
+          PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
