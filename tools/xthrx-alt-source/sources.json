@@ -584,6 +584,615 @@
       "name": "Winston AltStore",
       "url": "https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json",
       "verification": "candidate"
+    },
+    {
+      "name": "GitHub candidate: off-grid-ai/OGAM — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/off-grid-ai/OGAM/7297281b71eda39c2b88faf944976f97eb112331/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: pa-jesusf/KikoFlu — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/pa-jesusf/KikoFlu/d8a8c61900f8a2f9aaa77533f1dc8cbb07841cb8/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Rhizomatica/mercury — docs/altstore/source.json",
+      "url": "https://raw.githubusercontent.com/Rhizomatica/mercury/f7487a080572e8d82fc151ce61cd0ba5256f2662/docs/altstore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: rdzsonde/rdzwx-go — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/rdzsonde/rdzwx-go/b4f5cf96356d42fb45dc50094675072e96e8ceba/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: xsxs18-dev/SwiftIPA — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/xsxs18-dev/SwiftIPA/7b2ccbdd42fd23da1ae20f4316a300fecc505d89/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: codexrunnerregrind/regrind — ci/altstore/source.json",
+      "url": "https://raw.githubusercontent.com/codexrunnerregrind/regrind/3861cfc3f68295d644eb852663140bb1e3e1a642/ci/altstore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: tuanle03/apex — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/tuanle03/apex/9a20ceb17b655861ca200d8fa6f478879de48097/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Jefedi/iosapp-altstore — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/Jefedi/iosapp-altstore/c639291ab16a6096485d53558d34b830a4a1e928/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: 0xfaisl/snoop-releases — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/879622888263e4269b85a757a76e8a0f6ca868dd/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Shivinder-s/universal-cam — ios/altstore-source.json",
+      "url": "https://raw.githubusercontent.com/Shivinder-s/universal-cam/48d11a5756dde98a656578414fddaffaf03419b0/ios/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: viktor-svirsky/ccusage — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/viktor-svirsky/ccusage/47d1a08af2651a1eeda502023c648646d821ecbf/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mwelford2/caffeinate-ios — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/mwelford2/caffeinate-ios/03c7fa553c3421f73e863608d3870d194ee3f721/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: davidhenke-dev/plant_care — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/davidhenke-dev/plant_care/823afe761999ae48c76f70d89dfc20845f79902b/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: cosmokramerII/chromium-ios-v2 — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/cosmokramerII/chromium-ios-v2/38041ad39c48713b38235207d25a625268b1d820/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: koast18/livecontainer-kingcard-proxy — AltStore/altstore-source.json",
+      "url": "https://raw.githubusercontent.com/koast18/livecontainer-kingcard-proxy/99cb94df842ab534e8a4b71611bbcfd9d17153c7/AltStore/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: viktor-svirsky/simple-suite — apps/simple-notes/altstore-source.json",
+      "url": "https://raw.githubusercontent.com/viktor-svirsky/simple-suite/05596454c91c56799bb9c49217572ccdd6b3886e/apps/simple-notes/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: lsopenad/PennyNote — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/lsopenad/PennyNote/da03642e1da1f1ddc19aa553c48a8b42b90078cf/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ZyFango/altstore-source — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/ZyFango/altstore-source/970ae371679b55c4f57c5728e6297394dff90f96/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: FlutterFoxx/Poket-book-android-window-ios — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/FlutterFoxx/Poket-book-android-window-ios/fcef68fdc4219e9e5e5beea3e89ecbd2b391d800/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: rinat-enikeev/stellar-mls — deploy/website/altstore-source.json",
+      "url": "https://raw.githubusercontent.com/rinat-enikeev/stellar-mls/66e217ff7025d534032a6293decc2df3b0d7a9f7/deploy/website/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Dhanunjay-Divi/Noop — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/Dhanunjay-Divi/Noop/84ce9006e7a87078d7991b7dbd3a3425c77cb698/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: msoso38/Noop-ios16 — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/msoso38/Noop-ios16/ceb6cc452f27908130c8491b99590a106368cac9/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Pyser08/Dusk-Parlor-Browser — altstore/source.json",
+      "url": "https://raw.githubusercontent.com/Pyser08/Dusk-Parlor-Browser/ba463231102b1dfd033084b4af1b1a5d39fe737d/altstore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ohjann/whoson — altstore/source.json",
+      "url": "https://raw.githubusercontent.com/ohjann/whoson/cd6c180dc34e99dfcc354cec4f10547c363c25b1/altstore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mashfadel/noor — altstore-source.json",
+      "url": "https://raw.githubusercontent.com/mashfadel/noor/c0f0e24ad45f3b78de740a98391f40f79ea643ce/altstore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: nightwarelabz/nightjar — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/nightwarelabz/nightjar/e176458f4041fc4cef4d8b715cc1bd2d3d202945/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: nyandrianinamamy/strength-tracking — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/nyandrianinamamy/strength-tracking/e288c4984dc4ea9fe36468cd37fed64bdde42f47/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ZephyrAmr/RoomMaquette — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/ZephyrAmr/RoomMaquette/3da7d51f883ae83c16023a179065d649dcce06f7/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: deknared/flashback-remote — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/deknared/flashback-remote/9f78ce379e61601c39b00fc83cf187cc9cbb7f0f/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ekomlenovic/sudodu_ios_android — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/ekomlenovic/sudodu_ios_android/a142a5857bfac6c285d6dba2ea76578cc3f14b01/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Seifonyx/Lumen — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/Seifonyx/Lumen/508eeba5b7d78819c1c71f726a2fe483dddf2849/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: YKDBontekoe/KYNOS — docs/sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/YKDBontekoe/KYNOS/d05aa7641edbfc6d1e6ad768716a2183fba28f3b/docs/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Seifonyx/Lumen — ios/sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/Seifonyx/Lumen/508eeba5b7d78819c1c71f726a2fe483dddf2849/ios/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ekomlenovic/rush_hour_ios_android — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/ekomlenovic/rush_hour_ios_android/1211797d8fd85113d399a5717591d1c775e9eb3e/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Minaduki-Shigure/tieba-plus-plus-swift — sidestore-source.json",
+      "url": "https://raw.githubusercontent.com/Minaduki-Shigure/tieba-plus-plus-swift/708182c92e099fdf0547d80c761f80ac0b6e6761/sidestore-source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: OreoMuncher45/Auris-iOS — sidestore/source.json",
+      "url": "https://raw.githubusercontent.com/OreoMuncher45/Auris-iOS/6233c55f171d2820d671ed928237299b6f6db0f8/sidestore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: dimnok/projectgt — sidestore/source.json",
+      "url": "https://raw.githubusercontent.com/dimnok/projectgt/5363495e41626936cb7ecf4967f916dee3c3e17d/sidestore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: kyomufs/tulgusch — sidestore/source.json",
+      "url": "https://raw.githubusercontent.com/kyomufs/tulgusch/13a7dde289c768fd28216f3f61a14e707eb3ea7a/sidestore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: dragonzords/Sora — sidestore/source.json",
+      "url": "https://raw.githubusercontent.com/dragonzords/Sora/a7f08b01656bc79ce383f2f653c46b562c9508bd/sidestore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: unilock/unilock.github.io — sidestore/source.json",
+      "url": "https://raw.githubusercontent.com/unilock/unilock.github.io/51a18a5396f7858c7bb0f9d745c0583d39ab3fdc/sidestore/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JustLookAtNow/pt_mate — altsource/AltSource.json",
+      "url": "https://raw.githubusercontent.com/JustLookAtNow/pt_mate/3aefd33d2cb717b25daf455ad3aaa3d5089de985/altsource/AltSource.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hearhellacopters/dffoo_gateway — AltSource.json",
+      "url": "https://raw.githubusercontent.com/hearhellacopters/dffoo_gateway/afab30ca7bff4e92e3f057d363de768f29ad2964/AltSource.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: y-aplus/ios-app-dist — altsource.json",
+      "url": "https://raw.githubusercontent.com/y-aplus/ios-app-dist/1be02c46b5c4a49ecc2b958c7fa10c090acc3691/altsource.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: faroukbmiled/RyukSign — app-repo.json",
+      "url": "https://raw.githubusercontent.com/faroukbmiled/RyukSign/83709dd9fad8bddd3eaf5cb796dd61bca1e7b850/app-repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/VexSign — app-repo.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/VexSign/8083ac41d75bd2f4cb87397a33bc05e368212905/app-repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: raynmahbub/VexSign — VexSign/Resources/Templates/app-repo.json",
+      "url": "https://raw.githubusercontent.com/raynmahbub/VexSign/8083ac41d75bd2f4cb87397a33bc05e368212905/VexSign/Resources/Templates/app-repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: JDsnyke/ShortiesBrowse-Releases — app-repo.json",
+      "url": "https://raw.githubusercontent.com/JDsnyke/ShortiesBrowse-Releases/52e2181f8b066faa3b48d444dcd7d63840a8c595/app-repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: apolossh/apolossh.github.io — repo.json",
+      "url": "https://raw.githubusercontent.com/apolossh/apolossh.github.io/7c8b580f4277d2b344cbb1e845433ef46cc31cb5/repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: swaggyP36000/TrollStore-IPAs — apps.json",
+      "url": "https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/2232a1d73bb19bec0f9ae5aa6d9e93dd30b063f7/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: azu/photo-cleaner — altstore/apps.json",
+      "url": "https://raw.githubusercontent.com/azu/photo-cleaner/dca7c7329b20fa961f641369546c3f2e34f283a8/altstore/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mrdrvt99/Altstore-Repository — apps.json",
+      "url": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/6e1663fe8b8d7ab88a5a25de548930b6cf9e6b33/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: burritosoftware/burritosoftware.github.io — file/altstore/apps.json",
+      "url": "https://raw.githubusercontent.com/burritosoftware/burritosoftware.github.io/d0302d681764b216574794bf5f8f1e19288c5dfc/file/altstore/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: XLsn0w/ipaSigner — AltStore/AltStore/Resources/apps.json",
+      "url": "https://raw.githubusercontent.com/XLsn0w/ipaSigner/1702768b18f76a5d0046e841486e42be7997405b/AltStore/AltStore/Resources/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: joergs-git/awareness — altstore/apps.json",
+      "url": "https://raw.githubusercontent.com/joergs-git/awareness/13866bd6fe912700870edd43c9799265d6e11587/altstore/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: j3qq4h7h2v/json-ipa-repos — hollow-frenk_AltStoreRepository_apps.json",
+      "url": "https://raw.githubusercontent.com/j3qq4h7h2v/json-ipa-repos/d8eedd52826bdd3ed3504da1b0cef23ca8a81880/hollow-frenk_AltStoreRepository_apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: noah978/AltStore-Docs — apps.json",
+      "url": "https://raw.githubusercontent.com/noah978/AltStore-Docs/279be561a18abefacc632aa59d393a7083baae45/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: altstoreio/FAQ — .gitbook/assets/apps.json",
+      "url": "https://raw.githubusercontent.com/altstoreio/FAQ/8408480011c19aff6a3e59b4f779b43aecbaf489/.gitbook/assets/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: eiygy/Alt-store — AltStore/Resources/apps.json",
+      "url": "https://raw.githubusercontent.com/eiygy/Alt-store/7673c07182f195d64ff6be88390fdaed0e7dd2ed/AltStore/Resources/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: MrE-Fog/AltStore — AltStore/Resources/apps.json",
+      "url": "https://raw.githubusercontent.com/MrE-Fog/AltStore/186c5fe51ee458b3b438921fa8f891145a0176af/AltStore/Resources/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: asdfugil/nickchan.gq-placeholder — altstore-beta/apps.json",
+      "url": "https://raw.githubusercontent.com/asdfugil/nickchan.gq-placeholder/a5e85770914c21e1f9c01a530d9e4d1928570b03/altstore-beta/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: santhosh-D-subramani/rigel-altstore-source — altstore/apps.json",
+      "url": "https://raw.githubusercontent.com/santhosh-D-subramani/rigel-altstore-source/333c38b5b59592e6b6a8b90c489fa525f79c43de/altstore/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: hollow-frenk/AltStoreRepository — apps.json",
+      "url": "https://raw.githubusercontent.com/hollow-frenk/AltStoreRepository/dd56f3835b93868202fedbccb78742dd272638e6/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: xibrox/Shirox — apps.json",
+      "url": "https://raw.githubusercontent.com/xibrox/Shirox/d776d64be99183e47fd93c30de6f03300f909972/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: CreepsoOff/source — driftywinds-github-io-AltStore/apps.json",
+      "url": "https://raw.githubusercontent.com/CreepsoOff/source/561174f1030e86e56b4c9ac9432e6ed807661d0b/driftywinds-github-io-AltStore/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: gsksivesh/gsk-altstore-source — apps.json",
+      "url": "https://raw.githubusercontent.com/gsksivesh/gsk-altstore-source/6c1d49936310abebbddf2f213117c4fe60ba01df/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Taosky/unsigned-ipa-cn — apps.json",
+      "url": "https://raw.githubusercontent.com/Taosky/unsigned-ipa-cn/c9595ebbdc2a2d9d7577dd1bf1036a43d0631ff9/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: SideStore/Community-Source — staticApps/play.json",
+      "url": "https://raw.githubusercontent.com/SideStore/Community-Source/1b368c4db2318b0ab2091800b6eacd095f95fdf5/staticApps/play.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: lowiqentity/APEX — JSON/esign.json",
+      "url": "https://raw.githubusercontent.com/lowiqentity/APEX/a0d6a2d25172163aa9309fa5e33f6f0cc9d2018c/JSON/esign.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: AlanLang/BitClient — AltStore.json",
+      "url": "https://raw.githubusercontent.com/AlanLang/BitClient/a3957e3c4506ee5f852b2c450025adab659bbbc9/AltStore.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: SideStore/Community-Source — staticApps/Retroarch.json",
+      "url": "https://raw.githubusercontent.com/SideStore/Community-Source/1b368c4db2318b0ab2091800b6eacd095f95fdf5/staticApps/Retroarch.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Sami-Wali/ryP0 — repo.json",
+      "url": "https://raw.githubusercontent.com/Sami-Wali/ryP0/b9d336a584d26b6768560745a97c7340561d48c1/repo.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: xXWapixelXx/Mirage-updates — source.json",
+      "url": "https://raw.githubusercontent.com/xXWapixelXx/Mirage-updates/37adcf5b9c7ee67cae78ebafdb5aa7a1459175cb/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: SideStore/apps.json — _includes/source.json",
+      "url": "https://raw.githubusercontent.com/SideStore/apps.json/fcb1755bbbe6e98d311017b201db6a9a646eb856/_includes/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: ArtistGrid/artistgrid — public/source.json",
+      "url": "https://raw.githubusercontent.com/ArtistGrid/artistgrid/95a84316aa88d4f0f843a2ce0f58f04911b0a75e/public/source.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: SideStore/Community-Source — sidecommunity.json",
+      "url": "https://raw.githubusercontent.com/SideStore/Community-Source/1b368c4db2318b0ab2091800b6eacd095f95fdf5/sidecommunity.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Odyssey-Team/Odyssey-Site — altstore/odysseysource.json",
+      "url": "https://raw.githubusercontent.com/Odyssey-Team/Odyssey-Site/692605eab1f82fcbc577a9faa01a2bb8f5279d22/altstore/odysseysource.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mengangs/Cloudn — altstore.json",
+      "url": "https://raw.githubusercontent.com/mengangs/Cloudn/289586c48ada3ddd8656c95d589c84ee331da3fb/altstore.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: tremendous-stimulus/free-turn-proxy-ios — apps.json",
+      "url": "https://raw.githubusercontent.com/tremendous-stimulus/free-turn-proxy-ios/c0d94d13c979dbc3291986721370b1a9ab4c390a/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: c8dhjp4tyv-bit/umutcagand-s-ipa-library — apps.json",
+      "url": "https://raw.githubusercontent.com/c8dhjp4tyv-bit/umutcagand-s-ipa-library/654364aa972e9e0d6cab998840222189caee8a3d/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: Aayush9029/AltApps — apps.json",
+      "url": "https://raw.githubusercontent.com/Aayush9029/AltApps/e13a8db7dd7daab8a48b581abbd804bf680fc3d3/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: mwelford2/BeaverClone — apps.json",
+      "url": "https://raw.githubusercontent.com/mwelford2/BeaverClone/45e775f57fe7ae67f9e5465bf56f065ffb3c1004/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: winstxnhdw/hosted-snippets — apps.json",
+      "url": "https://raw.githubusercontent.com/winstxnhdw/hosted-snippets/bed403aead66b4b7b79d5acce11a9fff7b8655fc/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: R0GUEEE/4gu63n96we-com-p5sys-jumpdesktop — apps.json",
+      "url": "https://raw.githubusercontent.com/R0GUEEE/4gu63n96we-com-p5sys-jumpdesktop/16da83288fd11e03579e8f9d710bfabf5f39444a/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: conrad-mo/altstorerepo — apps.json",
+      "url": "https://raw.githubusercontent.com/conrad-mo/altstorerepo/b061b7e8a874e00e2f87bf9b7e2632274718d948/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: blood7ao/altstore-source — apps.json",
+      "url": "https://raw.githubusercontent.com/blood7ao/altstore-source/050208c8601c4b592ec28cb226931a4f3ab66932/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: atkalikov/altstore-repo — apps.json",
+      "url": "https://raw.githubusercontent.com/atkalikov/altstore-repo/57282a018c38e4c874c5e835d098056d7ba4eda5/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
+    },
+    {
+      "name": "GitHub candidate: CesarGarza55/viajeroclub-releases — apps.json",
+      "url": "https://raw.githubusercontent.com/CesarGarza55/viajeroclub-releases/a43aa7098dea180200b9305541488588a1616703/apps.json",
+      "verification": "candidate",
+      "discovered_by": "GitHub code search",
+      "discovered_at": "2026-11-27"
     }
   ]
 }
