@@ -336,11 +336,6 @@
       "verification": "candidate"
     },
     {
-      "name": "ChuteSpyro mirror",
-      "url": "https://raw.githubusercontent.com/ChuteSpyro/ChutSpyroAltSources/refs/heads/main/ChutSpyroAltSource",
-      "verification": "candidate"
-    },
-    {
       "name": "iphanpy",
       "url": "https://raw.githubusercontent.com/matfantinel/iphanpy/refs/heads/main/altstore/source.json",
       "verification": "candidate"
